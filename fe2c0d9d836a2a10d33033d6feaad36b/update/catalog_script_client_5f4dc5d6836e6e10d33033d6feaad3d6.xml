@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="claim submit request">0d95fc9683ea6e10d33033d6feaad3e3</cat_item>
+        <cat_item display_value="Submit Claim Request">0d95fc9683ea6e10d33033d6feaad3e3</cat_item>
         <cat_variable>IO:0988741a83ea6e10d33033d6feaad34e</cat_variable>
         <condition/>
         <description/>
