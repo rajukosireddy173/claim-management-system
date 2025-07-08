@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Submit Claim Request">0d95fc9683ea6e10d33033d6feaad3e3</catalog_item>
+        <catalog_variable>IO:766006de8362ae10d33033d6feaad354</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:24:17</sys_created_on>
+        <sys_id>66a01a6a832aee10d33033d6feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>injury_name</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_66a01a6a832aee10d33033d6feaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:24:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'insurance_provider_name' mandatory &amp; visible depending on 'category'">3700d66a832aee10d33033d6feaad352</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>injury_name</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=66a01a6a832aee10d33033d6feaad354"/>
+</record_update>
