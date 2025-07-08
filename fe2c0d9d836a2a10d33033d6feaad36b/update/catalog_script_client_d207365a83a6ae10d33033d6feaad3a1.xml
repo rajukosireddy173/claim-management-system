@@ -8,61 +8,44 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Submit Claim Request">0d95fc9683ea6e10d33033d6feaad3e3</cat_item>
-        <cat_variable>IO:0988741a83ea6e10d33033d6feaad34e</cat_variable>
+        <cat_variable>IO:7b2642d683a2ae10d33033d6feaad3b9</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>GetEmployeeDetails</name>
+        <name>Calculate Total - On cost_of_minorChange</name>
         <order/>
         <published_ref/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') return;
+        <script><![CDATA[function calculateTotalCost() {
+var majors = parseFloat(g_form.getValue('majors')) || 0;
+var minors = parseFloat(g_form.getValue('minors')) || 0;
+var costMajors = parseFloat(g_form.getValue('cost_of_majors')) || 0;
+var costMinors = parseFloat(g_form.getValue('cost_of_minors')) || 0;
 
-    var ga = new GlideAjax('x_1216348_claim_0.getEmpDet');
-    ga.addParam('sysparm_name', 'getEmpInfo');
-    ga.addParam('sysparm_empnum', newValue);
-    alert(newValue);
+var total = (majors * costMajors) + (minors * costMinors);
+g_form.setValue('total_cost', total.toFixed(2));
+}
 
-    ga.getXML(getEmpDetails);
-
-    function getEmpDetails(response) {
-        var data = response.responseXML.documentElement.getAttribute("answer");
-        alert(data);
-        var ans = JSON.parse(data);
-        if (ans) {
-            //alert('Inside If');
-            g_form.setValue('full_name', ans.full_name+'');
-            g_form.setValue('email', ans.email+'');
-			g_form.setValue('contact_no',ans.contact_no);
-			//g_form.setvalue('document_date',ans.document_date);
-			g_form.setValue('account_name',ans.account_name);
-			g_form.setValue('account_number',ans.account_number);
-			g_form.setValue('bank_name',ans.bank_name);
-			g_form.setValue('ifsc_code',ans.ifsc_code);
-			
-
-
-        }
-    }
+function onChange(control, oldValue, newValue) {
+calculateTotalCost();
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-07 08:52:09</sys_created_on>
+        <sys_created_on>2025-07-07 16:33:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5f4dc5d6836e6e10d33033d6feaad3d6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_name>GetEmployeeDetails</sys_name>
+        <sys_id>d207365a83a6ae10d33033d6feaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Total - On cost_of_minorChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
-        <sys_update_name>catalog_script_client_5f4dc5d6836e6e10d33033d6feaad3d6</sys_update_name>
+        <sys_update_name>catalog_script_client_d207365a83a6ae10d33033d6feaad3a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-07 17:04:00</sys_updated_on>
+        <sys_updated_on>2025-07-07 16:33:45</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
