@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Submit Claim Request">0d95fc9683ea6e10d33033d6feaad3e3</catalog_item>
-        <catalog_variable>IO:331202de8362ae10d33033d6feaad3d4</catalog_variable>
+        <catalog_variable>IO:61c20a9283a2ae10d33033d6feaad3ab</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <field_message/>
         <field_message_type>none</field_message_type>
-        <mandatory>false</mandatory>
-        <order>100</order>
+        <mandatory>true</mandatory>
+        <order>1000</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-08 08:39:22</sys_created_on>
-        <sys_id>16341e22836aee10d33033d6feaad373</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>place_visited</sys_name>
+        <sys_created_on>2025-07-09 03:40:44</sys_created_on>
+        <sys_id>7049163683ae2250d33033d6feaad38d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>minors</sys_name>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_16341e22836aee10d33033d6feaad373</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_7049163683ae2250d33033d6feaad38d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 03:35:06</sys_updated_on>
+        <sys_updated_on>2025-07-09 03:44:26</sys_updated_on>
         <table/>
-        <ui_policy display_value="Make 'place_visited' mandatory &amp; visible depending on 'category'">5c249a22836aee10d33033d6feaad38f</ui_policy>
+        <ui_policy display_value="if cate = LTA hide covid, insurance">aad1a5a68326ee10d33033d6feaad30d</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>place_visited</variable>
+        <variable>minors</variable>
         <variable_set/>
-        <visible>false</visible>
+        <visible>true</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=16341e22836aee10d33033d6feaad373"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7049163683ae2250d33033d6feaad38d"/>
 </record_update>
