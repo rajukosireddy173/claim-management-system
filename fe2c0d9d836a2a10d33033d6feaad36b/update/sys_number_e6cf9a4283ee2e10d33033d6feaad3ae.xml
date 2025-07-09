@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1216348_claim_0_employee_table">x_1216348_claim_0_employee_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 20:12:56</sys_created_on>
+        <sys_id>e6cf9a4283ee2e10d33033d6feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EN</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_number_e6cf9a4283ee2e10d33033d6feaad3ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 20:12:56</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f664a1d83ae2a10d33033d6feaad3fb" label="Claim Details" max_length="40" name="x_1216348_claim_0_claim_details" type="collection">
+        <element label="Hosptial Name" max_length="40" name="hosptial_name" type="string"/>
+        <element label="contact number" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element active="false" label="Employee id" max_length="32" name="employee_id" reference="sys_user" type="reference"/>
+        <element label="Total amount" max_length="40" name="total_amount" type="string"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element label="Document date" max_length="40" name="document_date" type="glide_date"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="1" label="Sub category" max_length="40" name="sub_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Others" sequence="2" value="others"/>
+                <element inactive_on_update="false" label="Covid vaccination" sequence="0" value="covid_vaccination"/>
+                <element inactive_on_update="false" label="Gym" sequence="1" value="gym"/>
+            </choice>
+        </element>
+        <element choice="3" default="in_draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Re submitted" sequence="6" value="re_submitted"/>
+                <element inactive_on_update="false" label="completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="Send Back" sequence="1" value="send_back"/>
+                <element inactive_on_update="false" label="In Draft" sequence="0" value="in_draft"/>
+                <element inactive_on_update="false" label="Pending Lead approval" sequence="2" value="pending_lead_approval"/>
+                <element inactive_on_update="false" label="Pending Account approval" sequence="4" value="pending_account_approval"/>
+            </choice>
+        </element>
+        <element label="Claim id" max_length="40" name="claim_id" type="string"/>
+        <element label="claim amount" max_length="40" name="claim_amount" type="currency"/>
+        <element active="false" label="employee number" max_length="32" name="employee_number" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Insurance" sequence="2" value="insurance"/>
+                <element inactive_on_update="false" label="Petrol" sequence="3" value="petrol"/>
+                <element inactive_on_update="false" label="Broadband" sequence="4" value="broadband"/>
+                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="LTA" sequence="1" value="lta"/>
+            </choice>
+        </element>
+        <element label="user id" max_length="32" name="user_id" reference="sys_user" type="reference"/>
+        <element label="Mode of travel" max_length="50" name="mode_of_travel" type="string"/>
+        <element label="Employee num" max_length="32" name="emp_num" reference="x_1216348_claim_0_employee_table" type="reference"/>
+        <element label="Injury Name" max_length="40" name="injury_name" type="string"/>
+        <element label="count" max_length="40" name="count" type="string"/>
+        <element label="Total amount in words" max_length="40" name="total_amount_in_words" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total Cost" max_length="40" name="total_cost" read_only="true" type="float"/>
+        <element label="Cost of minors" max_length="40" name="cost_of_minors" type="float"/>
+        <element label="Date of Journey - To date" max_length="40" name="date_of_journey_to_date" type="glide_date"/>
+        <element label="Cost of majors" max_length="40" name="cost_of_majors" type="float"/>
+        <element label="Majors" max_length="40" name="majors" type="string"/>
+        <element label="Supporting Bills" max_length="40" name="supporting_bills" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Claim id" max_length="40" name="number" type="string"/>
+        <element label="Minors" max_length="40" name="minors" type="string"/>
+        <element label="Insurance Provider Name" max_length="40" name="insurance_provider_name" type="string"/>
+        <element label="Ticket cost" max_length="40" name="ticket_cost" type="string"/>
+        <element label="Claim Name" mandatory="true" max_length="100" name="claim_name" type="string"/>
+        <element choice="1" label="Dose" mandatory="true" max_length="40" name="dose" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1st dose" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2nd dose" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="booster" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Amount Type" max_length="38" name="amount" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AFN" sequence="2" value="afn"/>
+                <element inactive_on_update="false" label="ALL" sequence="3" value="all"/>
+                <element inactive_on_update="false" label="INR" sequence="0" value="inr"/>
+                <element inactive_on_update="false" label="EUR" sequence="1" value="eur"/>
+            </choice>
+        </element>
+        <element label="attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element label="project code" max_length="40" name="project_code" type="string"/>
+        <element label="Date of Journey - From date" max_length="40" name="date_of_journey_from_date" type="glide_date"/>
+        <element label="Place Visited" max_length="40" name="place_visited" type="string"/>
+        <element label="Bill No" mandatory="true" max_length="100" name="bill_no" type="string"/>
+        <element label="Treatment Details" max_length="40" name="treatment_details" type="string"/>
+        <index name="index">
+            <element name="emp_num"/>
+        </index>
+        <index name="index2">
+            <element name="employee_id"/>
+        </index>
+        <index name="index3">
+            <element name="employee_number"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index5">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

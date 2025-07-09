@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="amount" table="x_1216348_claim_0_claim_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>amount</element>
+            <name>x_1216348_claim_0_claim_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 12:19:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>amount</sys_name>
+            <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+            <sys_update_name>sys_choice_x_1216348_claim_0_claim_details_amount</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 12:19:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INR</label>
+            <language>en</language>
+            <name>x_1216348_claim_0_claim_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 12:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 12:19:09</sys_updated_on>
+            <value>inr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EUR</label>
+            <language>en</language>
+            <name>x_1216348_claim_0_claim_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 12:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 12:19:09</sys_updated_on>
+            <value>eur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AFN</label>
+            <language>en</language>
+            <name>x_1216348_claim_0_claim_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 12:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 12:19:09</sys_updated_on>
+            <value>afn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ALL</label>
+            <language>en</language>
+            <name>x_1216348_claim_0_claim_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 12:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 12:19:09</sys_updated_on>
+            <value>all</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

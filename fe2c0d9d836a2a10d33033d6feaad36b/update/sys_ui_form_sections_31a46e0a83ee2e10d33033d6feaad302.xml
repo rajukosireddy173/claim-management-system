@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="31a46e0a83ee2e10d33033d6feaad302" sys_domain="global" table="x_1216348_claim_0_employee_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-06 20:34:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42a46e0a83ee2e10d33033d6feaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_table" name="x_1216348_claim_0_employee_table" sys_domain="global" view="Default view">31a46e0a83ee2e10d33033d6feaad302</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1216348_claim_0_employee_table" sys_domain="global" view="Default view">cfcf920283ee2e10d33033d6feaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-06 20:34:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-06 20:34:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ea46e0a83ee2e10d33033d6feaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_table" name="x_1216348_claim_0_employee_table" sys_domain="global" view="Default view">31a46e0a83ee2e10d33033d6feaad302</sys_ui_form>
+            <sys_ui_section caption="Bank details" display_value="Bank details" name="x_1216348_claim_0_employee_table" sys_domain="global" view="Default view">71a46e0a83ee2e10d33033d6feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-06 20:34:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1216348_claim_0_employee_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-06 20:34:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31a46e0a83ee2e10d33033d6feaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1216348_claim_0_employee_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_31a46e0a83ee2e10d33033d6feaad302</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-06 20:34:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="24606a8283ee2e10d33033d6feaad3b6" label="Project codes" max_length="40" name="x_1216348_claim_0_project_codes" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HR" value="2"/>
+                <element inactive_on_update="false" label="IT" value="1"/>
+                <element inactive_on_update="false" label="SNOW" value="3"/>
+            </choice>
+        </element>
+        <element display="true" label="Project code" max_length="6" name="project_code" type="string"/>
+        <element label="project name" max_length="255" name="project_name" type="string"/>
+    </element>
+</database>

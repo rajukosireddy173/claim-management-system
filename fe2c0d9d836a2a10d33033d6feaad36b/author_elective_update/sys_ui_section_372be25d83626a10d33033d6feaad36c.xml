@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="LTA[Leave Travel Allowance]" section_id="372be25d83626a10d33033d6feaad36c" sys_domain="global" table="x_1216348_claim_0_claim_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>place_visited</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>8ef3b25983a26a10d33033d6feaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_journey_to_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>86f3b25983a26a10d33033d6feaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>majors</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>8ef3b25983a26a10d33033d6feaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_of_minors</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>86f3b25983a26a10d33033d6feaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_amount_in_words</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>8ef3b25983a26a10d33033d6feaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>86f3b25983a26a10d33033d6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_journey_from_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>8ef3b25983a26a10d33033d6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minors</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>86f3b25983a26a10d33033d6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_of_majors</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>8ef3b25983a26a10d33033d6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+            <sys_id>86f3b25983a26a10d33033d6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>LTA[Leave Travel Allowance]</caption>
+            <header>false</header>
+            <name>x_1216348_claim_0_claim_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 13:07:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>372be25d83626a10d33033d6feaad36c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1216348_claim_0_claim_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+            <sys_update_name>sys_ui_section_372be25d83626a10d33033d6feaad36c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 13:07:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_ui_section_372be25d83626a10d33033d6feaad36c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="LTA[Leave Travel Allowance]" section_id="372be25d83626a10d33033d6feaad36c" sys_domain="global" table="x_1216348_claim_0_claim_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>place_visited</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>8ef3b25983a26a10d33033d6feaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_of_journey_to_date</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>86f3b25983a26a10d33033d6feaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>majors</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>8ef3b25983a26a10d33033d6feaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost_of_minors</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>86f3b25983a26a10d33033d6feaad341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>total_amount_in_words</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>8ef3b25983a26a10d33033d6feaad341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>86f3b25983a26a10d33033d6feaad342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_of_journey_from_date</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>8ef3b25983a26a10d33033d6feaad342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>minors</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>86f3b25983a26a10d33033d6feaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost_of_majors</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>8ef3b25983a26a10d33033d6feaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>total_cost</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:45:40</sys_created_on><sys_id>86f3b25983a26a10d33033d6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="LTA[Leave Travel Allowance]" display_value="LTA[Leave Travel Allowance]" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">372be25d83626a10d33033d6feaad36c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:45:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>LTA[Leave Travel Allowance]</caption><header>false</header><name>x_1216348_claim_0_claim_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 13:07:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>372be25d83626a10d33033d6feaad36c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1216348_claim_0_claim_details</sys_name><sys_overrides/><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sys_ui_section_372be25d83626a10d33033d6feaad36c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 13:07:16</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2082537948</payload_hash>
+        <record_name>Claim Details</record_name>
+        <reverted_from/>
+        <source>b62c0d9d836a2a10d33033d6feaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 13:45:40</sys_created_on>
+        <sys_id>cef3b25983a26a10d33033d6feaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197d5af89700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 13:45:40</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>86f3b259cea26a10b1f2e0bd8a5a5f46</update_guid>
+        <update_guid_history>86f3b259cea26a10b1f2e0bd8a5a5f46:2082537948,dc7d66119ba26a105d68eee583026cf0:-1966515345,547baa5d91626a107564145a5770ed78:293729998,4c3be25d82626a104a7563f496fc7eda:-1966515345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 03:31:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1bc34250defe4630be5368c2a7a69244</sys_id>
+        <sys_metadata>372be25d83626a10d33033d6feaad36c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LTA[Leave Travel Allowance]</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent display_value="Claim Details">0f664a1d83ae2a10d33033d6feaad3fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_372be25d83626a10d33033d6feaad36c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_372be25d83626a10d33033d6feaad36c">cef3b25983a26a10d33033d6feaad346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 03:31:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

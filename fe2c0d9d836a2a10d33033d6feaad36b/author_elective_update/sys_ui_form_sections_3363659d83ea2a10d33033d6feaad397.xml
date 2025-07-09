@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="3363659d83ea2a10d33033d6feaad397" sys_domain="global" table="x_1216348_claim_0_employee_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 07:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b63659d83ea2a10d33033d6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">cfec811d832a2a10d33033d6feaad348</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 07:53:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 07:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b763659d83ea2a10d33033d6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form>
+            <sys_ui_section caption="Voucher type" display_value="Voucher type" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">7363659d83ea2a10d33033d6feaad394</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 07:53:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 07:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8073659d83ea2a10d33033d6feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form>
+            <sys_ui_section caption="Cash – Covid Vaccination" display_value="Cash – Covid Vaccination" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">b363659d83ea2a10d33033d6feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 07:53:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 07:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c73659d83ea2a10d33033d6feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form>
+            <sys_ui_section caption="LTA [Leave Travel Allowance]" display_value="LTA [Leave Travel Allowance]" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">b363659d83ea2a10d33033d6feaad396</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 07:53:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 09:38:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65bb95d836e2a10d33033d6feaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form>
+            <sys_ui_section caption="Insurance " display_value="Insurance " name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">ca5bb95d836e2a10d33033d6feaad3f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 09:38:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1216348_claim_0_employee_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 07:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3363659d83ea2a10d33033d6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1216348_claim_0_employee_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3363659d83ea2a10d33033d6feaad397</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 07:53:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_ui_form_sections_3363659d83ea2a10d33033d6feaad397</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="3363659d83ea2a10d33033d6feaad397" sys_domain="global" table="x_1216348_claim_0_employee_details" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 07:53:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3b63659d83ea2a10d33033d6feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">cfec811d832a2a10d33033d6feaad348</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 07:53:48</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 07:53:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b763659d83ea2a10d33033d6feaad39b</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form><sys_ui_section caption="Voucher type" display_value="Voucher type" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">7363659d83ea2a10d33033d6feaad394</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 07:53:48</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 07:53:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8073659d83ea2a10d33033d6feaad39f</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form><sys_ui_section caption="Cash – Covid Vaccination" display_value="Cash – Covid Vaccination" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">b363659d83ea2a10d33033d6feaad395</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 07:53:48</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 07:53:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0c73659d83ea2a10d33033d6feaad3bb</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form><sys_ui_section caption="LTA [Leave Travel Allowance]" display_value="LTA [Leave Travel Allowance]" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">b363659d83ea2a10d33033d6feaad396</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 07:53:48</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 09:38:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c65bb95d836e2a10d33033d6feaad3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1216348_claim_0_employee_details" name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">3363659d83ea2a10d33033d6feaad397</sys_ui_form><sys_ui_section caption="Insurance " display_value="Insurance " name="x_1216348_claim_0_employee_details" sys_domain="global" view="Default view">ca5bb95d836e2a10d33033d6feaad3f5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 09:38:15</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1216348_claim_0_employee_details</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 07:53:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3363659d83ea2a10d33033d6feaad397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1216348_claim_0_employee_details</sys_name><sys_overrides/><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sys_ui_form_sections_3363659d83ea2a10d33033d6feaad397</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 07:53:48</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1422970042</payload_hash>
+        <record_name>Employee details</record_name>
+        <reverted_from/>
+        <source>b62c0d9d836a2a10d33033d6feaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 09:38:16</sys_created_on>
+        <sys_id>0e5bb95d836e2a10d33033d6feaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197d4cd07910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 09:38:16</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>c25bb95db06e2a10770822e95791d8fb</update_guid>
+        <update_guid_history>c25bb95db06e2a10770822e95791d8fb:-1422970042,8473659d1eea2a108271d9c70cb201bd:-309197109,8873659df5ea2a101fd14b969eb50aa0:665805605,3363659d74ea2a1075240e581d3aa69d:-1582255539,7363659db7ea2a106f96d0e16d4cd399:-1984883217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 10:00:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>3f68815f074545f6bbe2f38e1f217b61</sys_id>
+        <sys_metadata>3363659d83ea2a10d33033d6feaad397</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1216348_claim_0_employee_details</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent display_value="">9eec4ddd836a2a10d33033d6feaad323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_3363659d83ea2a10d33033d6feaad397</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_3363659d83ea2a10d33033d6feaad397">0e5bb95d836e2a10d33033d6feaad3fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 10:00:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

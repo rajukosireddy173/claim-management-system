@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1216348_claim_0.GetEmployeeInfoByNum</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetEmployeeInfoByNum</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetEmployeeInfoByNumber = Class.create();
+GetEmployeeInfoByNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getInfo: function() {
+        var empNum = this.getParameter('sysparm_empnum');
+        var result = {};
+
+        var empGR = new GlideRecord('x_1216348_claim_0_employee_table');
+        empGR.addQuery('sys_id', empNum);
+        //empGR.addQuery('sys_id','a6b4ae0a83ee2e10d33033d6feaad3e0');
+        empGR.query();
+		gs.info('Get Employee details');
+
+        if (empGR.next()) {
+			gs.info('Inside if');
+            result.full_name = empGR.getValue('full_name');
+            result.email = empGR.getValue('email');
+            gs.info('fetched details' + result.full_name + result.email);
+        }
+
+        return JSON.stringify(result);
+    }
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 07:45:13</sys_created_on>
+        <sys_id>d43bb4de83ea6e10d33033d6feaad3ab</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GetEmployeeInfoByNum</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_script_include_d43bb4de83ea6e10d33033d6feaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:36:13</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_script_include_d43bb4de83ea6e10d33033d6feaad3ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1216348_claim_0.GetEmployeeInfoByNum&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetEmployeeInfoByNum&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetEmployeeInfoByNumber = Class.create();
+GetEmployeeInfoByNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getInfo: function() {
+        var empNum = this.getParameter('sysparm_empnum');
+        var result = {};
+
+        var empGR = new GlideRecord('x_1216348_claim_0_employee_table');
+        empGR.addQuery('sys_id', empNum);
+        //empGR.addQuery('sys_id','a6b4ae0a83ee2e10d33033d6feaad3e0');
+        empGR.query();
+		gs.info('Get Employee details');
+
+        if (empGR.next()) {
+			gs.info('Inside if');
+            result.full_name = empGR.getValue('full_name');
+            result.email = empGR.getValue('email');
+            gs.info('fetched details' + result.full_name + result.email);
+        }
+
+        return JSON.stringify(result);
+    }
+
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-07 07:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d43bb4de83ea6e10d33033d6feaad3ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetEmployeeInfoByNum&lt;/sys_name&gt;&lt;sys_package display_value="claim management system" source="x_1216348_claim_0"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="claim management system"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d43bb4de83ea6e10d33033d6feaad3ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-07 09:36:13&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1353855295</payload_hash>
+        <record_name>GetEmployeeInfoByNum</record_name>
+        <reverted_from/>
+        <source>b62c0d9d836a2a10d33033d6feaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 09:36:13</sys_created_on>
+        <sys_id>55a7dd5683ae6e10d33033d6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e43e3be30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:36:13</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1da7dd56eeae6e108203d0318bd03d3a</update_guid>
+        <update_guid_history>1da7dd56eeae6e108203d0318bd03d3a:-1353855295,2ae651927cae6e10d31d7e7aaeb47103:-1432172487,6666d992e0ae6e103675d82a59ded1e2:1108464931,050555520eae6e10495b5e4ba2d3c0ae:494352071,8c521d9a736e6e10039e60e2838f230f:1272344365,fe80955af56e6e101b2ac8ead6aa1fc7:21476609,d80fc51a4f6e6e1053bdceeadf28d5f9:-1919556731,a61d4996c56e6e1099dac245970052af:-2111389043,268a851e362e6e10fbadec2c0238c4e7:-1651046858,b33e38d2112e6e10b60a3ea8a16b21b9:1400628699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 09:45:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7fee99634bd0458c96e0da0bd5760f24</sys_id>
+        <sys_metadata>d43bb4de83ea6e10d33033d6feaad3ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmployeeInfoByNum</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_script_include_d43bb4de83ea6e10d33033d6feaad3ab</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d43bb4de83ea6e10d33033d6feaad3ab">55a7dd5683ae6e10d33033d6feaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:45:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
