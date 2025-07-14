@@ -15,7 +15,7 @@ getEmpDet.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getEmpInfo: function() {
         var empNum = this.getParameter('sysparm_empnum');
         var result = {};
-		gs.info(empNum);
+		// gs.info(empNum);
         var empGR = new GlideRecord('x_1216348_claim_0_employee_table');
         empGR.addQuery('sys_id', empNum);
         //empGR.addQuery('sys_id','a6b4ae0a83ee2e10d33033d6feaad3e0');
@@ -23,7 +23,7 @@ getEmpDet.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
        // gs.info('Get Employee details');
 
         if (empGR.next()) {
-            gs.info('Inside if');
+            // gs.info('Inside if');
             result.full_name = empGR.full_name+'';
             result.email = empGR.email+'';
 			result.contact_no = empGR.contact_no+'';
@@ -46,13 +46,13 @@ getEmpDet.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-07 09:47:45</sys_created_on>
         <sys_id>a7b9155a83ae6e10d33033d6feaad382</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>getEmpDet</sys_name>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sys_script_include_a7b9155a83ae6e10d33033d6feaad382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-07 17:03:55</sys_updated_on>
+        <sys_updated_on>2025-07-14 05:51:40</sys_updated_on>
     </sys_script_include>
 </record_update>

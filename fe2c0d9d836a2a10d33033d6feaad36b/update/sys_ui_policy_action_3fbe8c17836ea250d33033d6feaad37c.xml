@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>total_amount</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 06:51:59</sys_created_on>
+        <sys_id>3fbe8c17836ea250d33033d6feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_amount</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3fbe8c17836ea250d33033d6feaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 06:51:59</sys_updated_on>
+        <table>x_1216348_claim_0_claim_details</table>
+        <ui_policy display_value="if cate = cash hide lta, insurance">de13f58683ea2e10d33033d6feaad3b6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3fbe8c17836ea250d33033d6feaad37c"/>
+</record_update>

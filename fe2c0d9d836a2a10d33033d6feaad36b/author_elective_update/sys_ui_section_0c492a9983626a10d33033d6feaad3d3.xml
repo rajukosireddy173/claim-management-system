@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Bank Details" section_id="0c492a9983626a10d33033d6feaad3d3" sys_domain="global" table="x_1216348_claim_0_claim_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-09 16:11:38</sys_created_on>
+            <sys_id>cd55414f832e6250d33033d6feaad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bank Details" display_value="Bank Details" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">0c492a9983626a10d33033d6feaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-09 16:11:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Bank Details</caption>
+            <header>false</header>
+            <name>x_1216348_claim_0_claim_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-04 12:58:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c492a9983626a10d33033d6feaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1216348_claim_0_claim_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+            <sys_update_name>sys_ui_section_0c492a9983626a10d33033d6feaad3d3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-04 12:58:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_ui_section_0c492a9983626a10d33033d6feaad3d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Bank Details" section_id="0c492a9983626a10d33033d6feaad3d3" sys_domain="global" table="x_1216348_claim_0_claim_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-09 16:11:38</sys_created_on><sys_id>cd55414f832e6250d33033d6feaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Bank Details" display_value="Bank Details" name="x_1216348_claim_0_claim_details" sys_domain="global" view="Default view">0c492a9983626a10d33033d6feaad3d3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-09 16:11:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Bank Details</caption><header>false</header><name>x_1216348_claim_0_claim_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 12:58:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0c492a9983626a10d33033d6feaad3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1216348_claim_0_claim_details</sys_name><sys_overrides/><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sys_ui_section_0c492a9983626a10d33033d6feaad3d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 12:58:50</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1788854988</payload_hash>
+        <record_name>Claim Details</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 16:11:38</sys_created_on>
+        <sys_id>8d55414f832e6250d33033d6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197eff4f8590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 16:11:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4555414f7a2e625046566b242d4f5b28</update_guid>
+        <update_guid_history>4555414f7a2e625046566b242d4f5b28:-1788854988,15dfb2baa36262509cf5e184f2d80975:119182927,b8d87e32836262505fd96703f77b9e55:-1788854988,3766e6ca87ee2e101d966d527302250c:119182927,d8496a998b626a10cb745432374dbe8b:-1779115947</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 16:12:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>329b51784d954870baed2f3fdba6e444</sys_id>
+        <sys_metadata>0c492a9983626a10d33033d6feaad3d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bank Details</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent display_value="Claim Details">0f664a1d83ae2a10d33033d6feaad3fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_0c492a9983626a10d33033d6feaad3d3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_0c492a9983626a10d33033d6feaad3d3">8d55414f832e6250d33033d6feaad328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 16:12:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

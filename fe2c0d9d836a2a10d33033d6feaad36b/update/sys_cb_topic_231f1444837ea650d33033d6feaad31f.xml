@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>A simple Virtual Agent for claims</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "254aedadc7c94334b8bc32cea3ea2baf": {
+          "id": "254aedadc7c94334b8bc32cea3ea2baf",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6f351b007cf549a29355b958bb9dd99c": {
+          "id": "6f351b007cf549a29355b958bb9dd99c",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ebb364e30bb34fc09560e98c412fd6d6": {
+          "id": "ebb364e30bb34fc09560e98c412fd6d6",
+          "stepType": "TextOutput",
+          "name": "Welcome Message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hii",
+                      "italic": true
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.employee_number}}",
+                        "displayValue": "Input Variables➛User➛Employee number"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "italic": true
+                    },
+                    {
+                      "text": "I can help you with claims. What would you like to do?",
+                      "italic": true
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "b5689b1c1188477ea74f2cde1edae748"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0cc5a69aa3e749b9aaba687387e62017": {
+          "name": "📝 Enter: Choose Action",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "💬 Enter: What would you like to do?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e494c33960c542bc826bc7cef05e6c71",
+          "detailDescription": "",
+          "id": "0cc5a69aa3e749b9aaba687387e62017",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5f16425cb767454bb2c4780a2dec1814": {
+          "id": "5f16425cb767454bb2c4780a2dec1814",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "44368431cf24405a8b62b94d9615d6b8": {
+          "id": "44368431cf24405a8b62b94d9615d6b8",
+          "stepType": "LinkOutput",
+          "name": "form link",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "x_1216348_claim_0_claim_details.do?sys_id=-1"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": "",
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click to Request a new claim"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "753f1f75ab554adfbbec38cfd56bb00b": {
+          "id": "753f1f75ab554adfbbec38cfd56bb00b",
+          "stepType": "TextPrompt",
+          "name": "Get claim Id",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter your Claim Request Number"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "a409b58a40924e52aca70a89cd0b99b1",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "4641f7923a28479f85a05c5d9ed5a68a": {
+          "id": "4641f7923a28479f85a05c5d9ed5a68a",
+          "stepType": "LookupRecord",
+          "name": "Get claim Request record",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.get_claim_request_record}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "2694fc4b068a4e958111d9e1b977f304"
+        },
+        "089abf2361d44efd8676e5cf2ed40326": {
+          "id": "089abf2361d44efd8676e5cf2ed40326",
+          "stepType": "RecordOutput",
+          "name": "Show Record",
+          "variableId": "2694fc4b068a4e958111d9e1b977f304",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1216348_claim_0_claim_details",
+          "fields": [
+            "status",
+            "sys_created_on",
+            "category"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "d2dd61ba82e147438a725c416adf5c7b": {
+          "id": "d2dd61ba82e147438a725c416adf5c7b",
+          "stepType": "BooleanPrompt",
+          "name": "End chat",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you want to end the conversation?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "c178dd0cce344fb888307163d3ecbaf7",
+          "detailDescription": ""
+        },
+        "781af2c88b4d4bd69ef09aea6698a32e": {
+          "id": "781af2c88b4d4bd69ef09aea6698a32e",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "089e7a1173564442b9c3488eaf4adc0f",
+          "edgeType": "Branch",
+          "source": "781af2c88b4d4bd69ef09aea6698a32e",
+          "target": "6f351b007cf549a29355b958bb9dd99c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.end_chat=true",
+            "mode": "query"
+          },
+          "label": "true"
+        },
+        {
+          "id": "707e259a9bb44390afde43dbbe3fd63f",
+          "edgeType": "Branch",
+          "source": "781af2c88b4d4bd69ef09aea6698a32e",
+          "target": "0cc5a69aa3e749b9aaba687387e62017",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.end_chat=false",
+            "mode": "query"
+          },
+          "label": "false"
+        },
+        {
+          "id": "adc63e70a80b4f65b48628625d56f828",
+          "edgeType": "Edge",
+          "source": "254aedadc7c94334b8bc32cea3ea2baf",
+          "target": "ebb364e30bb34fc09560e98c412fd6d6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9d382211d9434bf8bb87a3d029ccaa7b",
+          "edgeType": "Edge",
+          "source": "ebb364e30bb34fc09560e98c412fd6d6",
+          "target": "0cc5a69aa3e749b9aaba687387e62017",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bc301bc39778472784924b685e41100c",
+          "edgeType": "Edge",
+          "source": "0cc5a69aa3e749b9aaba687387e62017",
+          "target": "5f16425cb767454bb2c4780a2dec1814",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c7089ea450cf4ebc8632c924665cc0b5",
+          "edgeType": "Branch",
+          "source": "5f16425cb767454bb2c4780a2dec1814",
+          "target": "44368431cf24405a8b62b94d9615d6b8",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs._enter_choose_action=Submit a New Claim",
+            "mode": "query"
+          },
+          "label": "submit a new claim"
+        },
+        {
+          "id": "ab93b3272b8647829caff4c26370dac3",
+          "edgeType": "Edge",
+          "source": "44368431cf24405a8b62b94d9615d6b8",
+          "target": "6f351b007cf549a29355b958bb9dd99c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "855ed1eddeb34594aadfc2fc7d618b03",
+          "edgeType": "Branch",
+          "source": "5f16425cb767454bb2c4780a2dec1814",
+          "target": "753f1f75ab554adfbbec38cfd56bb00b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs._enter_choose_action=Check Claim Status",
+            "mode": "query"
+          },
+          "label": "check claim status"
+        },
+        {
+          "id": "b5c1ccddabbd4b2c816c1f6dd73491f5",
+          "edgeType": "Edge",
+          "source": "753f1f75ab554adfbbec38cfd56bb00b",
+          "target": "4641f7923a28479f85a05c5d9ed5a68a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dea208ae057e4e58b6542edff35bf8f8",
+          "edgeType": "Edge",
+          "source": "4641f7923a28479f85a05c5d9ed5a68a",
+          "target": "089abf2361d44efd8676e5cf2ed40326",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1425990733304525b5070aaf05f93c48",
+          "edgeType": "Edge",
+          "source": "089abf2361d44efd8676e5cf2ed40326",
+          "target": "d2dd61ba82e147438a725c416adf5c7b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "63447b3d106d42239215b7c3f13d0a57",
+          "edgeType": "Edge",
+          "source": "d2dd61ba82e147438a725c416adf5c7b",
+          "target": "781af2c88b4d4bd69ef09aea6698a32e",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e494c33960c542bc826bc7cef05e6c71": {
+      "id": "e494c33960c542bc826bc7cef05e6c71",
+      "name": "_enter_choose_action",
+      "label": "📝 Enter: Choose Action",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Submit a New Claim",
+          "value": "Submit a New Claim"
+        },
+        {
+          "label": "Check Claim Status",
+          "value": "Check Claim Status",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "0cc5a69aa3e749b9aaba687387e62017",
+      "isHidden": false
+    },
+    "a409b58a40924e52aca70a89cd0b99b1": {
+      "id": "a409b58a40924e52aca70a89cd0b99b1",
+      "name": "get_claim_id",
+      "label": "Get Claim Id",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTc1MjQwMjk4NjU2OCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "753f1f75ab554adfbbec38cfd56bb00b",
+      "isHidden": false
+    },
+    "2694fc4b068a4e958111d9e1b977f304": {
+      "id": "2694fc4b068a4e958111d9e1b977f304",
+      "name": "get_claim_request_record",
+      "label": "Get Claim Request Record",
+      "varType": "reference",
+      "table": "x_1216348_claim_0_claim_details",
+      "category": "vaInputs",
+      "nodeId": "089abf2361d44efd8676e5cf2ed40326",
+      "isHidden": false
+    },
+    "c178dd0cce344fb888307163d3ecbaf7": {
+      "id": "c178dd0cce344fb888307163d3ecbaf7",
+      "name": "end_chat",
+      "label": "End Chat",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs",
+      "nodeId": "d2dd61ba82e147438a725c416adf5c7b",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Claim Assistant</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Claim Assistant</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-12 15:58:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>231f1444837ea650d33033d6feaad31f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Claim Assistant</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_cb_topic_231f1444837ea650d33033d6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 18:00:09</sys_updated_on>
+        <title>Claim Assistant</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=231f1444837ea650d33033d6feaad31f"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:43:58</sys_created_on>
+        <sys_id>86a199df83a2e250d33033d6feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1216348.claim-management-system.*.x_1216348_claim_0.financial</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_security_acl display_value="x.1216348.claim-management-system.*">7ca159df2da2e250c0fc8bd094a9cb8a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_86a199df83a2e250d33033d6feaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:43:58</sys_updated_on>
+        <sys_user_role display_value="x_1216348_claim_0.financial" name="x_1216348_claim_0.financial">fe2c0d9d836a2a10d33033d6feaad374</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

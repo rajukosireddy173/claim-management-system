@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="claim management system App Config">fca159dfb1a2e2504b3b2544c7925c91</app_config>
+        <description/>
+        <disable_auto_reflow>true</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Finance Home Page">84adf1af83ea2650d33033d6feaad37d</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Finance Home Page</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Home">a8a159df74a2e250d5011f5993eee28a</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 09:34:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cadf1af83ea2650d33033d6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Home Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_ux_screen_8cadf1af83ea2650d33033d6feaad382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 09:34:34</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=8cadf1af83ea2650d33033d6feaad382"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_ux_screen_8cadf1af83ea2650d33033d6feaad382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="claim management system App Config">fca159dfb1a2e2504b3b2544c7925c91</app_config><description/><disable_auto_reflow>true</disable_auto_reflow><event_mappings/><macroponent display_value="Finance Home Page">84adf1af83ea2650d33033d6feaad37d</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Finance Home Page</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Home">a8a159df74a2e250d5011f5993eee28a</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-11 09:34:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8cadf1af83ea2650d33033d6feaad382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finance Home Page</sys_name><sys_overrides/><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sys_ux_screen_8cadf1af83ea2650d33033d6feaad382</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-11 09:34:34</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=8cadf1af83ea2650d33033d6feaad382"/></record_update>]]></payload>
+        <payload_hash>1290903605</payload_hash>
+        <record_name>Finance Home Page</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 09:34:34</sys_created_on>
+        <sys_id>04ad75af83ea2650d33033d6feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f8d629510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 09:34:34</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>04adf1af0dea265019ba517f1b392a86</update_guid>
+        <update_guid_history>04adf1af0dea265019ba517f1b392a86:1290903605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 09:37:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>069cd89ddb79433081483fee130ca900</sys_id>
+        <sys_metadata>8cadf1af83ea2650d33033d6feaad382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Home Page</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_8cadf1af83ea2650d33033d6feaad382</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_8cadf1af83ea2650d33033d6feaad382">04ad75af83ea2650d33033d6feaad3aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 09:37:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

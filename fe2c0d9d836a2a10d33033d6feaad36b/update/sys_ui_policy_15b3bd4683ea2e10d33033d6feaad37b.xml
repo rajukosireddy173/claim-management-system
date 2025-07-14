@@ -15,7 +15,7 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-
+g_form.setSectionDisplay('insurance', false);
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 	g_form.setSectionDisplay('covid_vaccination', false);
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>15b3bd4683ea2e10d33033d6feaad37b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>if cate = insurnace hide covid, lta</sys_name>
         <sys_overrides/>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
@@ -38,9 +38,9 @@
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sys_ui_policy_15b3bd4683ea2e10d33033d6feaad37b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 17:06:19</sys_updated_on>
+        <sys_updated_on>2025-07-10 08:06:59</sys_updated_on>
         <table>x_1216348_claim_0_claim_details</table>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

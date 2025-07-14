@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>view</name>
+        <page display_value="HR Workspace">d76d8dd783a2e250d33033d6feaad3fa</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:38:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b050195f83a2e250d33033d6feaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_ux_page_property_b050195f83a2e250d33033d6feaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:38:09</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1216348_claim_0.d76d8dd783a2e250d33033d6feaad3fa.root.global.view</unique_name>
+        <value>Workspace-HR-Workspace-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=b050195f83a2e250d33033d6feaad3eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sys_ux_page_property_b050195f83a2e250d33033d6feaad3eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>view</name><page display_value="HR Workspace">d76d8dd783a2e250d33033d6feaad3fa</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 11:38:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>b050195f83a2e250d33033d6feaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>view</sys_name><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sys_ux_page_property_b050195f83a2e250d33033d6feaad3eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 11:38:09</sys_updated_on><type>string</type><unique_name>x_1216348_claim_0.d76d8dd783a2e250d33033d6feaad3fa.root.global.view</unique_name><value>Workspace-HR-Workspace-0</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=b050195f83a2e250d33033d6feaad3eb"/></record_update>]]></payload>
+        <payload_hash>410603218</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:38:09</sys_created_on>
+        <sys_id>b450195f83a2e250d33033d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f420f4340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:38:09</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>b850195ff1a2e25036638cb9ce44bdec</update_guid>
+        <update_guid_history>b850195ff1a2e25036638cb9ce44bdec:410603218</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:38:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>bd88babf460548f996a34aef934416c1</sys_id>
+        <sys_metadata>b050195f83a2e250d33033d6feaad3eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b050195f83a2e250d33033d6feaad3eb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b050195f83a2e250d33033d6feaad3eb">b450195f83a2e250d33033d6feaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:38:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

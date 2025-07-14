@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sub_category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>making the covid fields manadatory </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var category = g_form.getValue('category');
+
+    if (category == 'cash' && newValue == 'covid_vaccination') {
+        g_form.setSectionDisplay('covid_vaccination', true);
+        //(g_form.getSectionNames());
+        g_form.setMandatory('dose', true);
+        g_form.setMandatory('bill_no', true);
+        g_form.setMandatory('date', true);
+        g_form.setMandatory('amount', true);
+        g_form.setMandatory('total_amount', true);
+    } else {
+        g_form.setSectionDisplay('covid_vaccination', false);
+        g_form.setMandatory('dose', false);
+        g_form.setMandatory('bill_no', false);
+        g_form.setMandatory('date', false);
+        g_form.setMandatory('amount', false);
+        g_form.setMandatory('total_amount', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 13:54:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9615a0c383aa6250d33033d6feaad374</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>making the covid fields manadatory </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_script_client_9615a0c383aa6250d33033d6feaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 06:16:45</sys_updated_on>
+        <table>x_1216348_claim_0_claim_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

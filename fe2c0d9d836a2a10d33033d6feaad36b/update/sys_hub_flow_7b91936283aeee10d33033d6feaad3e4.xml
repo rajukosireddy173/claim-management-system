@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=72557000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=419126000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>claim_management_main_flow</internal_name>
-        <label_cache>[{"name":"{{static.82605f6e836eee10d33033d6feaad31f}}","label":"Finance","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["approval_conditions"],"5e279878-38cb-4806-bfea-eaf76639bd36":["approval_conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Claim Details Record","reference":"x_1216348_claim_0_claim_details","reference_display":"Claim Details","type":"reference","base_type":"reference","usedInstances":{"0c83e131-fcf8-4e15-a15e-03d66cd1ca75":["record"],"143af054-1750-4b92-af85-176ca40fdfa9":["record"],"330814b3-17b0-45f1-b788-b083423acf6a":["record"],"5c6c118c-8937-4cc2-9fd3-a22e8c13f812":["record"],"67965b91-8656-4f7d-b19a-ec43bb625c1e":["record"],"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["record"],"0f388921-7b5b-4588-a43e-047723bb3b67":["record"],"e87aa180-b4d8-4ad3-9ad5-a23ceb99764b":["record"],"68be76bd-2e5e-451b-95ec-3fa2e147d6cb":["record"],"6140fd1b-5cc4-4dfb-b964-3659780fd9a4":["record"],"3cbeff52-46f2-4f0d-bdd0-061421637f58":["record"],"9fad3e40-c230-46a5-968a-64a6982a1090":["record"],"67e9ac43-ecee-43d5-ab48-14d095d83cf1":["record"],"5579f24a-8560-4110-b908-427875737a18":["record"],"5e279878-38cb-4806-bfea-eaf76639bd36":["record"]},"attributes":{}},{"name":"{{static.40205b2283aeee10d33033d6feaad3c7}}","label":"HR ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"143af054-1750-4b92-af85-176ca40fdfa9":["approval_conditions"]}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Claim Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1216348_claim_0_claim_details","column_name":"status","choices":[{"image":"","label":"In Draft","used":false,"reference":false,"rawLabel":"In Draft","selected":false,"missing":false,"value":"in_draft","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Send Back","used":false,"reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"send_back","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Lead approval","used":false,"reference":false,"rawLabel":"Pending Lead approval","selected":false,"missing":false,"value":"pending_lead_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Account approval","used":false,"reference":false,"rawLabel":"Pending Account approval","selected":false,"missing":false,"value":"pending_account_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"completed","used":false,"reference":false,"rawLabel":"completed","selected":false,"missing":false,"value":"completed","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Re submitted","used":false,"reference":false,"rawLabel":"Re submitted","selected":false,"missing":false,"value":"re_submitted","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}}],"usedInstances":{}},{"name":"143af054-1750-4b92-af85-176ca40fdfa9.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"51471e72-a342-454a-af07-4075da06bf14":["condition"],"1d9a775b-444f-405e-9932-2e747ba9a6d9":["condition"],"8a178f1f-487e-4618-8445-47b4cc3480c8":["condition"],"3a8e20a8-de97-4aeb-aa51-c7e29a1cdcf6":["condition"],"772b40cb-3adc-4408-9840-8438e4cc71cb":["condition"],"34a2e0e1-411c-4c56-bfb9-e23446bbb182":["condition"],"f36f9fad-ba28-43de-a2e2-f8a58044f12f":["condition"],"f346602a-7a9f-4210-8d25-99e13fa075ff":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5e279878-38cb-4806-bfea-eaf76639bd36.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"bd151787-0ed5-41d5-a4f7-674777b5f099":["condition"],"b3d76958-970c-46ee-a82b-e17bb1eed650":["condition"],"3a7cbbe3-0aaa-494a-aaa5-68e0411f763c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5e279878-38cb-4806-bfea-eaf76639bd36.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"bd151787-0ed5-41d5-a4f7-674777b5f099":["condition"],"b3d76958-970c-46ee-a82b-e17bb1eed650":["condition"],"3a7cbbe3-0aaa-494a-aaa5-68e0411f763c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"143af054-1750-4b92-af85-176ca40fdfa9.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"51471e72-a342-454a-af07-4075da06bf14":["condition"],"1d9a775b-444f-405e-9932-2e747ba9a6d9":["condition"],"8a178f1f-487e-4618-8445-47b4cc3480c8":["condition"],"3a8e20a8-de97-4aeb-aa51-c7e29a1cdcf6":["condition"],"772b40cb-3adc-4408-9840-8438e4cc71cb":["condition"],"34a2e0e1-411c-4c56-bfb9-e23446bbb182":["condition"],"f36f9fad-ba28-43de-a2e2-f8a58044f12f":["condition"],"f346602a-7a9f-4210-8d25-99e13fa075ff":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Claim Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1216348_claim_0_claim_details","column_name":"status","choices":[{"image":"","label":"In Draft","used":false,"reference":false,"rawLabel":"In Draft","selected":false,"missing":false,"value":"in_draft","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Send Back","used":false,"reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"send_back","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Lead approval","used":false,"reference":false,"rawLabel":"Pending Lead approval","selected":false,"missing":false,"value":"pending_lead_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Account approval","used":false,"reference":false,"rawLabel":"Pending Account approval","selected":false,"missing":false,"value":"pending_account_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"completed","used":false,"reference":false,"rawLabel":"completed","selected":false,"missing":false,"value":"completed","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Re submitted","used":false,"reference":false,"rawLabel":"Re submitted","selected":false,"missing":false,"value":"re_submitted","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"cancelled","used":false,"reference":false,"rawLabel":"cancelled","selected":false,"missing":false,"value":"cancelled","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}}],"usedInstances":{}},{"name":"{{static.40205b2283aeee10d33033d6feaad3c7}}","label":"HR ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"143af054-1750-4b92-af85-176ca40fdfa9":["approval_conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Claim Details Record","reference":"x_1216348_claim_0_claim_details","reference_display":"Claim Details","type":"reference","base_type":"reference","usedInstances":{"0c83e131-fcf8-4e15-a15e-03d66cd1ca75":["record"],"143af054-1750-4b92-af85-176ca40fdfa9":["record"],"330814b3-17b0-45f1-b788-b083423acf6a":["record"],"5c6c118c-8937-4cc2-9fd3-a22e8c13f812":["record"],"67965b91-8656-4f7d-b19a-ec43bb625c1e":["record"],"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["record"],"0f388921-7b5b-4588-a43e-047723bb3b67":["record"],"e87aa180-b4d8-4ad3-9ad5-a23ceb99764b":["record"],"68be76bd-2e5e-451b-95ec-3fa2e147d6cb":["record"],"6140fd1b-5cc4-4dfb-b964-3659780fd9a4":["record"],"3cbeff52-46f2-4f0d-bdd0-061421637f58":["record"],"9fad3e40-c230-46a5-968a-64a6982a1090":["record"],"67e9ac43-ecee-43d5-ab48-14d095d83cf1":["record"],"5579f24a-8560-4110-b908-427875737a18":["record"],"5e279878-38cb-4806-bfea-eaf76639bd36":["record"],"ed7fe190-638e-463e-a07d-e0f228d0076f":["record"],"d48a8adf-0a78-4381-a967-4e6d4fefbd74":["record"],"6a45fb58-ad53-4144-85f9-f904326feafe":["record"],"05af11de-3dd0-4018-a0d2-2e6261637fbd":["record"],"9c68b45f-17f0-4862-87e1-13f405c742d9":["record"],"73f5a66c-3309-4e3c-a024-e2c7ebb67a8b":["record"],"fe11add2-894e-4867-86d1-eb9f8d6d5c65":["record"],"840a682a-1202-40d0-95de-78ff0f7679eb":["record"],"99a412b3-fd68-4c84-bb9b-a6e4f455159c":["record"]},"attributes":{}},{"name":"{{static.82605f6e836eee10d33033d6feaad31f}}","label":"Finance","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["approval_conditions"],"5e279878-38cb-4806-bfea-eaf76639bd36":["approval_conditions"]}}]</label_cache>
         <master_snapshot>ef3b1bee83aeee10d33033d6feaad3b6</master_snapshot>
         <master_snapshot_digest/>
         <name>Claim management Main FLow </name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7b91936283aeee10d33033d6feaad3e4</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Claim management Main FLow </sys_name>
         <sys_overrides/>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sys_hub_flow_7b91936283aeee10d33033d6feaad3e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:06</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -86,14 +86,14 @@
         <identifier>7b91936283aeee10d33033d6feaad3e4</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-09 09:16:57</sys_created_on>
-        <sys_id>72662fbe83266250d33033d6feaad346</sys_id>
+        <sys_created_on>2025-07-13 09:33:06</sys_created_on>
+        <sys_id>da70189483722a50d33033d6feaad3ce</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:06</sys_updated_on>
         <trigger display_value="">ff3b5bee83aeee10d33033d6feaad324</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7b91936283aeee10d33033d6feaad3e4^sys_idNOT IN72662fbe83266250d33033d6feaad346"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7b91936283aeee10d33033d6feaad3e4^sys_idNOT INda70189483722a50d33033d6feaad3ce"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=7b91936283aeee10d33033d6feaad3e4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=7b91936283aeee10d33033d6feaad3e4^sys_idNOT INbf91936283aeee10d33033d6feaad3e6"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -375,17 +375,86 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:10:00</sys_created_on>
         <sys_id>26221be283aeee10d33033d6feaad378</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 13:40:00</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:32:54</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VZ23LbNhD9FQ6f2hm1w4sulvvkynbjGSeekZX0IXU5IABKmFKgQoC01Uz+vQveRPEi60Knih8sEQCxZxdnzwLC56+6j1zq65f6DLk+1Xs645KGHPmz9YpCs1TNDkdL1bdEnCAZhGv9UoYR7eleGCxndLnykYTBHvIFNAYhoaF+afb0GPkRfVyLOwIzwfvJNNmcetYNzy+OaZlDu3/hYB+xpWNkn4RKxHwBIwkTYGP9KXthorq166IbL5hPQsr1y89PPX2FQrAjFYavlS6mgGDPpOb4wsC2BX+GYV30TXdou6ZFbESRARNWg1IBLhtis/GavkjKCSVFQGphCykiD9xfl0a8CPYvzHlhqF6PAmJM06AVj04WhbQZLwKG6cNKsoCnLSm6tDPwoyX/kKJW8aMeinyZxw9aIgHz0ZUCymWBw3tcBM/T3OAt44lPWacfYOQXT0jKkLmRpEKF2WM+BNxJIyKCKEzQT28mD9Nr58+r2eTdzdSZ3jzOpneT2c21/i3xy/kSqRlThBkWJ3XnW7Hot4z6atl4tHQBTU8XOGQreYUli3PSfettiDwJOGFJVGpkxnmX2CZz7v0uNhtGK59xyWLOaSGRjMRfkWHYQD9HRO6SSUnJ3w/TchfjDgmRJw8m8cgYEWK2kRi7JRKXA9KAWDbEpuz0LjpnLe187hvG/8ToTKCOJfQyINS/3kynQ+d8DhRnfBVJFaM8Lk6woqGKB7ynf7q6n7y7+vDHzeNv2eft9OF9/n32AO89Iy6FIwMHEeKUoq5MgC+vZUYak3p6vJ4YYcRhCqdYz3p6JAtQrMQ9E+D4Z0juPMrJlNDv3WdTTiOuBbDw8E/DUQhBlloukt7dEs2ztfEeqU+xLJHI+yjKT++ZEIzPS6gLo0lUajYLc0BGLXcptS1ONP7UpTbUgx5XglmpbQcrgYn7lmG7Q2OkdMCEr55pjIwB8ohtGO5FSQnqYFpRygolOlSEw/RAJBT09yBcNbAZZKOcA3uRJ95mXu66IkYmO5NuoJkdQbMUtIp82gfpZ0HGtPl6m5O7XOt4I4FIjOANsq8cqgF76J7nB88g3UdonovwP/MwiDipipCaU2Nc24zQfsri93OH+ucFId0NYHvEOSnfJuw5cRFfd6B5lm3S0bA/NEDqbKVyg/HYxcjyvNFwRE2zonkbGI3YzljrXuFY3ETSNt1rpEvcxLIDFO8EgDX1Oxjg6bqX0bFR9dK+H0PfnheUOwA1dHylYDWZm/uM0Lyv2xyvmY43WX1qnmN3TAaD0QiP4IQDee71qYvMvjVA49HQpl4lz2tQdsGUDZF5w3OPWIvEfIsGfEy7zutU/5ZkFVRKVXoOr8gcdqrJOyg1UqqKajG0REqCUPsQ8F/uNuO0RwrFLjnydlWa90GhFlZ7WxhuIBe1vQGY/h3at0yrPWVLVM7u0FQhSbzt66nCgiwLjU27RVhGwyZh2YBph3mmW4k98yJuzbCmPcW+NI8bs6V1E3AEcSvkKO8OdmxfugqK2XlQrLcLin3ylinPwNaT4jFgf6DClewhTqleyiZ1Aq8s2deBBh0aGNGYp2W/NcLB311rckEhpD7sjcGgpqyfqtXl2lGHUjD4+wJJd9u1GgbNWrZtOr/yVKFCt2dcSmw8Jm0lqj9q3fu216lK95kWq4NzIW5KrZ0V67B5q3M21qwSUbd5sGc16tTr5pJ0mteNRek1r08vN7tO6A0ozr+QKNCzdBmOKB8Bx5WzBu7ysiXi7EtEHbxAfJ5epOSGbiHOFOGFlg7R0iFdFgD/Ga2FXq1EQFqVF9nPztAAGcJT/erKMo1puK75qhq1aEVUcfjOxcfaUXzye0ghQ3hzvt7KWNzFhZLljiHdBga2TdOuXS0PylfL21xuR9hSaaxjK82CJXeyJfPZekm2pImuFRer2hJJvKCip8GiJpcYieyxUMhk9K96h6csTOvL0VSIWpMpbsvDVmHfkR9xNbOalLyB63ElL8pavvM8tcN9sxP3rS7ct49zv39yKcvzs7GWZdHrtn4dW66e/gO4JWt5GSYAAA==</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7b91936283aeee10d33033d6feaad3e4^sys_idNOT IN1e09d72e83aeee10d33033d6feaad3fe,20fa2a7e83ee2250d33033d6feaad33c,64fa2a7e83ee2250d33033d6feaad33d,9e09d72e83aeee10d33033d6feaad3fc,a4fa2a7e83ee2250d33033d6feaad339,d2091b2e83aeee10d33033d6feaad301,d4d1feb683226250d33033d6feaad3fd,e39826ba83ee2250d33033d6feaad383,e8fa2a7e83ee2250d33033d6feaad33a"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7b91936283aeee10d33033d6feaad3e4^sys_idNOT IN046e7f4f83eaa250d33033d6feaad3c1,086e7f4f83eaa250d33033d6feaad3b7,086e7f4f83eaa250d33033d6feaad3bc,1e09d72e83aeee10d33033d6feaad3fe,20fa2a7e83ee2250d33033d6feaad33c,318b738b83eaa250d33033d6feaad319,358b738b83eaa250d33033d6feaad31a,64fa2a7e83ee2250d33033d6feaad33d,806e7f4f83eaa250d33033d6feaad3ba,8c6e7f4f83eaa250d33033d6feaad3be,9e09d72e83aeee10d33033d6feaad3fc,a4fa2a7e83ee2250d33033d6feaad339,bd8b738b83eaa250d33033d6feaad31f,d2091b2e83aeee10d33033d6feaad301,d4d1feb683226250d33033d6feaad3fd,e39826ba83ee2250d33033d6feaad383,e8fa2a7e83ee2250d33033d6feaad33a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>23</order>
+        <parent_ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:07</sys_created_on>
+        <sys_id>046e7f4f83eaa250d33033d6feaad3c1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>99a412b3-fd68-4c84-bb9b-a6e4f455159c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoi3JuVvECFCgmwJJ2ptuIYzIYUwsdShFpfEaefcdSvIpdtOmu1lgrxIOT//8M5/ozxtfCf/Cn4lMiIWMQhlFURiF8yiOMsyw4GmSYpz5E7+CEmmlQV4bQeMH0J0LbDaXBsGi8GrjfWyE+zePprwzBiv79ERLhWobDetP4w6K8JXSgub9i89fJn4Dhg63aPyLzbOpn1WnoUBNS2+28p7LtevGjUXNu5J05WobfD/uXI4z3rslzdAmJyea+PhosRJIOiToFid+CRUlWZv1LkL5iw+V3gdWqrJDoiU8tuovupnFbp1EyoyPJuyG+WjQEJZLsHBrTcdtZ3Z+1YpjO3giUEKn7eVhbFjwobGqroYtFgq93V3rrqyuB0f83QEH9ehaEoGNS9Qpp8spC3m7qr/dbEVeqaq3ZExR1xz0bgTWGlV01snZ+J26O+f2ED7vN2rsF5bQNKq6zxtTP6j+PlJfTu81DaZS199IZqvuqylwl+qUKgHTK4ov+/AnMMrl/TsdQ5vdnR8r9bXDd66PRBSmbBHyII3nLJiFHIIiE0UARSzns1mSJUXkP038dt1eamjbvWNUqvxr5xIe/Budynuze6fzvuHcZm5UY38jeQ84+vM0GTHLopcamcX7vj04c4/aY07rEzbLcq5BlXk4/hVoQen2lLRLN+0td9Ovw+4n1G6xu+ub7bz6kbyT2PvDvd71MDFyF7+Su6Fhz2CXhf8j7Ma0/jl3R14fY3fk9n9CHS+KQha4CKKC82CWYhZkMaQBzkPOZMzCMJW/QN2PWJu93L0HT1pVWyUVh76Ie9rEPGZSMsxYkiTxPBSMhYyJRCKAYDw9xU1Jb2W8llR6BfA/vSD4owtDhh6Wja7XiK9/+X6cxBbB6+Mszuc2srgn4hjFm4P4SCJ7mcQBvF95AKnc+OCqiSV9nfKhs76D57Pc/mVUv6fkiF+QErn7aSMVakEtmPd73uQ1lbcIhq+u3E2uhgOsx6wfFZaIpztOWD8s59uhfnfaUy3afLQldwfksjYluI7oM3z+hZgtIkxZnAWLJKYvBLJ5UBBtQURfDERAGYu3eZe//A0s+uslAAsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:07</sys_created_on>
+        <sys_id>086e7f4f83eaa250d33033d6feaad3b7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>9c68b45f-17f0-4862-87e1-13f405c742d9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoi3JuVvECLZANwWStDfdQhiRw5gAdShFpfEaefcdSvIpdtOmu1lgr2wOOeTMP/OR+rzxlfAv/JnIhFjIKJRRFIVROI/iKMMMC54mKcaZP/ErKJFWGuS1ETR+AN05w2ZzaRAsCq823sdGuL95NOWdMVjZpydaKlTbaFh/Gj3IwldKC5r3Lz5/mfgNGNrcovEvNs+mfjY6DQVqWnqzDe95uHbduLGoeVdSXLnaGt+Pnstxxnu3pBlycuFEEx8fLVYCKQ4JusWJX0JFSdZmvbNQ/uJDpfeGlarskGgJj636i05msVsnkTLjowi7YT4KNJjlEizcWtNx25mdXrXi2A6aCJTQaXt5aBsWfGisqqvBxUKht9617srqelDE321wUI+upSCwcYm6yOlwykLerupvN9sgr1TVSzKmqGsOejcCa40qOuvC2fidujun9mA+rzdq7BeW0DSqus8bUz+o/jyKvpzeaxpMpa6/UZituq+mwF2qU6oETK/IvuzNn8Aol/cftA05uzM/Vuprh+9cH4koTNki5EEaz1kwCzkERSaKAIpYzmezJEuKyH+a+O26vdTQtnvFqFT5184lPOg3KpX3YvdK533DOWduVGN/o/AecNTnaTJilkUvNTKL9317sOcetcec1idsluVcgyrzcPwVaEHp9pS0SzftLXfTr8PuJ6LdYnfXN9v56EfyTmzvD32962Fi5C5+JXdDw57BLgv/R9iNaf1z7o60PsbuSO3/hDpeFIUscBFEBefBLMUsyGJIA5yHnMmYhWEqf4G6H7E2e7l7D560qrZKKg59Efe0pRAWKGWcsSRJ4nkoGAsZE4lEAMEknuKmpEfVAiqaR0qQlvQoBsGfXRgy9OwKKw/LRtdrxMnv5vWv4I8T2uJ4fZzR+TxHLvd0HGN5c2AfqWQvUzlA+CuPIZUeH1xlsaSbKh+67DuoPsvtX8b2e5EcsQxSInefOVKhFtSOee/zJi+rvEUwfHXlTnI1HMA95v6osEQ/nXHC/WE53w77u9OeatHmoyy52yCXtSnBdUSf4fPbYraIMGVxFiySmG4LZPOgIPKCiG4PREAZi7d5o7/8DWW+zBcMCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:07</sys_created_on>
+        <sys_id>086e7f4f83eaa250d33033d6feaad3bc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>fe11add2-894e-4867-86d1-eb9f8d6d5c65</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227UMBCGXyXK9WblxNkk2zvUVQUSFKkt3ACKHHvcWjgHHKd0WfXdGSfZU3cpFCgSV63Hp3/+mS/eDytfCf/Ej0UmxFyGRIZhSEIyC6MwgwwKniYpRJk/8StWAq40wGsjcHzLdOcCq9WpAWZBeLXx3jXC/ZuHU94ZA5W9v8elQrWNZsv34w6M8BulBc77Jx8+TfyGGTzcgvFPVg+mflWdZgVoXHqxlvdQrl02bixq3pWoK1fr4Otx52Kc8V4tcAY3OTnhxIc7C5UA1CGZbmHil6zCJGuz3EQwf/G20tvAjarskGjJ7lr1DW+mkVsnATPjowmbYT4aNITlgll2aU3HbWc2ftWKQzt4IkCyTtvT3diw4G1jVV0NWywr9Hp3rbuyOh8c8TcH7NSja1EENC5Rpxwvxyzk5U399WIt8kxVvSVjirrmTG9GzFqjis46OSu/U1fH3B7Cx/0GDf3CkjWNqq7zxtS3qr8P1ZfTa42DqdT1V5TZqutqyrhLdYqVYNMzjC/68HtmlMv7DR6Dm92d7yr1pYNXro9ESFI6JzxIoxkNYsJZUGSiCFgRyVkcJ1lShP79xG+X7almbbt1DEuVf+lcwoN/o1N5b3bvdN43nNvMjWrsC5R3C6M/95MRsyx8rJFptO3bnTO3qN3luD6hcZZzzVSZk/GvAMuUbg9JO3XT3mIz/TTsfkHtGrurvtmOqx/JO4i93t3rnQ8TI3fRE7kbGvYIdhn5j7Ab0/pz7va83sduz+1/Qh0vikIWMA/CgvMgTiELsoilAcwIpzKihKTyN6j7GWvx492786RVtVVScdYXcUubJGFcSAkZTZIkmhFBKaFUJBIYE5Skh7gp6UlVMSya16JUr2D8sxcEHztCKHhQNrpeAky8lxdPfwJ/ns2axfP9dI4nOUK5RWOfyYud+IgkfRzJgcDfeQmx7nDrygolfqbyocV+wOmD3P4ysz9Ssgcyw5bg7jeOVKAF9mLe73mWZ1VeAjP85szd5Go4ULsP/V5hEX284wD63XI+H/NXhz3Vgs1HW3J3QC5rUzLXEX2GDz8V8TyElEZZME8i/FQAnQUFYheE+OkAYCAj8TwP9KfvhyJrDwkLAAA=</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -395,16 +464,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>2</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:40:00</sys_created_on>
         <sys_id>1e09d72e83aeee10d33033d6feaad3fe</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>143af054-1750-4b92-af85-176ca40fdfa9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YXVPbOBT9Kxk/h6wcx8bJG0OGne7stjNA+0IYjyJdgzqK7VoyJevJf++VJcdpAmnYCQ8sfQF0v3zu9TmSxU3tCe5NvNM4HcJ4PCRzn5CAkDhkJA5gHpxGpwFlxOt7GV0ARpbA8pLj+oHKyhjq+rwEqoH38rL3ueDmz8QfsKosIdOrFYZyoQpJl19cBlrYvZAc/d7k5rbvFbTE4hpKb1JvuQ5FJ+kcJIZetvC24eplYdY8Z9UCcSWiNf7tMqfO0/swRQ8mGTik78GjhowD4kipVND3FjTDJvNy6U10WaEB2+efMrlcR9yLTNs+F/RRiX/xwcHQxKWAjTE3g/UycfOx5nRKNb3CykxX5XpcuWCg7Eg4pLSS+nzTZgM+FVrkmU3RdC7b7FxWi+yjHYi3LrDxOiqFIKAwfRrktq306j7/ftmCvBBZMxHXoswZlesV1boU80obOLUHEpoRL2hRiOwuKcr8QTTJCGUxuJO4GKQy/47PVOIuG1BmcA9wqnRwgfZpY/5CS2Ga+AfLYPKq76mlOpdUqa4VnGHyrTJIbGOuhaSZgh2ByWOlKPQZPuUBHOZV3zF/zvZyi3VUsuU64j8m/tCPglGcMEnFIiHuNwdNhVS7vD837t507X6ZCA4A2org2iHdAu4k0CyTxvezApq03kfrcALw9wvAWToFWOo8IYCYvCEBuLbevAJ+RX4YRUGIP07TgCCZSQxRHLMxoSyOonAUdBxCBNgDlQm+aoW1OxkcYX8/AEZL7TOHo3fZ4ngWoKO7wheT3W1R/ao1OpoPX0jz5zd6P3pPRK/E9daUrWVnzq+jCPO4z5n4VsEHw6NoOI/GJOYnPCXzk1EchCeUATmByA8h5BEL/eAVVET8fTszj58gaSpA8uOK6AAUOyK6cDCeg+ck1CyfOjGa/K0T43hSigl5S1p6T19NbC/ZYOPg+JpXZfY6jD8ARMv4vyyKbcJvg/svfA9+8/3/z/dRuJdqGx/b6z2U5RkXBrHaYL3deUFdwldgWp1lyz9v6lppqgUbjMiQhPPhMDYVwSc8CEgQ8CgFSnnATler213VHKHiy1R3wCjWl/FKgvrVaJzmuu83l7Spu+6rzzmd9kbHup6/Mem9l/sJ28u1dNxxi1c4IKo37+f1zLOwZ95k5mV5BjOvP/NMVGLI1ZgxAsGtHY2trlcra6lK6gr4G8sum9OlaiIVuweO3GysP1mSRgzOfox/hh0wk1Z/0wp6UzuU3TG116MWp52L2DnzrlxAU+mPa7F59oVHO/tGv+V3jMtQ0m6j5mDD3e+Imrz9AUCgu+UsFgAA</values>
@@ -418,49 +487,26 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>13</order>
+        <order>19</order>
         <parent_ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>20fa2a7e83ee2250d33033d6feaad33c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>67e9ac43-ecee-43d5-ab48-14d095d83cf1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQiihvE6jSpK6V2o2Xrooc+wY8OR+zHQpD/PddJ06IoO2o1Bc0XoLvh33OzTnx044ITqZkBDwIr8Mxi8IoGgbBcDIKk3GUhEMeUYCQeCSnGWClAlYojus1lZUN7HYzBdQAHxRq8KPk9m8c+qxSCnKz32MpF7qUdLtwHRhhKyE55sn06dkjJVW4uQFFpruj1LnoJE1AYulDC+8YrtmWds0LVmWIKxZt8NZ1zl1m8HWOGWyycMLAI7AxkHNAICmVGjyS0RxZFmpLpkZVGED+/D6X265iJXLTEM3oRos/ePIosHUpIDPmhtAtYzegJpzOqaGPuDMzlermVQgGupkJh5RW0sz6sabgvjSiyJsWQxPZdheyyvK7ZiKk26D3PiqNIKC0PC3yhlb6uCpeHlqQNyKvR+IoyoJR2a2oMUoklbFwdgQk1DPOaFmKfBmXqliLuhmhZP5S4sJPZfGCZ2qxzH3KLG4fp0r9G4zP6/CCKmFJfMNtsHnvEb3VM0m1PlDBGca/K4ukIeYoxPUU6hHEtRJsM1OiNF/wqDU44HvP6T+5ek9h7PogqN6eBw9s4nAYjqPRJGaSiiwO3JODoULqUwvMbHow79If88MZaFs/fK9V8Dp6Z4mT2G2/d3DXJJwhrj7NEJNLMoSjcfGO+JcPguG7X9qekmrp654HtKGm0j+rIIhQrr+A4T1wKvw3qj6m/zNQtvq/ESC5fgV2K37IEJ6BuKFxZACXHCxcsrsVPs0F4Tiofxfkhf/mcnj+C7NixlseCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
-        <generation_source/>
-        <order>15</order>
-        <parent_ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-09 04:57:07</sys_created_on>
-        <sys_id>64fa2a7e83ee2250d33033d6feaad33d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
-        <ui_id>5579f24a-8560-4110-b908-427875737a18</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCWEIsrbBKo0qWulduOlq6Ib+wLWnI/ZDoUh/vuuEycgaDsq9QWNF7hf9jmHe5KnLZOCjdkARRBeh0MehVHUD4L+aBAmwygJ+yICxJB1WQYpUqdGnmtB8QpU6RLb7UQjWBSdXHd+FML9jMMeL7XGzO521CqkKRRsZn6CMnwplaA6Gz89d1kBmg63qNl4e1Q6F52CBBW1PjTwjuHaTeFikfMyJVyxbJK3fnLqK52vU6rQkIMTBl2Ga4uZQAIyB2Wwy1LIiGWuN2xsdUkJ4i/uM7VpO5YyszXRFNZG/qGbB4HrmyMx416ENoy9QHV6PgULj3Qyt6Vu9colR1NrInAOpbKTw1zdcF9YmWf1iIVENdO5KtPsrlaEtQcc/B+lIRBYOJ4OeU1r/rjMXx4akDcyqyTxFFXOQbURWKtlUloHZ8tQYaVxCkUhs0Vc6Hwlq2GCkvYWioLeXOUvdKeRi6wH3OHukarQu6H8tErPQEtH4hsdQ8O7LjMbM1FgzJ4KaRj/Lh2SmpinEFcqVBLE1Sa4Ya5lYb/QVSv0wHddv//J1Xsbxq/3C3Vw5t4D6zjsh8NoMIq5ApnGgf8WaEEqc2qBiSt3pm35Y344A23jh+/VFryO3lviJHd7ONu5qwveEFefZojRJRnC07h4R/zLB0H/3SftwSZVq28OPGAs2NL8LIMgEobujBPgv043/622jzngDJyNA24kKmFeAd6sP6aEz2JcEzmygC92Zr7Yvhc+zQfhMKg+F+SG/+b18PwXylHtFSAJAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
@@ -468,12 +514,127 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-08 13:40:00</sys_created_on>
-        <sys_id>9e09d72e83aeee10d33033d6feaad3fc</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_created_on>2025-07-10 05:27:40</sys_created_on>
+        <sys_id>318b738b83eaa250d33033d6feaad319</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>ed7fe190-638e-463e-a07d-e0f228d0076f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207bQBCGXyXydRx57SR2uKtIkSrRVgLaG4Ss8e4srLQ+sF5T0oh376ztnAMtbanUK9jZ0z//zOfN9dJTwjvxxiIRYiZZIBljAQsmLGQJJpjxeBpjmHhDr4AcaaVBXhpB4wfQjQssl6cGwaIYlGbwpRLu35SNeGMMFvbpiZYKVVcaFl/7HRThd0oLmvdOrm+GXgWGDrdovJPl3tSvqtOQoaalFyt5+3LtonJjUfImJ12pWgXP+53zfmbwYU4ztMnJYUMPHy0WAkmHBF3j0MuhoCRLs1hHKH/xudCbwJ0qbJdoDo+1+k43R6FbJ5Ey470J62HaG9SF5RwsXFrTcNuYtV+l4lh3ngiU0Gh7uh3rFnyurCqLbouFTK92l7rJi0+dI976gK16NDWJwMol6pTT5ZSFvLwrv12sRJ6porWkT1GXHPR6BNYalTXWyVl6jbo65nYXPu43amwX5lBVqrhNK1M+qPY+Up+PbjUNRlKX30hmrW6LEXCX6ogqAaMzis/b8FcwyuX9kY6hze7OL4W6b/CD6yPBgjiaBdyPw0nkjwMOfpaIzIcslJPxeJpMM+Y9Db16UZ9qqOuNY1Sq9L5xCXf+9U6lrdmt02nbcG4zN6qy70jeA/b+PA17zBL2UiNH4aZvt87coPaY0vppNE5SrkHladD/FWhB6fqQtFM3PZivp1+H3S+oXWF31TbbcfU9eQex8+29g0/dRM9d+EruuoY9gl0S/EfY9Wn9OXc7Xu9it+P2P6GOZ1kmM5z5LOPcH8eY+EkIsY+TgEcyjIIglr9B3c9YG7/cvVtPWlFaJRWHtogb2mLGEh7LMIkgnIaTQERREEViKhFARBN5iNv7vNLlAsne3RNf+dr9XPgKu717jufT87ehYBe/i614T1/0Mn0dbL/z6FGJ8cFVEHP6IqVdNz2D5F5ufxnP55TsMAtSInc/Z6RCLajt0nbPm7yg8hLB8Lszd5OrYQfoLt87hSXK6Y4DvrfL+XZ4Xx32VI027W1J3QGpLE0OriPaDPe/CuMZwzgKE382DemrgNHEz4gwn9FXAhFQhuJt3uKbHzBVtZT0CgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:27:40</sys_created_on>
+        <sys_id>358b738b83eaa250d33033d6feaad31a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>d48a8adf-0a78-4381-a967-4e6d4fefbd74</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WWyW7bMBCGX8XQ2TIk0YucWxEjaIA2BZy0l6AQRuQwJkAtpSgnqZF371CSt9jN1qZATwmH2z//zCf6euUp4Z14QxELMZVhIMMwDMJgFEZhjDGmfDKeYBR7fS+HDGmlQV4YQeMl6NoFVqtTg2BR9ArT+1oK928SDnhtDOb24YGWClWVGu6/dTsowhdKC5r3Tq6/970SDB1u0Xgnq0dTL1WnIUVNS+dreY/l2vvSjUXB64x0JWod/NTtnHUzvfMZzdAmJyfse3hnMRdIOiToCvteBjklWZj7TYTyF19yvQ0sVG7bRDO4q9RPuplFbp1Eyox3JmyGSWdQG5YzsHBpTc1tbTZ+FYpj1XoiUEKt7elurF3wpbSqyNstFlK93l3oOssvWke8zQE79agrEoGlS9Qpp8spC3m5KG7na5FnKm8s6VLUBQe9GYG1RqW1dXJWXq2ujrndho/7jRqbhRmUpcpvktIUS9XcR+qzwY2mwUDq4pZkVuomHwB3qQ6oEjA4o/isCX8Do1zen+kY2uzu/JqrHzWeuz4SYTBh04D7k2jE/GHAwU9jkfqQRnI0HI7jcRp6D32vuq9ONVTV1jEqVfKjdgm3/nVOJY3ZjdNJ03BuMzeqtB9I3hI7fx76HWZx+FQjs2jbtztnblG7S2j9mA3jhGtQWRJ0fwVaULo6JO3UTfdmm+nXYfcCtWvsrppmO66+I+8g9ml3b++inei4i17JXduwR7CLg/8Iuy6tP+duz+t97Pbc/ifU8TRNZYpTP0w594cTjP04gomPo4AzGbEgmMg3UPcca8Onu3fnScsLq6Ti0BRxSxsfj8SUSYwZRONoFAjGAsbEWCKAYAIPcTujF/DjvNczuFR42zjxyofuec1r4i72RR9PpUNvC8A+efOdeAceexq8lrO3vHdUXVy64mFGH6OkbaTf0Pgot79M5u+U7OEKUiJ3v2SkQi2o45Jmz7s8nvISwfDFmbvJ1bBlcx/tvcIS4HTHAdq75Xw/sq8Oe6pCm3S2JO6ARBYmA9cRTYaPPwjDaYgTFsX+dBzRBwHZyE8JLj+kDwQioIzE+zzD338BdNgrIu8KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>22</order>
+        <parent_ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 04:57:07</sys_created_on>
+        <sys_id>64fa2a7e83ee2250d33033d6feaad33d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>5579f24a-8560-4110-b908-427875737a18</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCWEIsrbBKo0qWulduOlq6Ib+wLWnI/ZDoUh/vuuEycgaDsq9QWNF7hf9jmHe5KnLZOCjdkARRBeh0MehVHUD4L+aBAmwygJ+yICxJB1WQYpUqdGnmtB8QpU6RLb7UQjWBSdXHd+FML9jMMeL7XGzO521CqkKRRsZn6CMnwplaA6Gz89d1kBmg63qNl4e1Q6F52CBBW1PjTwjuHaTeFikfMyJVyxbJK3fnLqK52vU6rQkIMTBl2Ga4uZQAIyB2Wwy1LIiGWuN2xsdUkJ4i/uM7VpO5YyszXRFNZG/qGbB4HrmyMx416ENoy9QHV6PgULj3Qyt6Vu9colR1NrInAOpbKTw1zdcF9YmWf1iIVENdO5KtPsrlaEtQcc/B+lIRBYOJ4OeU1r/rjMXx4akDcyqyTxFFXOQbURWKtlUloHZ8tQYaVxCkUhs0Vc6Hwlq2GCkvYWioLeXOUvdKeRi6wH3OHukarQu6H8tErPQEtH4hsdQ8O7LjMbM1FgzJ4KaRj/Lh2SmpinEFcqVBLE1Sa4Ya5lYb/QVSv0wHddv//J1Xsbxq/3C3Vw5t4D6zjsh8NoMIq5ApnGgf8WaEEqc2qBiSt3pm35Y344A23jh+/VFryO3lviJHd7ONu5qwveEFefZojRJRnC07h4R/zLB0H/3SftwSZVq28OPGAs2NL8LIMgEobujBPgv043/622jzngDJyNA24kKmFeAd6sP6aEz2JcEzmygC92Zr7Yvhc+zQfhMKg+F+SG/+b18PwXylHtFSAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:07</sys_created_on>
+        <sys_id>806e7f4f83eaa250d33033d6feaad3ba</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>73f5a66c-3309-4e3c-a024-e2c7ebb67a8b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVbW/TMBDHv0qU102VxG2a7h1aNYEEQ9oGbwBFF/u8GTkPOM5YqfbdOSfp01oGA4bEq9Z3Pvvuf/eLP6x8JfwTfyJSIeYyCmUURWEUTqM4SjHFnM+SGcapP/JLKJB2GuSVEbS+Bd06w2p1ahAsCq8y3rtauL9ZNOatMVja+3vaKlRTa1i+HyLIwm+UFuT3Tz58Gvk1GDrcovFPVg9cv5qdhhw1bb1Yp/cwXbus3VpUvC0or0ytja+HyMXg8V4tyENBLp1o5OOdxVIg5SFBNzjyCyipyMosNxaqX7wt9dZwo0rbF1rAXaO+0c0sdvskUmV8EGGzzAaBerNcgIVLa1puW7PRq1Icm14TgRJabU93bf2Gt7VVVdmHWMj1OrrSbVGe94r4mwN2+tE2lATWrlCXOV1OVcjLm+rrxTrJM1V2kgwl6oqD3qzAWqPy1rp0Vn6rro6p3ZuP640au40F1LUqr7PaVLequ4+yL8bXmhZjqauvlGajrssxcFfqmDoB4zOyLzrzezDK1f2GjqFgd+e7Un1p8ZWbIxGFMzYPeTCLpyyYhByCPBV5AHksp5NJkiZ55N+P/GbZnGpomq1i1KrsS+sK7vUblMo6sTuls27gXDA3qrYvKL1bHPS5Hw2YpdFjg8zi7dzunLlF7S6j/QmbpBnXoIosHH4FWlC6OSTt1Lm9xcb9NOx+Ids1dlfdsB3PfiDvwPZ6N9Y77x0Dd/ETuesH9gh2afgfYTeU9efc7Wm9j92e2v+EOp7nucxxHkQ558FkhmmQxjALcBpyJmMWhjP5G9T9jLXJ49O786SVlVVSceiauKWN81zEkiUpS5IknoaCsZAxkUgEECyEQ9yU9KQqgZrmjTyDn5HTWxgEH9swZOi9vBh5WNS6WiI+/Qn8eTVrFs/3yzle5ADlFo19Ji927AOS7HEkewJ/5yWkvuOtaysW9JnK+hH7AacPavvLzP4okz2QQcqur5lUqAXNYtbFPMuzKi8RDL85cze5HvbU7kO/11hCn+44gH63nc/H/NXhTDVos0GWzB2QycoU4Caiq/Dhp2Iyj3DG4jSYJzF9KpBNg5ywCyL6dCACylg8zwP96TsMXoW+CQsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>20</order>
+        <parent_ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:07</sys_created_on>
+        <sys_id>8c6e7f4f83eaa250d33033d6feaad3be</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>840a682a-1202-40d0-95de-78ff0f7679eb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV227bMAyGXyXwdRzYVhI7vRsaFBiwdUDb7WYrDFqiGg3yYbLcNQv67qNs59RkXdutA3aViBQl8ic/6/PKU8I78cYiEWImw0CGYRiEwSSMwgQTzHg8jTFKvKFXQI600yAvjaD1LejGGVarU4NgUQxKM/hYCfc3DUe8MQYLe39PW4WqKw3LT30EWfhCaUF+7+Tz9dCrwNDhFo13snrgemp2GjLUtPVind7DdO2ycmtR8ianvFK1Nr7rI+e9Z/B2Th4KcumEQw/vLBYCKQ8Jusahl0NBRZZmubFQ/eJDobeGhSpsV2gOd7X6QTezyO2TSJXxXoTNMu0F6sxyDhYurWm4bcxGr1JxrDtNBEpotD3dtXUbPlRWlUUXYiHT6+hSN3lx3inibQ7Y6UdTUxJYuUJd5nQ5VSEvF+X3i3WSZ6poJelL1CUHvVmBtUZljXXprLxGXR1TuzMf1xs1thtzqCpV3KSVKW9Vex9ln49uNC1GUpffKc1a3RQj4K7UEXUCRmdkn7fmT2CUq/s9HUPB7s6PhfrW4Fs3RyIMYjYLuB9HE+aPAw5+lojMhyySk/F4mkyz0LsfevWyPtVQ11vFqFXpt8YV3OnXK5W2YrdKp+3AuWBuVGXfUHq32OtzP+wxS8LHBplF27ndOXOL2l1K+6dsnKRcg8rToP8VaEHp+pC0U+cezDfu52H3hGzX2F21w3Y8+568A9u73djBeefouYueyV03sEewS4L/CLu+rD/nbk/rfez21P4n1PEsy2SGMz/MOPfHMSZ+EkHs4yTgTEYsCGL5Aup+x9r48endedKK0iqpOLRN3NIWZACx5HHCECCaBIKxgDExlbQUbAKHuCk5WJiBwa/IqSO+/6UJAoaYV7pcIj7/2ft9BWv+zvdLOF5YD+IWh30OL3bsPYbscQw76l7y+lGv8da1EnP6NKXdWP2CzQe1/WVOf5XJHrwgpWupSKVCLWj+0jbmVZ5SeYlg+OLM3eR62JG6D/peYwl3uuMA9N12vh7nV4czVaNNe1lSd0AqS5ODm4i2woefh/EsxJhFiT+bRvR5QDbxM0LND+lzgQgoI/E6j/L1T+N7rLX9CgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 13:40:00</sys_created_on>
+        <sys_id>9e09d72e83aeee10d33033d6feaad3fc</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>0c83e131-fcf8-4e15-a15e-03d66cd1ca75</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K5GfUZQQiihvEwhpUtdK7cZLV0WOfQOWnI/ZDoUh/vuuEydEULVU6gsaL3C/7HMO9yTPeyI4mZIR8CC8DccsCqNoGATDyShMxlESDnlEAUIyIDnNADsVsEJxjDdUVjax388UUAPcK5T3q+T2Zxz6rFIKcnM4YCsXupR0t3QTmGFrITnWyfT5ZUBKqvBwA4pM9yelS9FJmoDE1scW3ilcsyttzAtWZYgrFm3yzk3OXcX7PscKDlk4YTAgsDWQc0AgKZUaBiSjObIs1I5Mjaowgfz5Qy53Xcda5KYhmtGtFn/x5lFg+1JAZsyJ0IWxE6hJp3Nq6BOezEylOr0KwUA3mnBIaSXNrJ9rGh5KI4q8GTE0ke10Iassv28UId0Bvf+j0ggCSsvTIm9opU/r4vWxBbkQeS2JoygLRmUXUWOUSCpj4ewJSKg1zmhZinwVl6rYiHoYoWT+SmLgp7J4xTu1WOU+ZRa3j6pSf4H5eZ1eUiUsiR94DA4fBkTv9ExSrY9UUMP4T2WRNMQchbhWoZYgrjfBDjMlSvMNr9qAA34YuP1Pbt7bMHZ7XKjemUcPbONwGI6j0SRmkoosDtw3B0OF1OcWmNmyN+/Kn/PDBWhbP/yst+Bt9M4SZ7m7/qx33xScIW6+zBCTazKEo3H1jvjIB8Hw3Sdtb5Pq1dc9D2hDTaV/V0EQcXunpSlxD2LEimwR0JkLLhn5nDMuwN86YyFAcv0GodYWkCFWA3FD8MQarugtXbF7X3yZP8JxUH+uyCX/zWvj5R+d68D1OAkAAA==</values>
@@ -487,19 +648,42 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>9</order>
+        <order>13</order>
         <parent_ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>a4fa2a7e83ee2250d33033d6feaad339</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>3cbeff52-46f2-4f0d-bdd0-061421637f58</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQiihvE6jSpK6V2o2Xrooc+wY8OR+zHQpD/PddJ06IoO2o1Bc0XoLvh33OzTnx044ITqZkBDwIr8Mxi8IoGgbBcDIKk3GUhEMeUYCQeCSnGWClAlYojus1lZUN7HYzBdQAHxRq8KPk9m8c+qxSCnKz32MpF7qUdLtwHRhhKyE55sn06dkjJVW4uQFFpruj1LnoJE1AYulDC+8YrtmWds0LVmWIKxZt8NZ1zl1m8HWOGWyycMLAI7AxkHNAICmVGjyS0RxZFmpLpkZVGED+/D6X265iJXLTEM3oRos/ePIosHUpIDPmhtAtYzegJpzOqaGPuDMzlermVQgGupkJh5RW0sz6sabgvjSiyJsWQxPZdheyyvK7ZiKk26D3PiqNIKC0PC3yhlb6uCpeHlqQNyKvR+IoyoJR2a2oMUoklbFwdgQk1DPOaFmKfBmXqliLuhmhZP5S4sJPZfGCZ2qxzH3KLG4fp0r9G4zP6/CCKmFJfMNtsHnvEb3VM0m1PlDBGca/K4ukIeYoxPUU6hHEtRJsM1OiNF/wqDU44HvP6T+5ek9h7PogqN6eBw9s4nAYjqPRJGaSiiwO3JODoULqUwvMbHow79If88MZaFs/fK9V8Dp6Z4mT2G2/d3DXJJwhrj7NEJNLMoSjcfGO+JcPguG7X9qekmrp654HtKGm0j+rIIhQrr+A4T1wKvw3qj6m/zNQtvq/ESC5fgV2K37IEJ6BuKFxZACXHCxcsrsVPs0F4Tiofxfkhf/mcnj+C7NixlseCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:27:40</sys_created_on>
+        <sys_id>bd8b738b83eaa250d33033d6feaad31f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
+        <ui_id>6a45fb58-ad53-4144-85f9-f904326feafe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoizLuStiBFugmwJJ2pu2EEbkMCFAHUpRbrJG3n2HknyK3bTpbgr0KuHw9M8/84n+tPaV8M/8RGRCLGQUyiiKwiicRXGUYYYFn6dzjDN/4ldQIq00yGsjaLwC3bnAen1uECwKrzbeh0a4f/NoyjtjsLKPj7RUqLbR8PBx3EERfqe0oHn/7NOXid+AocMtGv9s/WTqZ9VpKFDT0quNvKdy7UPjxqLmXUm6crUJvht3LscZ7+2SZmiTkxNNfLy3WAkkHRJ0ixO/hIqSrM3DNkL5i/eV3gXuVGWHREu4b9U/dDOL3TqJlBkfTdgO89GgISyXYOHamo7bzmz9qhXHdvBEoIRO2/P92LDgfWNVXQ1bLBR6s7vWXVldDo742wP26tG1JAIbl6hTTpdTFvL6rv52tRF5oarekjFFXXPQ2xFYa1TRWSdn7Xfq5pTbQ/i036ixX1hC06jqNm9MvVL9faS+nN5qGkylrr+RzFbdVlPgLtUpVQKmFxRf9uGPYJTL+286hja7Oz9U6muHb10fiSics0XIg3k8Y0EScgiKTBQBFLGcJUmapUXkP0789qE919C2O8eoVPnXziU8+Dc6lfdm907nfcO5zdyoxr4heSsc/XmcjJhl0XONzOJd3+6duUPtPqf1KUuynGtQZR6OfwVaULo9Ju3cTXvL7fTLsPsJtRvsbvpmO61+JO8o9m5/r3c5TIzcxS/kbmjYE9hl4R+E3ZjWf+fuwOtD7A7c/i3U8aIoZIGLICo4D5I5ZkEWwzzAWciZjFkYzuUvUPcj1pLnu3fvSatqq6Ti0BdxR1sS8zQuSC6L0zSehYKxkDGRSgQQLGLHuCnp/WU8MqFeYesFwecuDBl6UlXguu/Fz96PM9jwd3mYwunERhB3OBxyeLUXHzFkz2M4UPcrrx/VGleulFjSpykf2uo7bD7J7X/m9HtKDuAFKZG73zVSoRbUf3m/51WeUnmNYPjdhbvJ1XAg9RD0g8IS7nTHEej75Xw9zm+Oe6pFm4+25O6AXNamBNcRfYZPPw/JIsI5i7Ngkcb0eUA2CwpCLYjoc4EIKGPxOo/yl38Bp9XTxP0KAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -510,16 +694,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:40:00</sys_created_on>
         <sys_id>d2091b2e83aeee10d33033d6feaad301</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>330814b3-17b0-45f1-b788-b083423acf6a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPEhJjpfVtUYSFbgvtbl+6JVxnbnRg8rHz0dYV//veSSZR2tJa6IusL3q/Zs453pPcb5kUbMrGKOLkIpnwNEnTURyPzsfJcpIuk5FIATFhQ1ZCgdSpkVdaUPwIyvnEdjvTCBbFoNKDX7XwP7Mk4k5rLO1uR61CmlrB5i5MUIavpRJUZ9P7hyGrQdPhFjWbbl+UjkWnYImKWm86eC/h2k3tY1FxVxCuTHbJyzA5D5XB9zlVaMjDSeIhw2eLpUACkoMyOGQFlMSy0hs2tdpRgviL61Jt+o61LG1LtIBnI//SzePY9+VIzHgQoQ+zIFCbzudg4ZZO5tbpXq9KcjStJgJzcMrODnNtw3VtZVW2IxaWqpuulCvKq1YR1h9w8H84QyCw9jw98pZWfruunm46kAtZNpIEiqrioPoIrNVy6ayHs2WosNG4gLqW5SqrdfUom2GCUkQrRUGUq+qJ7jRyVUbAPe6IVIVoQfl5k74DLT2JH3QMDe+GzGzMTIExeyqkYfbHeSQtsUAha1RoJMiaTfDDXMvafqOrHjEA3w3D/i/P3tswfrFfqIMz9x54zpJRMknH5xlXIIssDt8CLUhlXltg5suDeV/+nB+OQNv54WezBW+jD5Z4lbs8nB1ctYVgiLMvM8T5KRki0Dh5R3zkg3j07pP2YJOa1TcHHjAWrDO/XRynwt/paQLnlaO7CS4RJkyvjHDk1Of8cQSLzh8LiUqYN2h15sCC4FrMWpovDBKKg7tQ7N8aX+aSZBI3nxPyyn/z8nj4B9qM0DQ+CQAA</values>
@@ -533,16 +717,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>5</order>
+        <order>8</order>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 05:27:08</sys_created_on>
         <sys_id>d4d1feb683226250d33033d6feaad3fd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>5e279878-38cb-4806-bfea-eaf76639bd36</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Y0VLbOBT9lYyfQ1aOY+PkjSHDTnd22xmgfSGMR5GuQR3Fdi2ZkvXk33tlyXGaQBp2wgNLXwDdqyufe3yOZHFTe4J7E+80TocwHg/J3CckICQOGYkDmAen0WlAGfH6XkYXgDNLYHnJcfxAZWUCdX1eAtXAe3nZ+1xw82fiD1hVlpDp1QqncqEKSZdfXAVG2L2QHPPe5Oa27xW0xMU1lN6k3kodik7SOUicetnC24arl4UZ85xVC8SViDb4t6ucukzvwxQzWGTgkL4HjxoyDogjpVJB31vQDJvMy6U30WWFAWyff8rkcj3jXmTa9rmgj0r8iw8OhmZeCtgYcxysh4njx4bTKdX0CldmuirXdOWCgbKUcEhpJfX5ZsxO+FRokWe2RNO5bKtzWS2yj5YQb73AxuuoFIKAwvRpkNu20qv7/PtlC/JCZA0jrkWZMyrXI6p1KeaVNnBqDyQ0FC9oUYjsLinK/EE0xQhlMbiTOBikMv+Oz1TiLhtQZnAPkFU6uMD4tAl/oaUwTfyDy2Dxqu+ppTqXVKmuFeQw+VYZJLYx10LSsGApMHWsFIU+w6c8gMO86jvlz9lebbFOSna5TviPiT/0o2AUJ0xSsUiI+81BUyHVru7PTbo3XadfZoIDgLYmuHZIt4A7CzTDpMn97ICmrPfRJpwB/P0GcJHOAVY6TxggJm/IAK6tN++AX4kfRlEQ4o/TNCAoZhJDFMdsTCiLoygcBZ2GEAH2QGWCr1rh2p0NjrC/HwCjlfaZw9G7bHE8C9DJXeGLye62pH7VBp3Mhy+U+fMbvR+9J6FX4nqLZRvZ4fl1HGEe9zkT3yr4YHQUDefRmMT8hKdkfjKKg/CEMiAnEPkhhDxioR+8gouIv29n5vETIk0FSH5cEx2AYsdEFw7Gc/CchZrhUydGU791YhzPSjEhb8lL7+mrie0VG2wcHF/zqsxeR/EHgGgV/5dFsS34bXD/Re/Bb73///U+CvdKbeNje72HsjzjwiBWG6q3Oy+oS/gKTKuzbPnnTV0rTbVgg3gYkTCNIA4iAPAJDwISBDxKgVIe+OlqdbvrmiOs+DLXHUDF+jJeSVC/osZ5rvt+c0Wbvuu++lzSeW90rOv5G7Pee7mfsL1aS8edtniFBFG9eT+vZ56FPfMmMy/LM5h5/ZlnZiVGXE0YZyC4daKJ1fVqZSNVSd0C/sawq+Z0qZqZit0DR2020Z8iSWMGFz/GP8MO4KT137SC3tSSsktTez1qcVpexM6Zd+UmNCv9cS02z77waGff6Lf9jnEZStpt1BxsuPsd0ZO3PwCgpwRkLBYAAA==</values>
@@ -556,16 +740,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>7</order>
+        <order>10</order>
         <parent_ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:46:57</sys_created_on>
         <sys_id>e39826ba83ee2250d33033d6feaad383</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>6140fd1b-5cc4-4dfb-b964-3659780fd9a4</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K5GfUZQQiihvEwhpUtdK7cZLV0U3tgOWnI/ZDoUh/vuuEydE0HVU6gsaL8H3wz7n5J74eU8EI1My4iwIb8MxjcIoGgbBcDIKk3GUhEMWAechGZAcMo6VitNCMVxvQFY2sN/PFAfDmVco70fJ7N849GmlFM/N4YClTOhSwm7pOjBC10IyzJPp88uAlKBwc8MVme5PUpeik5BwiaWPLbxTuGZX2jUraJUhrli0wTvXOXcZ7+scM9hk4YTBgPCt4TnjCCQFqfmAZJAjy0LtyNSoCgPInz3kctdVrEVuGqIZbLX4jSePAluXcmRGnQjdMnYCNeF0DgaecGdqKtXpVQjKdaMJ4ylU0sz6sabgoTSiyJsWA4lsuwtZZfl9owjpNui9j0ojCF5anhZ5Qyt9Whevjy3IhchrSRxFWVCQ3QqMUSKpjIWzJ1zyWuMMylLkq7hUxUbUzQgl81cSF34qi1c8U4tV7gO1uH1UFfwFxud1eAlKWBLfcBtsPgyI3umZBK2PVFDD+FdlkTTEHIW4VqGWIK4nwTZTJUrzBY/acAf8MHDzn9y8N2H09jhQvT2PHtjG4TAcR6NJTCWILA7ck3EDQupzC8xs2pt36Y/54QK0rR++11PwNnpnibPYXb/Xu28SzhA3n2aIyTUZwtG4ekf8ywfB8N0vbW+S6tHXPQ9oA6bSP6sgiBhyKiUOMDuf/L+VfcwBF+BsHbAQXDL9BvB2/DmCwEsrboicWMAlvaVLdvfCp/kgHAf174rc8N9cDy9/APbgarQgCQAA</values>
@@ -579,16 +763,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">7b91936283aeee10d33033d6feaad3e4</flow>
         <generation_source/>
-        <order>11</order>
+        <order>16</order>
         <parent_ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>e8fa2a7e83ee2250d33033d6feaad33a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:34:36</sys_updated_on>
+        <sys_updated_on>2025-07-14 03:15:01</sys_updated_on>
         <ui_id>9fad3e40-c230-46a5-968a-64a6982a1090</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCWEIsrbBKo0qWulduOlq6Ib+wLWnI/ZDoUh/vuuEycgaDsq9QWNF7hf9jmHe5KnLZOCjdkARRBeh0MehVHUD4L+aBAmwygJ+yICxJB1WQYpUqdGnmtB8QpU6RLb7UQjWBSdXHd+FML9jMMeL7XGzO521CqkKRRsZn6CMnwplaA6Gz89d1kBmg63qNl4e1Q6F52CBBW1PjTwjuHaTeFikfMyJVyxbJK3fnLqK52vU6rQkIMTBl2Ga4uZQAIyB2Wwy1LIiGWuN2xsdUkJ4i/uM7VpO5YyszXRFNZG/qGbB4HrmyMx416ENoy9QHV6PgULj3Qyt6Vu9colR1NrInAOpbKTw1zdcF9YmWf1iIVENdO5KtPsrlaEtQcc/B+lIRBYOJ4OeU1r/rjMXx4akDcyqyTxFFXOQbURWKtlUloHZ8tQYaVxCkUhs0Vc6Hwlq2GCkvYWioLeXOUvdKeRi6wH3OHukarQu6H8tErPQEtH4hsdQ8O7LjMbM1FgzJ4KaRj/Lh2SmpinEFcqVBLE1Sa4Ya5lYb/QVSv0wHddv//J1Xsbxq/3C3Vw5t4D6zjsh8NoMIq5ApnGgf8WaEEqc2qBiSt3pm35Y344A23jh+/VFryO3lviJHd7ONu5qwveEFefZojRJRnC07h4R/zLB0H/3SftwSZVq28OPGAs2NL8LIMgEobujBPgv043/622jzngDJyNA24kKmFeAd6sP6aEz2JcEzmygC92Zr7Yvhc+zQfhMKg+F+SG/+b18PwXylHtFSAJAAA=</values>
@@ -606,17 +790,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>5</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:40:00</sys_created_on>
         <sys_id>12091b2e83aeee10d33033d6feaad300</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>51471e72-a342-454a-af07-4075da06bf14</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnWaBebuxb0CJAgLYBmiCXNhBWfNhEKVIlKTuu4X/vUg/HaBy0KHLsTTtL7s4sZ7WPTOfbzrt7c+WcXOlo+fUxjqQOGH7vIw0Nj5YRNZpJL42ueiCONqC6kLgRF9C21my4u0CYSdcq2D2cz9K1VMzysUsLFmt5bqPl/reU37W8UlBzhUXuvJV6hdclw0gQEOmCpjTP5nlGSHZZpPU8r9OM5cAhx3PTxfcT6YuPPRK/qib0Q9xNnYxlgVZK4og/ea4Zx9YClONx1IBm4I3dHRHLgd1q9QyspfZYLgqHn5z8ibWzsgwHBUeNlA/JY1iNYxtgujaS8ts2EBwQD7Ua71CjukZ/HnSEgXMBnfLTwBHpHNbjbSAdWIyUxN3abL9MDa+l7gWOSWUoqGMEHsdQd5678DBc8QYLVQ0+JA6nCq8p+8vIpUlWCoNEKLPFpsFBCdBAPMEZQXKN+IcefgArg4pPWAYvDzRrcJJWvduwnLco4dCPpfrRBUKDwFFKNUwDDzhqZeuvsM+Gj6wP8Uurnrh0v0+LHAQpi1n6riSzol5kMxCXJYZzCgURTMAiGbwKqnIePD8cvnWE5Gx0MHtp77cq+xZ7sYBSlCkpz+9FMT+3F2c24vVlyP6wDOH5/nIXCCH/l+F0GaSrBlOP2vrm/7wLj8H4Qwc3+IZxKh0SuQ/YzfR3D4kdGkDSU2hr7Pcg4Rk7/AJFKHxaJwYAAA==</values>
@@ -633,17 +817,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>8</order>
+        <order>12</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>28fa2a7e83ee2250d33033d6feaad338</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UTW/bMAz9K4XPjuGPxklzKzYUKLCtQFv0shUGLdGJNlnyJDlpFuS/j/JHGmwJNgzDTrtZjyL5HvXoXaBb17TOPupra8VSBYuPz2EglMfoexcoqDFYBEwrLpzQquiAMFiDbH3gtrq4x8/IHHJCubCNhO3TySBbCckNDj0aMFTJoQkWux9CbttgIaFESTUenBFqSemC06mKoUquWMKyNM/SOE7nl0mZZ2WS8gwQUro3Jr4ZKV+865DwrBbfj3A7dtKGe1pJHAb44lBxor+oQFoMgxoUB6fN9oAYBH6n5CuwEspRucBffrHiG9VOp1N/sULSyLAPHo7FMLUeZistGN41nmCPOCjlkMO0bGv1odfh540VtNKN8yaktVQPG0/asxgoVQ8rvbkfG94I1QkcglIzkIcTOBpD2Tq0/mFQYk2FihqahoZTNEavRZdMXOpoKekQVVJvqKn3TwTME49oRhDdEP62g5/ACK/iPZWh5J5mCVawovMalXOGJOy7sRRfW0+oFzhIKfpp0AXLjGjcNfVZ48B6H/5s1COP7nZTTGdX89l8ks1ZObmcx/mkrBAmCNUsz7Orkmd5RNxIHcjCOnC4339q4zgjV55z998q+w/2Ijm1Fyc24vwypL9YBv98v7kLcRz/X4bjZRC26E09aOua//EuPHvj9x1s7xuOTFgi8uix2/Hf7gNbMoBgx9BGmy9ewiu2/w5dzw/FJQYAAA==</values>
@@ -660,17 +844,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>10</order>
+        <order>15</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>64fa2a7e83ee2250d33033d6feaad33a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnW9Ajlh+3oEWAAG0D1EEubSCsyJVNhCJVkrLjGv73LvVwjMZBi6LoqTdxlrs7s5zVIdCNqxtn7/W1tWKtguWXx3EglMfo+xAoqDBYBkwrLpzQKm+BcbAF2fjAbTlaoeKjAtgTwVzYWsL+4XKUbYTkBvsuNRiq5dAEy8NPIbevMZdQoKQiK2eEWlO64HQqIyjjBYtZmmRpEkXJ/CousrSIE54CQkL3hsR3A+nRhxYZv6nG9yPcDp204Z5WHI0DfHakAKl1CdLiOKhAcXDa7E+IQeB3Sr4AG6EclQv85WcrvlPtZDr1F0skjQy74OmY92PrYLbRguFd7Ql2iINC9jlMy6ZSnzodfuBYQiPdMHBCGkv1sPakPYueUrna6N3noeGNUK3APig1A3k6gaMxFI1D6x8GJVZUKK+grmk4eW30VrTJxKUK15IOYSn1jpp6B4XAPPGQZgThDeHvW/gBjPAqPlIZSu5oFmAFy1u3UTlnSMKxHUv+rfGEOoG9lLybBl2wzIjaXVOfLfasj+PXVj1z6eEwxWS2mM/mk3TOisnVPMomRYkwQShnWZYuCp5mIXEjdSBz68Dh8fi1iaKUM6CJSUkWeOXvv1b3H2xGfGkzLuzE2+uQ/GId/AP+5jZEUfR/Hc7XQdi8s3WvrW3+x9vw6K3fdbCdbzgyYYnIvcduh/+7D+zJAIKdQzttnryEF+z4A+f5gdUpBgAA</values>
@@ -687,17 +871,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>12</order>
+        <order>18</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>a8fa2a7e83ee2250d33033d6feaad33b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UwW7bMAz9lcJnx5DtJGtyKzYUKLCtQFv0shUGLVGJNlnyLDlpFuTfR9lOGnQJNgzDTruFjyL5Hv2YbWRbX7fePdgr59TCRPNPT3GkTMDo9zYyUGE0j7g1QnllTdEBcbQC3YbEjby4wy/IPQpChXK1hs3jySRfKi0aHGbU0FAnj000375K+U2NhYYSNfW4940yCypXgiLJQKYznvI8m+YZY9nlOC2neZlmIgeEjN7tC9/uKV+875D4rJYwj3C3n2QbEWilLI7w2aMRRH8uQTuMowqMAG+bzQFpEMSt0S/AUhlP7aLw+Nmp79Q7m0zCQ4mkkWOfPITFsLUe5kurON7WgWCPeCj1UMOtbivzsdcR9o0SWu33+yakddQP60A6sBgoyfulXd/tB14r0wkcktpy0IcIPK2hbD268GFQY0WNigrqmpZT1I1dqa6YuFTJQlOQSG3XNDT4JwEeiCe0I0iuCX/XwY/QqKDiA7Wh4p5mCU7xovMatfMNSdh1aym+tYFQL3CQUvTboAeON6r2VzRnhQPrXfyzUY88ut2m4xwkm4xH6ZsJG43LWTYCeTmhcMphzKSQMEuIG6kDXTgPHne7zy1jObnynLv/Vtt/cBfpqbs4cRHnjyH7xTGEz/ebt8AY+38Mx8egXNGbetDWDf/jW3gKxu8nuN43ArlyROQhYDf7//aQ2JABFD+G1rb5GiS8YLsf8wQ00CUGAAA=</values>
@@ -714,17 +898,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>9</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:46:57</sys_created_on>
         <sys_id>eb9826ba83ee2250d33033d6feaad382</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnW9DDkh+3oEWAAG0DNEEubSCsyJVNlCJVknLiGv73LvVwjNZGiyLH3sRZ7u7Mclb7QLeuaZ190NfWirUKVl+eJoFQHqPvfaCgxmAVMK24cEKrogMmwRZk6wO31RU0jdFb5IRyYRsJu8ezQbYRkhscejRgqJJDE6z2v4TcrsFCQomSatw7I9Sa0gWnUxVBFS9ZzNIkT5MoShazuMzTMk54Cggp3RsT342Urz50yOSiFt+PcDt20oZ7WnE0CfDFoeJEf1WBtDgJalAcnDa7I2IQ+J2Sr8BGKEflAn/5xYofVDvJMn+xQtLIsA8ej8UwtR5mGy0Y3jWeYI84KOWQw7Rsa/Wp1+HnjRW00o3zJqS1VA8bT9qzGChV9xv9/HlseCNUJ3AISs1AHk/gaAxl69D6h0GJNRUqanpHGk7hH1N0ycSlDteSDmEl9TM19f4JgXniIc0IwhvC33fwIxjhVXykMpTc0yzBClZ0XqNyzpCEQzeW4nvrCfUCBylFPw26YJkRjbumPlscWB8mvxv1xKP7fYbJfLmYL6bpgpXT2SLKp2WFMEWo5nmeLkue5mFvVZCFdeDwcPjaRlHKL7v7rcq+xV4sIauyOMrO78UsP7cXZzbi8jIkf1gG/3x/uQtRFP1fhtNlELboTT1o65r/8y48eeP3HWzvG45MWCLy4LHb8d/uAzsygGCn0LM237yEV+zwE1+0kBklBgAA</values>
@@ -741,17 +925,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>14</order>
+        <order>21</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:57:07</sys_created_on>
         <sys_id>ecfa2a7e83ee2250d33033d6feaad33c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:54</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:03</sys_updated_on>
         <ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UTW/bMAz9K4HPjiHbcdbkVmwoUGBbgbXoZSsMWh+JUFnyJDlpFuS/j/JHGrQpNgzDTruFjyL5Hv2YfWRa37Te3ZlL5+RKR8uvD3EkdcDw9z7SUPNoGVGjmfTS6LID4mgDqg2JazFxXLNJBfQRYSZdo2B3fz5L11Ixy4cpDVjs5bmNlvsXKb9reKmg4gqb3Hor9QrLJcNIEBDpgqY0z+Z5Rkh2MUureV6lGcuBQ4bvxsL3I+nJxw6J31QT5iHuxknGskArJXHEnzwq4DhagHI8jmrQDLyxuyNiObAbrZ6BtdQe20Xh8ZOTP7B3VhThoeCokfI+eQzLYW09TNdGUn7TBII94qFSQw01qq31515HWDgX0Co/LhyR1mE/3gTSgcVASdyuzfbLOPBK6k7gkFSGgjpG4HENVeu5Cx+GK15jo7KGpsHllI01G9kVI5c6WSkMEqHMFocGByVAA/EEdwTJFeIfOvgerAwqPmEbLO5pVuAkLTu3YTtvUcKhW0v5vQ2EeoGDlLLfBj5w1MrGX+KcDR9YH+LXVj1x6X6fznIQpJhN03cFmc6qRTYFcVFgOKcwI4IJWCTIDdWBKp0Hzw+Hby0hOaOAG1MKLfDK33+t7z+4jPTcZZy5ibfPIfvFOYQP+JvXQAj5fw6n5yBd2dt60NYN/+NreAjW7ye43jeMU+mQyF3Arsf/95DYoQEkPYW2xj4GCc/Y4SfzdxwSKQYAAA==</values>
@@ -844,7 +1028,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>claim_management_main_flow</internal_name>
-        <label_cache>[{"name":"{{static.82605f6e836eee10d33033d6feaad31f}}","label":"Finance","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["approval_conditions"],"5e279878-38cb-4806-bfea-eaf76639bd36":["approval_conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Claim Details Record","reference":"x_1216348_claim_0_claim_details","reference_display":"Claim Details","type":"reference","base_type":"reference","usedInstances":{"0c83e131-fcf8-4e15-a15e-03d66cd1ca75":["record"],"143af054-1750-4b92-af85-176ca40fdfa9":["record"],"330814b3-17b0-45f1-b788-b083423acf6a":["record"],"5c6c118c-8937-4cc2-9fd3-a22e8c13f812":["record"],"67965b91-8656-4f7d-b19a-ec43bb625c1e":["record"],"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["record"],"0f388921-7b5b-4588-a43e-047723bb3b67":["record"],"e87aa180-b4d8-4ad3-9ad5-a23ceb99764b":["record"],"68be76bd-2e5e-451b-95ec-3fa2e147d6cb":["record"],"6140fd1b-5cc4-4dfb-b964-3659780fd9a4":["record"],"3cbeff52-46f2-4f0d-bdd0-061421637f58":["record"],"9fad3e40-c230-46a5-968a-64a6982a1090":["record"],"67e9ac43-ecee-43d5-ab48-14d095d83cf1":["record"],"5579f24a-8560-4110-b908-427875737a18":["record"],"5e279878-38cb-4806-bfea-eaf76639bd36":["record"]},"attributes":{}},{"name":"{{static.40205b2283aeee10d33033d6feaad3c7}}","label":"HR ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"143af054-1750-4b92-af85-176ca40fdfa9":["approval_conditions"]}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Claim Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1216348_claim_0_claim_details","column_name":"status","choices":[{"image":"","label":"In Draft","used":false,"reference":false,"rawLabel":"In Draft","selected":false,"missing":false,"value":"in_draft","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Send Back","used":false,"reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"send_back","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Lead approval","used":false,"reference":false,"rawLabel":"Pending Lead approval","selected":false,"missing":false,"value":"pending_lead_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Account approval","used":false,"reference":false,"rawLabel":"Pending Account approval","selected":false,"missing":false,"value":"pending_account_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"completed","used":false,"reference":false,"rawLabel":"completed","selected":false,"missing":false,"value":"completed","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Re submitted","used":false,"reference":false,"rawLabel":"Re submitted","selected":false,"missing":false,"value":"re_submitted","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}}],"usedInstances":{}},{"name":"143af054-1750-4b92-af85-176ca40fdfa9.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"51471e72-a342-454a-af07-4075da06bf14":["condition"],"1d9a775b-444f-405e-9932-2e747ba9a6d9":["condition"],"8a178f1f-487e-4618-8445-47b4cc3480c8":["condition"],"3a8e20a8-de97-4aeb-aa51-c7e29a1cdcf6":["condition"],"772b40cb-3adc-4408-9840-8438e4cc71cb":["condition"],"34a2e0e1-411c-4c56-bfb9-e23446bbb182":["condition"],"f36f9fad-ba28-43de-a2e2-f8a58044f12f":["condition"],"f346602a-7a9f-4210-8d25-99e13fa075ff":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5e279878-38cb-4806-bfea-eaf76639bd36.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"bd151787-0ed5-41d5-a4f7-674777b5f099":["condition"],"b3d76958-970c-46ee-a82b-e17bb1eed650":["condition"],"3a7cbbe3-0aaa-494a-aaa5-68e0411f763c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5e279878-38cb-4806-bfea-eaf76639bd36.approval_state","label":"8 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"bd151787-0ed5-41d5-a4f7-674777b5f099":["condition"],"b3d76958-970c-46ee-a82b-e17bb1eed650":["condition"],"3a7cbbe3-0aaa-494a-aaa5-68e0411f763c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"143af054-1750-4b92-af85-176ca40fdfa9.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"51471e72-a342-454a-af07-4075da06bf14":["condition"],"1d9a775b-444f-405e-9932-2e747ba9a6d9":["condition"],"8a178f1f-487e-4618-8445-47b4cc3480c8":["condition"],"3a8e20a8-de97-4aeb-aa51-c7e29a1cdcf6":["condition"],"772b40cb-3adc-4408-9840-8438e4cc71cb":["condition"],"34a2e0e1-411c-4c56-bfb9-e23446bbb182":["condition"],"f36f9fad-ba28-43de-a2e2-f8a58044f12f":["condition"],"f346602a-7a9f-4210-8d25-99e13fa075ff":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Claim Details Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1216348_claim_0_claim_details","column_name":"status","choices":[{"image":"","label":"In Draft","used":false,"reference":false,"rawLabel":"In Draft","selected":false,"missing":false,"value":"in_draft","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Send Back","used":false,"reference":false,"rawLabel":"Send Back","selected":false,"missing":false,"value":"send_back","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Lead approval","used":false,"reference":false,"rawLabel":"Pending Lead approval","selected":false,"missing":false,"value":"pending_lead_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Pending Account approval","used":false,"reference":false,"rawLabel":"Pending Account approval","selected":false,"missing":false,"value":"pending_account_approval","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"completed","used":false,"reference":false,"rawLabel":"completed","selected":false,"missing":false,"value":"completed","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"Re submitted","used":false,"reference":false,"rawLabel":"Re submitted","selected":false,"missing":false,"value":"re_submitted","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}},{"image":"","label":"cancelled","used":false,"reference":false,"rawLabel":"cancelled","selected":false,"missing":false,"value":"cancelled","parameters":{"name":"x_1216348_claim_0_claim_details","dependent_values":[""]}}],"usedInstances":{}},{"name":"{{static.40205b2283aeee10d33033d6feaad3c7}}","label":"HR ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"143af054-1750-4b92-af85-176ca40fdfa9":["approval_conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Claim Details Record","reference":"x_1216348_claim_0_claim_details","reference_display":"Claim Details","type":"reference","base_type":"reference","usedInstances":{"0c83e131-fcf8-4e15-a15e-03d66cd1ca75":["record"],"143af054-1750-4b92-af85-176ca40fdfa9":["record"],"330814b3-17b0-45f1-b788-b083423acf6a":["record"],"5c6c118c-8937-4cc2-9fd3-a22e8c13f812":["record"],"67965b91-8656-4f7d-b19a-ec43bb625c1e":["record"],"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["record"],"0f388921-7b5b-4588-a43e-047723bb3b67":["record"],"e87aa180-b4d8-4ad3-9ad5-a23ceb99764b":["record"],"68be76bd-2e5e-451b-95ec-3fa2e147d6cb":["record"],"6140fd1b-5cc4-4dfb-b964-3659780fd9a4":["record"],"3cbeff52-46f2-4f0d-bdd0-061421637f58":["record"],"9fad3e40-c230-46a5-968a-64a6982a1090":["record"],"67e9ac43-ecee-43d5-ab48-14d095d83cf1":["record"],"5579f24a-8560-4110-b908-427875737a18":["record"],"5e279878-38cb-4806-bfea-eaf76639bd36":["record"],"ed7fe190-638e-463e-a07d-e0f228d0076f":["record"],"d48a8adf-0a78-4381-a967-4e6d4fefbd74":["record"],"6a45fb58-ad53-4144-85f9-f904326feafe":["record"],"05af11de-3dd0-4018-a0d2-2e6261637fbd":["record"],"9c68b45f-17f0-4862-87e1-13f405c742d9":["record"],"73f5a66c-3309-4e3c-a024-e2c7ebb67a8b":["record"],"fe11add2-894e-4867-86d1-eb9f8d6d5c65":["record"],"840a682a-1202-40d0-95de-78ff0f7679eb":["record"],"99a412b3-fd68-4c84-bb9b-a6e4f455159c":["record"]},"attributes":{}},{"name":"{{static.82605f6e836eee10d33033d6feaad31f}}","label":"Finance","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"a8ce2dc6-2834-4a90-94fb-d5aab98abb14":["approval_conditions"],"5e279878-38cb-4806-bfea-eaf76639bd36":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Claim management Main FLow </name>
         <natlang/>
@@ -861,7 +1045,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef3b1bee83aeee10d33033d6feaad3b6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -869,7 +1053,7 @@
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -953,14 +1137,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>233b1bee83aeee10d33033d6feaad3cd</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:56</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1037,14 +1221,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:39</sys_created_on>
         <sys_id>673b1bee83aeee10d33033d6feaad3b9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:56</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1156,17 +1340,155 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>ff3b1bee83aeee10d33033d6feaad3e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 13:49:40</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:04</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VZ23LbNhD9FQ6f2hm1w4sulvvkynbjGSeekZX0IXU5IABKmFKgQoC01Uz+vQveRPEi60Knih8sEQCxZxdnzwLC56+6j1zq65f6DLk+1Xs645KGHPmz9YpCs1TNDkdL1bdEnCAZhGv9UoYR7eleGCxndLnykYTBHvIFNAYhoaF+afb0GPkRfVyLOwIzwfvJNNmcetYNzy+OaZlDu3/hYB+xpWNkn4RKxHwBIwkTYGP9KXthorq166IbL5hPQsr1y89PPX2FQrAjFYavlS6mgGDPpOb4wsC2BX+GYV30TXdou6ZFbESRARNWg1IBLhtis/GavkjKCSVFQGphCykiD9xfl0a8CPYvzHlhqF6PAmJM06AVj04WhbQZLwKG6cNKsoCnLSm6tDPwoyX/kKJW8aMeinyZxw9aIgHz0ZUCymWBw3tcBM/T3OAt44lPWacfYOQXT0jKkLmRpEKF2WM+BNxJIyKCKEzQT28mD9Nr58+r2eTdzdSZ3jzOpneT2c21/i3xy/kSqRlThBkWJ3XnW7Hot4z6atl4tHQBTU8XOGQreYUli3PSfettiDwJOGFJVGpkxnmX2CZz7v0uNhtGK59xyWLOaSGRjMRfkWHYQD9HRO6SSUnJ3w/TchfjDgmRJw8m8cgYEWK2kRi7JRKXA9KAWDbEpuz0LjpnLe187hvG/8ToTKCOJfQyINS/3kynQ+d8DhRnfBVJFaM8Lk6woqGKB7ynf7q6n7y7+vDHzeNv2eft9OF9/n32AO89Iy6FIwMHEeKUoq5MgC+vZUYak3p6vJ4YYcRhCqdYz3p6JAtQrMQ9E+D4Z0juPMrJlNDv3WdTTiOuBbDw8E/DUQhBlloukt7dEs2ztfEeqU+xLJHI+yjKT++ZEIzPS6gLo0lUajYLc0BGLXcptS1ONP7UpTbUgx5XglmpbQcrgYn7lmG7Q2OkdMCEr55pjIwB8ohtGO5FSQnqYFpRygolOlSEw/RAJBT09yBcNbAZZKOcA3uRJ95mXu66IkYmO5NuoJkdQbMUtIp82gfpZ0HGtPl6m5O7XOt4I4FIjOANsq8cqgF76J7nB88g3UdonovwP/MwiDipipCaU2Nc24zQfsri93OH+ucFId0NYHvEOSnfJuw5cRFfd6B5lm3S0bA/NEDqbKVyg/HYxcjyvNFwRE2zonkbGI3YzljrXuFY3ETSNt1rpEvcxLIDFO8EgDX1Oxjg6bqX0bFR9dK+H0PfnheUOwA1dHylYDWZm/uM0Lyv2xyvmY43WX1qnmN3TAaD0QiP4IQDee71qYvMvjVA49HQpl4lz2tQdsGUDZF5w3OPWIvEfIsGfEy7zutU/5ZkFVRKVXoOr8gcdqrJOyg1UqqKajG0REqCUPsQ8F/uNuO0RwrFLjnydlWa90GhFlZ7WxhuIBe1vQGY/h3at0yrPWVLVM7u0FQhSbzt66nCgiwLjU27RVhGwyZh2YBph3mmW4k98yJuzbCmPcW+NI8bs6V1E3AEcSvkKO8OdmxfugqK2XlQrLcLin3ylinPwNaT4jFgf6DClewhTqleyiZ1Aq8s2deBBh0aGNGYp2W/NcLB311rckEhpD7sjcGgpqyfqtXl2lGHUjD4+wJJd9u1GgbNWrZtOr/yVKFCt2dcSmw8Jm0lqj9q3fu216lK95kWq4NzIW5KrZ0V67B5q3M21qwSUbd5sGc16tTr5pJ0mteNRek1r08vN7tO6A0ozr+QKNCzdBmOKB8Bx5WzBu7ysiXi7EtEHbxAfJ5epOSGbiHOFOGFlg7R0iFdFgD/Ga2FXq1EQFqVF9nPztAAGcJT/erKMo1puK75qhq1aEVUcfjOxcfaUXzye0ghQ3hzvt7KWNzFhZLljiHdBga2TdOuXS0PylfL21xuR9hSaaxjK82CJXeyJfPZekm2pImuFRer2hJJvKCip8GiJpcYieyxUMhk9K96h6csTOvL0VSIWpMpbsvDVmHfkR9xNbOalLyB63ElL8pavvM8tcN9sxP3rS7ct49zv39yKcvzs7GWZdHrtn4dW66e/gO4JWt5GSYAAA==</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9Va23LbNhD9FQ6f2hm1w4sulvvkynbjGSeekZX0IXU5IABKmFKgQoC01Uz+vQveRPEi60Knih9sEQCxZxdnzwKCP3/VfeRSX7/UZ8j1qd7TGZc05MifrVcUmqVqdjhaqr4l4gTJIFzrlzKMaE/3wmA5o8uVjyQM9pAvoDEICQ31S7Onx8iP6ONa3BGYCd5Ppsnm1LNueH5xTMsc2v0LB/uILR0j+0uoRMwXMJIwATbWn7IXJqpbuy668YL5JKRcv/z81NNXKAQ7UmH4WuliCgj2TGqOLwxsW/BjGNZF33SHtmtaxEYUGTBhNSgV4LIhNhuv6YuknFBSBKQWtpAi8sD9dWnEi2D/wpwXhur1KCDGNA1a8ehkUUib8SJgmD6sJAt42pKiSzsDP1ryDylqFT/qociXefygJRIwH10poFwWOLzHRfA8zQ3eMp74lHX6AUZ+8YSkDJkbSSpUmD3mQ8CdNCIiiMIE/fRm8jC9dv68mk3e3Uyd6c3jbHo3md1c698Sv5wvkZoxRZhhcVJ3vhWLfsuor5aNR0sX0PR0gUO2kldYsjgn3bfehsiTgBOWRKVGZpx3iW0y597vYrNhtPIZlyzmnBYSyUj8FRmGDfRzROQumZSU/P0wLXcx7pAQefJgEo+MESFmG4mxWyJxOSANiGVDbMpO76Jz1tLO575h/E+MzgTqWEIvA0L96810OnTO50BxxleRVDHK4+IEKxqqeMB7+qer+8m7qw9/3Dz+lv29nT68zz/PHuC9Z8SlcGTgIEKcUtSVCfDltcxIY1JPj9cTI4w4TOEU61lPj2QBipW4ZwIc/wzJnUc5mRL6vftsymnEtQAWHn5pOAohyFLLRdK7W6J5tjbeI/UpliUSeR9F+ek9E4LxeQl1YTSJSs1mYQ7IqOUupbbFicafutSGetDjSjArte1gJTBx3zJsd2iMlA6Y8NEzjZExQB6xDcO9KClBHUwrSlmhRIeKcJgeiISC/h6EqwY2g2yUc2Av8sTbzMtdV8TIZGfSDTSzI2iWglaRT/sg/SzImDZfb3Nyl2sdbyQQiRG8QfaVQzVgD93z/OAZpPsIzXMR/mceBhEnVRFSc2qMa5sR2k9Z/H7uUP+8IKS7AWyPOCfl24Q9Jy7i6w40z7JNOhr2hwZIna1UbjAeuxhZnjcajqhpVjRvA6MR2xlr3Ssci5tI2qZ7jXSJm1h2gOKdALCmfgcDPF33Mjo2ql7a92Po2/OCcgegho6vFKwmc3OfEZr3dZvjNdPxJqtPzXPsjslgMBrhEZxwIM+9PnWR2bcGaDwa2tSr5HkNyi6YsiEyb3juEWuRmG/RgI9p13md6t+SrIJKqUrP4RWZw041eQelRkpVUS2GlkhJEGofAv7L3Wac9kih2CVH3q5K8z4o1MJqbwvDDeSitjcA079D+5ZptadsicrZHZoqJIm3fT1VWJBlobFptwjLaNgkLBsw7TDPdCuxZ17ErRnWtKfYl+ZxY7a0bgKOIG6FHOXdwY7tS1dBMTsPivV2QbFP3jLlGdh6UjwG7A9UuJI9xCnVS9mkTuCVJfs60KBDAyMa87Tsu0Y4+LtrTS4ohNSHvTEY1JT1U7W6XDvqUAoGf18g6W67VsOgWcu2TedXnipU6PaMS4mNx6StRPVHrXvf9jpV6T7TYnVwLsRNqbWzYh02b3XOxppVIuo2D/asRp163VySTvO6sSi95vXp5WbXCb0BxfkXEgV6li7DEeUj4Lhy1sBdXrZEnH2JqIMXiM/Ti5Tc0C3EmSK80NIhWjqkywLgP6O10KuVCEir8iL72hkaIEN4ql9dWaYxDdc1X1WjFq2IKg7fufhYO4pPfg8pZAhvztelzMv9OPC7VHcM2TUwsG2adu0meVC+Sd6mbjuglsJiHVtYFiy5gi2Zz5ZHsiVNZKy4R9WWSOIFFT0N1jC5s0hUjoVCJqN/1Ts8VOHy3U6WmU11pzV34ra0a9XxHekQVxOpSbgbqF2lT1m6dx6fdrhvduK+1YX79nHu90+uXFlEmktXFr1uy9UR/1WjN9erp/8AXOcLuxomAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ef3b1bee83aeee10d33033d6feaad3b6^sys_idNOT IN733b1bee83aeee10d33033d6feaad3e0,7b3b1bee83aeee10d33033d6feaad3e0,bf3b1bee83aeee10d33033d6feaad3de,e6d172f683226250d33033d6feaad365,f73bae7e83ee2250d33033d6feaad3dc,f73bae7e83ee2250d33033d6feaad3dd,ff3bae7e83ee2250d33033d6feaad3db,ff3bae7e83ee2250d33033d6feaad3dc,ff3bae7e83ee2250d33033d6feaad3dd"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ef3b1bee83aeee10d33033d6feaad3b6^sys_idNOT IN276eff4f83eaa250d33033d6feaad3c4,276eff4f83eaa250d33033d6feaad3c6,2f6eff4f83eaa250d33033d6feaad3c7,636eff4f83eaa250d33033d6feaad3c7,6f6eff4f83eaa250d33033d6feaad3c4,6f6eff4f83eaa250d33033d6feaad3c9,733b1bee83aeee10d33033d6feaad3e0,7b3b1bee83aeee10d33033d6feaad3e0,a36eff4f83eaa250d33033d6feaad3c9,bf3b1bee83aeee10d33033d6feaad3de,e6d172f683226250d33033d6feaad365,e76eff4f83eaa250d33033d6feaad3c8,f73bae7e83ee2250d33033d6feaad3dc,f73bae7e83ee2250d33033d6feaad3dd,ff3bae7e83ee2250d33033d6feaad3db,ff3bae7e83ee2250d33033d6feaad3dc,ff3bae7e83ee2250d33033d6feaad3dd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>276eff4f83eaa250d33033d6feaad3c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>ed7fe190-638e-463e-a07d-e0f228d0076f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207bQBCGXyXydRx57SR2uKtIkSrRVgLaG4Ss8e4srLQ+sF5T0oh376ztnAMtbanUK9jZ0z//zOfN9dJTwjvxxiIRYiZZIBljAQsmLGQJJpjxeBpjmHhDr4AcaaVBXhpB4wfQjQssl6cGwaIYlGbwpRLu35SNeGMMFvbpiZYKVVcaFl/7HRThd0oLmvdOrm+GXgWGDrdovJPl3tSvqtOQoaalFyt5+3LtonJjUfImJ12pWgXP+53zfmbwYU4ztMnJYUMPHy0WAkmHBF3j0MuhoCRLs1hHKH/xudCbwJ0qbJdoDo+1+k43R6FbJ5Ey470J62HaG9SF5RwsXFrTcNuYtV+l4lh3ngiU0Gh7uh3rFnyurCqLbouFTK92l7rJi0+dI976gK16NDWJwMol6pTT5ZSFvLwrv12sRJ6porWkT1GXHPR6BNYalTXWyVl6jbo65nYXPu43amwX5lBVqrhNK1M+qPY+Up+PbjUNRlKX30hmrW6LEXCX6ogqAaMzis/b8FcwyuX9kY6hze7OL4W6b/CD6yPBgjiaBdyPw0nkjwMOfpaIzIcslJPxeJpMM+Y9Db16UZ9qqOuNY1Sq9L5xCXf+9U6lrdmt02nbcG4zN6qy70jeA/b+PA17zBL2UiNH4aZvt87coPaY0vppNE5SrkHladD/FWhB6fqQtFM3PZivp1+H3S+oXWF31TbbcfU9eQex8+29g0/dRM9d+EruuoY9gl0S/EfY9Wn9OXc7Xu9it+P2P6GOZ1kmM5z5LOPcH8eY+EkIsY+TgEcyjIIglr9B3c9YG7/cvVtPWlFaJRWHtogb2mLGEh7LMIkgnIaTQERREEViKhFARBN5iNv7vNLlAsne3RNf+dr9XPgKu717jufT87ehYBe/i614T1/0Mn0dbL/z6FGJ8cFVEHP6IqVdNz2D5F5ufxnP55TsMAtSInc/Z6RCLajt0nbPm7yg8hLB8Lszd5OrYQfoLt87hSXK6Y4DvrfL+XZ4Xx32VI027W1J3QGpLE0OriPaDPe/CuMZwzgKE382DemrgNHEz4gwn9FXAhFQhuJt3uKbHzBVtZT0CgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>276eff4f83eaa250d33033d6feaad3c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>6a45fb58-ad53-4144-85f9-f904326feafe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoizLuStiBFugmwJJ2pu2EEbkMCFAHUpRbrJG3n2HknyK3bTpbgr0KuHw9M8/84n+tPaV8M/8RGRCLGQUyiiKwiicRXGUYYYFn6dzjDN/4ldQIq00yGsjaLwC3bnAen1uECwKrzbeh0a4f/NoyjtjsLKPj7RUqLbR8PBx3EERfqe0oHn/7NOXid+AocMtGv9s/WTqZ9VpKFDT0quNvKdy7UPjxqLmXUm6crUJvht3LscZ7+2SZmiTkxNNfLy3WAkkHRJ0ixO/hIqSrM3DNkL5i/eV3gXuVGWHREu4b9U/dDOL3TqJlBkfTdgO89GgISyXYOHamo7bzmz9qhXHdvBEoIRO2/P92LDgfWNVXQ1bLBR6s7vWXVldDo742wP26tG1JAIbl6hTTpdTFvL6rv52tRF5oarekjFFXXPQ2xFYa1TRWSdn7Xfq5pTbQ/i036ixX1hC06jqNm9MvVL9faS+nN5qGkylrr+RzFbdVlPgLtUpVQKmFxRf9uGPYJTL+286hja7Oz9U6muHb10fiSics0XIg3k8Y0EScgiKTBQBFLGcJUmapUXkP0789qE919C2O8eoVPnXziU8+Dc6lfdm907nfcO5zdyoxr4heSsc/XmcjJhl0XONzOJd3+6duUPtPqf1KUuynGtQZR6OfwVaULo9Ju3cTXvL7fTLsPsJtRvsbvpmO61+JO8o9m5/r3c5TIzcxS/kbmjYE9hl4R+E3ZjWf+fuwOtD7A7c/i3U8aIoZIGLICo4D5I5ZkEWwzzAWciZjFkYzuUvUPcj1pLnu3fvSatqq6Ti0BdxR1sS8zQuSC6L0zSehYKxkDGRSgQQLGLHuCnp/WU8MqFeYesFwecuDBl6UlXguu/Fz96PM9jwd3mYwunERhB3OBxyeLUXHzFkz2M4UPcrrx/VGleulFjSpykf2uo7bD7J7X/m9HtKDuAFKZG73zVSoRbUf3m/51WeUnmNYPjdhbvJ1XAg9RD0g8IS7nTHEej75Xw9zm+Oe6pFm4+25O6AXNamBNcRfYZPPw/JIsI5i7Ngkcb0eUA2CwpCLYjoc4EIKGPxOo/yl38Bp9XTxP0KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>2f6eff4f83eaa250d33033d6feaad3c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>73f5a66c-3309-4e3c-a024-e2c7ebb67a8b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVbW/TMBDHv0qU102VxG2a7h1aNYEEQ9oGbwBFF/u8GTkPOM5YqfbdOSfp01oGA4bEq9Z3Pvvuf/eLP6x8JfwTfyJSIeYyCmUURWEUTqM4SjHFnM+SGcapP/JLKJB2GuSVEbS+Bd06w2p1ahAsCq8y3rtauL9ZNOatMVja+3vaKlRTa1i+HyLIwm+UFuT3Tz58Gvk1GDrcovFPVg9cv5qdhhw1bb1Yp/cwXbus3VpUvC0or0ytja+HyMXg8V4tyENBLp1o5OOdxVIg5SFBNzjyCyipyMosNxaqX7wt9dZwo0rbF1rAXaO+0c0sdvskUmV8EGGzzAaBerNcgIVLa1puW7PRq1Icm14TgRJabU93bf2Gt7VVVdmHWMj1OrrSbVGe94r4mwN2+tE2lATWrlCXOV1OVcjLm+rrxTrJM1V2kgwl6oqD3qzAWqPy1rp0Vn6rro6p3ZuP640au40F1LUqr7PaVLequ4+yL8bXmhZjqauvlGajrssxcFfqmDoB4zOyLzrzezDK1f2GjqFgd+e7Un1p8ZWbIxGFMzYPeTCLpyyYhByCPBV5AHksp5NJkiZ55N+P/GbZnGpomq1i1KrsS+sK7vUblMo6sTuls27gXDA3qrYvKL1bHPS5Hw2YpdFjg8zi7dzunLlF7S6j/QmbpBnXoIosHH4FWlC6OSTt1Lm9xcb9NOx+Ids1dlfdsB3PfiDvwPZ6N9Y77x0Dd/ETuesH9gh2afgfYTeU9efc7Wm9j92e2v+EOp7nucxxHkQ558FkhmmQxjALcBpyJmMWhjP5G9T9jLXJ49O786SVlVVSceiauKWN81zEkiUpS5IknoaCsZAxkUgEECyEQ9yU9KQqgZrmjTyDn5HTWxgEH9swZOi9vBh5WNS6WiI+/Qn8eTVrFs/3yzle5ADlFo19Ji927AOS7HEkewJ/5yWkvuOtaysW9JnK+hH7AacPavvLzP4okz2QQcqur5lUqAXNYtbFPMuzKi8RDL85cze5HvbU7kO/11hCn+44gH63nc/H/NXhTDVos0GWzB2QycoU4Caiq/Dhp2Iyj3DG4jSYJzF9KpBNg5ywCyL6dCACylg8zwP96TsMXoW+CQsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>636eff4f83eaa250d33033d6feaad3c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>9c68b45f-17f0-4862-87e1-13f405c742d9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoi3JuVvECLZANwWStDfdQhiRw5gAdShFpfEaefcdSvIpdtOmu1lgr2wOOeTMP/OR+rzxlfAv/JnIhFjIKJRRFIVROI/iKMMMC54mKcaZP/ErKJFWGuS1ETR+AN05w2ZzaRAsCq823sdGuL95NOWdMVjZpydaKlTbaFh/Gj3IwldKC5r3Lz5/mfgNGNrcovEvNs+mfjY6DQVqWnqzDe95uHbduLGoeVdSXLnaGt+Pnstxxnu3pBlycuFEEx8fLVYCKQ4JusWJX0JFSdZmvbNQ/uJDpfeGlarskGgJj636i05msVsnkTLjowi7YT4KNJjlEizcWtNx25mdXrXi2A6aCJTQaXt5aBsWfGisqqvBxUKht9617srqelDE321wUI+upSCwcYm6yOlwykLerupvN9sgr1TVSzKmqGsOejcCa40qOuvC2fidujun9mA+rzdq7BeW0DSqus8bUz+o/jyKvpzeaxpMpa6/UZituq+mwF2qU6oETK/IvuzNn8Aol/cftA05uzM/Vuprh+9cH4koTNki5EEaz1kwCzkERSaKAIpYzmezJEuKyH+a+O26vdTQtnvFqFT5184lPOg3KpX3YvdK533DOWduVGN/o/AecNTnaTJilkUvNTKL9317sOcetcec1idsluVcgyrzcPwVaEHp9pS0SzftLXfTr8PuJ6LdYnfXN9v56EfyTmzvD32962Fi5C5+JXdDw57BLgv/R9iNaf1z7o60PsbuSO3/hDpeFIUscBFEBefBLMUsyGJIA5yHnMmYhWEqf4G6H7E2e7l7D560qrZKKg59Efe0pRAWKGWcsSRJ4nkoGAsZE4lEAMEknuKmpEfVAiqaR0qQlvQoBsGfXRgy9OwKKw/LRtdrxMnv5vWv4I8T2uJ4fZzR+TxHLvd0HGN5c2AfqWQvUzlA+CuPIZUeH1xlsaSbKh+67DuoPsvtX8b2e5EcsQxSInefOVKhFtSOee/zJi+rvEUwfHXlTnI1HMA95v6osEQ/nXHC/WE53w77u9OeatHmoyy52yCXtSnBdUSf4fPbYraIMGVxFiySmG4LZPOgIPKCiG4PREAZi7d5o7/8DWW+zBcMCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>6f6eff4f83eaa250d33033d6feaad3c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>d48a8adf-0a78-4381-a967-4e6d4fefbd74</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WWyW7bMBCGX8XQ2TIk0YucWxEjaIA2BZy0l6AQRuQwJkAtpSgnqZF371CSt9jN1qZATwmH2z//zCf6euUp4Z14QxELMZVhIMMwDMJgFEZhjDGmfDKeYBR7fS+HDGmlQV4YQeMl6NoFVqtTg2BR9ArT+1oK928SDnhtDOb24YGWClWVGu6/dTsowhdKC5r3Tq6/970SDB1u0Xgnq0dTL1WnIUVNS+dreY/l2vvSjUXB64x0JWod/NTtnHUzvfMZzdAmJyfse3hnMRdIOiToCvteBjklWZj7TYTyF19yvQ0sVG7bRDO4q9RPuplFbp1Eyox3JmyGSWdQG5YzsHBpTc1tbTZ+FYpj1XoiUEKt7elurF3wpbSqyNstFlK93l3oOssvWke8zQE79agrEoGlS9Qpp8spC3m5KG7na5FnKm8s6VLUBQe9GYG1RqW1dXJWXq2ujrndho/7jRqbhRmUpcpvktIUS9XcR+qzwY2mwUDq4pZkVuomHwB3qQ6oEjA4o/isCX8Do1zen+kY2uzu/JqrHzWeuz4SYTBh04D7k2jE/GHAwU9jkfqQRnI0HI7jcRp6D32vuq9ONVTV1jEqVfKjdgm3/nVOJY3ZjdNJ03BuMzeqtB9I3hI7fx76HWZx+FQjs2jbtztnblG7S2j9mA3jhGtQWRJ0fwVaULo6JO3UTfdmm+nXYfcCtWvsrppmO66+I+8g9ml3b++inei4i17JXduwR7CLg/8Iuy6tP+duz+t97Pbc/ifU8TRNZYpTP0w594cTjP04gomPo4AzGbEgmMg3UPcca8Onu3fnScsLq6Ti0BRxSxsfj8SUSYwZRONoFAjGAsbEWCKAYAIPcTujF/DjvNczuFR42zjxyofuec1r4i72RR9PpUNvC8A+efOdeAceexq8lrO3vHdUXVy64mFGH6OkbaTf0Pgot79M5u+U7OEKUiJ3v2SkQi2o45Jmz7s8nvISwfDFmbvJ1bBlcx/tvcIS4HTHAdq75Xw/sq8Oe6pCm3S2JO6ARBYmA9cRTYaPPwjDaYgTFsX+dBzRBwHZyE8JLj+kDwQioIzE+zzD338BdNgrIu8KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>23</order>
+        <parent_ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>6f6eff4f83eaa250d33033d6feaad3c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>99a412b3-fd68-4c84-bb9b-a6e4f455159c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX0XQtWVIoi3JuVvECFCgmwJJ2ptuIYzIYUwsdShFpfEaefcdSvIpdtOmu1lgrxIOT//8M5/ozxtfCf/Cn4lMiIWMQhlFURiF8yiOMsyw4GmSYpz5E7+CEmmlQV4bQeMH0J0LbDaXBsGi8GrjfWyE+zePprwzBiv79ERLhWobDetP4w6K8JXSgub9i89fJn4Dhg63aPyLzbOpn1WnoUBNS2+28p7LtevGjUXNu5J05WobfD/uXI4z3rslzdAmJyea+PhosRJIOiToFid+CRUlWZv1LkL5iw+V3gdWqrJDoiU8tuovupnFbp1EyoyPJuyG+WjQEJZLsHBrTcdtZ3Z+1YpjO3giUEKn7eVhbFjwobGqroYtFgq93V3rrqyuB0f83QEH9ehaEoGNS9Qpp8spC3m7qr/dbEVeqaq3ZExR1xz0bgTWGlV01snZ+J26O+f2ED7vN2rsF5bQNKq6zxtTP6j+PlJfTu81DaZS199IZqvuqylwl+qUKgHTK4ov+/AnMMrl/TsdQ5vdnR8r9bXDd66PRBSmbBHyII3nLJiFHIIiE0UARSzns1mSJUXkP038dt1eamjbvWNUqvxr5xIe/Budynuze6fzvuHcZm5UY38jeQ84+vM0GTHLopcamcX7vj04c4/aY07rEzbLcq5BlXk4/hVoQen2lLRLN+0td9Ovw+4n1G6xu+ub7bz6kbyT2PvDvd71MDFyF7+Su6Fhz2CXhf8j7Ma0/jl3R14fY3fk9n9CHS+KQha4CKKC82CWYhZkMaQBzkPOZMzCMJW/QN2PWJu93L0HT1pVWyUVh76Ie9rEPGZSMsxYkiTxPBSMhYyJRCKAYDw9xU1Jb2W8llR6BfA/vSD4owtDhh6Wja7XiK9/+X6cxBbB6+Mszuc2srgn4hjFm4P4SCJ7mcQBvF95AKnc+OCqiSV9nfKhs76D57Pc/mVUv6fkiF+QErn7aSMVakEtmPd73uQ1lbcIhq+u3E2uhgOsx6wfFZaIpztOWD8s59uhfnfaUy3afLQldwfksjYluI7oM3z+hZgtIkxZnAWLJKYvBLJ5UBBtQURfDERAGYu3eZe//A0s+uslAAsAAA==</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -1176,16 +1498,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>2</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>733b1bee83aeee10d33033d6feaad3e0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 13:49:40</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>143af054-1750-4b92-af85-176ca40fdfa9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YXVPbOBT9Kxk/h6wcx8bJG0OGne7stjNA+0IYjyJdgzqK7VoyJevJf++VJcdpAmnYCQ8sfQF0v3zu9TmSxU3tCe5NvNM4HcJ4PCRzn5CAkDhkJA5gHpxGpwFlxOt7GV0ARpbA8pLj+oHKyhjq+rwEqoH38rL3ueDmz8QfsKosIdOrFYZyoQpJl19cBlrYvZAc/d7k5rbvFbTE4hpKb1JvuQ5FJ+kcJIZetvC24eplYdY8Z9UCcSWiNf7tMqfO0/swRQ8mGTik78GjhowD4kipVND3FjTDJvNy6U10WaEB2+efMrlcR9yLTNs+F/RRiX/xwcHQxKWAjTE3g/UycfOx5nRKNb3CykxX5XpcuWCg7Eg4pLSS+nzTZgM+FVrkmU3RdC7b7FxWi+yjHYi3LrDxOiqFIKAwfRrktq306j7/ftmCvBBZMxHXoswZlesV1boU80obOLUHEpoRL2hRiOwuKcr8QTTJCGUxuJO4GKQy/47PVOIuG1BmcA9wqnRwgfZpY/5CS2Ga+AfLYPKq76mlOpdUqa4VnGHyrTJIbGOuhaSZgh2ByWOlKPQZPuUBHOZV3zF/zvZyi3VUsuU64j8m/tCPglGcMEnFIiHuNwdNhVS7vD837t507X6ZCA4A2org2iHdAu4k0CyTxvezApq03kfrcALw9wvAWToFWOo8IYCYvCEBuLbevAJ+RX4YRUGIP07TgCCZSQxRHLMxoSyOonAUdBxCBNgDlQm+aoW1OxkcYX8/AEZL7TOHo3fZ4ngWoKO7wheT3W1R/ao1OpoPX0jz5zd6P3pPRK/E9daUrWVnzq+jCPO4z5n4VsEHw6NoOI/GJOYnPCXzk1EchCeUATmByA8h5BEL/eAVVET8fTszj58gaSpA8uOK6AAUOyK6cDCeg+ck1CyfOjGa/K0T43hSigl5S1p6T19NbC/ZYOPg+JpXZfY6jD8ARMv4vyyKbcJvg/svfA9+8/3/z/dRuJdqGx/b6z2U5RkXBrHaYL3deUFdwldgWp1lyz9v6lppqgUbjMiQhPPhMDYVwSc8CEgQ8CgFSnnATler213VHKHiy1R3wCjWl/FKgvrVaJzmuu83l7Spu+6rzzmd9kbHup6/Mem9l/sJ28u1dNxxi1c4IKo37+f1zLOwZ95k5mV5BjOvP/NMVGLI1ZgxAsGtHY2trlcra6lK6gr4G8sum9OlaiIVuweO3GysP1mSRgzOfox/hh0wk1Z/0wp6UzuU3TG116MWp52L2DnzrlxAU+mPa7F59oVHO/tGv+V3jMtQ0m6j5mDD3e+Imrz9AUCgu+UsFgAA</values>
@@ -1199,19 +1521,42 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>7b3b1bee83aeee10d33033d6feaad3e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:56</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>330814b3-17b0-45f1-b788-b083423acf6a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPEhJjpfVtUYSFbgvtbl+6JVxnbnRg8rHz0dYV//veSSZR2tJa6IusL3q/Zs453pPcb5kUbMrGKOLkIpnwNEnTURyPzsfJcpIuk5FIATFhQ1ZCgdSpkVdaUPwIyvnEdjvTCBbFoNKDX7XwP7Mk4k5rLO1uR61CmlrB5i5MUIavpRJUZ9P7hyGrQdPhFjWbbl+UjkWnYImKWm86eC/h2k3tY1FxVxCuTHbJyzA5D5XB9zlVaMjDSeIhw2eLpUACkoMyOGQFlMSy0hs2tdpRgviL61Jt+o61LG1LtIBnI//SzePY9+VIzHgQoQ+zIFCbzudg4ZZO5tbpXq9KcjStJgJzcMrODnNtw3VtZVW2IxaWqpuulCvKq1YR1h9w8H84QyCw9jw98pZWfruunm46kAtZNpIEiqrioPoIrNVy6ayHs2WosNG4gLqW5SqrdfUom2GCUkQrRUGUq+qJ7jRyVUbAPe6IVIVoQfl5k74DLT2JH3QMDe+GzGzMTIExeyqkYfbHeSQtsUAha1RoJMiaTfDDXMvafqOrHjEA3w3D/i/P3tswfrFfqIMz9x54zpJRMknH5xlXIIssDt8CLUhlXltg5suDeV/+nB+OQNv54WezBW+jD5Z4lbs8nB1ctYVgiLMvM8T5KRki0Dh5R3zkg3j07pP2YJOa1TcHHjAWrDO/XRynwt/paQLnlaO7CS4RJkyvjHDk1Of8cQSLzh8LiUqYN2h15sCC4FrMWpovDBKKg7tQ7N8aX+aSZBI3nxPyyn/z8nj4B9qM0DQ+CQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>20</order>
+        <parent_ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>a36eff4f83eaa250d33033d6feaad3c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>840a682a-1202-40d0-95de-78ff0f7679eb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV227bMAyGXyXwdRzYVhI7vRsaFBiwdUDb7WYrDFqiGg3yYbLcNQv67qNs59RkXdutA3aViBQl8ic/6/PKU8I78cYiEWImw0CGYRiEwSSMwgQTzHg8jTFKvKFXQI600yAvjaD1LejGGVarU4NgUQxKM/hYCfc3DUe8MQYLe39PW4WqKw3LT30EWfhCaUF+7+Tz9dCrwNDhFo13snrgemp2GjLUtPVind7DdO2ycmtR8ianvFK1Nr7rI+e9Z/B2Th4KcumEQw/vLBYCKQ8Jusahl0NBRZZmubFQ/eJDobeGhSpsV2gOd7X6QTezyO2TSJXxXoTNMu0F6sxyDhYurWm4bcxGr1JxrDtNBEpotD3dtXUbPlRWlUUXYiHT6+hSN3lx3inibQ7Y6UdTUxJYuUJd5nQ5VSEvF+X3i3WSZ6poJelL1CUHvVmBtUZljXXprLxGXR1TuzMf1xs1thtzqCpV3KSVKW9Vex9ln49uNC1GUpffKc1a3RQj4K7UEXUCRmdkn7fmT2CUq/s9HUPB7s6PhfrW4Fs3RyIMYjYLuB9HE+aPAw5+lojMhyySk/F4mkyz0LsfevWyPtVQ11vFqFXpt8YV3OnXK5W2YrdKp+3AuWBuVGXfUHq32OtzP+wxS8LHBplF27ndOXOL2l1K+6dsnKRcg8rToP8VaEHp+pC0U+cezDfu52H3hGzX2F21w3Y8+568A9u73djBeefouYueyV03sEewS4L/CLu+rD/nbk/rfez21P4n1PEsy2SGMz/MOPfHMSZ+EkHs4yTgTEYsCGL5Aup+x9r48endedKK0iqpOLRN3NIWZACx5HHCECCaBIKxgDExlbQUbAKHuCk5WJiBwa/IqSO+/6UJAoaYV7pcIj7/2ft9BWv+zvdLOF5YD+IWh30OL3bsPYbscQw76l7y+lGv8da1EnP6NKXdWP2CzQe1/WVOf5XJHrwgpWupSKVCLWj+0jbmVZ5SeYlg+OLM3eR62JG6D/peYwl3uuMA9N12vh7nV4czVaNNe1lSd0AqS5ODm4i2woefh/EsxJhFiT+bRvR5QDbxM0LND+lzgQgoI/E6j/L1T+N7rLX9CgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -1222,16 +1567,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>1</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>bf3b1bee83aeee10d33033d6feaad3de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:56</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>0c83e131-fcf8-4e15-a15e-03d66cd1ca75</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K5GfUZQQiihvEwhpUtdK7cZLV0WOfQOWnI/ZDoUh/vuuEydEULVU6gsaL3C/7HMO9yTPeyI4mZIR8CC8DccsCqNoGATDyShMxlESDnlEAUIyIDnNADsVsEJxjDdUVjax388UUAPcK5T3q+T2Zxz6rFIKcnM4YCsXupR0t3QTmGFrITnWyfT5ZUBKqvBwA4pM9yelS9FJmoDE1scW3ilcsyttzAtWZYgrFm3yzk3OXcX7PscKDlk4YTAgsDWQc0AgKZUaBiSjObIs1I5Mjaowgfz5Qy53Xcda5KYhmtGtFn/x5lFg+1JAZsyJ0IWxE6hJp3Nq6BOezEylOr0KwUA3mnBIaSXNrJ9rGh5KI4q8GTE0ke10Iassv28UId0Bvf+j0ggCSsvTIm9opU/r4vWxBbkQeS2JoygLRmUXUWOUSCpj4ewJSKg1zmhZinwVl6rYiHoYoWT+SmLgp7J4xTu1WOU+ZRa3j6pSf4H5eZ1eUiUsiR94DA4fBkTv9ExSrY9UUMP4T2WRNMQchbhWoZYgrjfBDjMlSvMNr9qAA34YuP1Pbt7bMHZ7XKjemUcPbONwGI6j0SRmkoosDtw3B0OF1OcWmNmyN+/Kn/PDBWhbP/yst+Bt9M4SZ7m7/qx33xScIW6+zBCTazKEo3H1jvjIB8Hw3Sdtb5Pq1dc9D2hDTaV/V0EQcXunpSlxD2LEimwR0JkLLhn5nDMuwN86YyFAcv0GodYWkCFWA3FD8MQarugtXbF7X3yZP8JxUH+uyCX/zWvj5R+d68D1OAkAAA==</values>
@@ -1245,19 +1590,42 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>5</order>
+        <order>8</order>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 05:27:17</sys_created_on>
         <sys_id>e6d172f683226250d33033d6feaad365</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:17</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>5e279878-38cb-4806-bfea-eaf76639bd36</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Y0VLbOBT9lYyfQ1aOY+PkjSHDTnd22xmgfSGMR5GuQR3Fdi2ZkvXk33tlyXGaQBp2wgNLXwDdqyufe3yOZHFTe4J7E+80TocwHg/J3CckICQOGYkDmAen0WlAGfH6XkYXgDNLYHnJcfxAZWUCdX1eAtXAe3nZ+1xw82fiD1hVlpDp1QqncqEKSZdfXAVG2L2QHPPe5Oa27xW0xMU1lN6k3kodik7SOUicetnC24arl4UZ85xVC8SViDb4t6ucukzvwxQzWGTgkL4HjxoyDogjpVJB31vQDJvMy6U30WWFAWyff8rkcj3jXmTa9rmgj0r8iw8OhmZeCtgYcxysh4njx4bTKdX0CldmuirXdOWCgbKUcEhpJfX5ZsxO+FRokWe2RNO5bKtzWS2yj5YQb73AxuuoFIKAwvRpkNu20qv7/PtlC/JCZA0jrkWZMyrXI6p1KeaVNnBqDyQ0FC9oUYjsLinK/EE0xQhlMbiTOBikMv+Oz1TiLhtQZnAPkFU6uMD4tAl/oaUwTfyDy2Dxqu+ppTqXVKmuFeQw+VYZJLYx10LSsGApMHWsFIU+w6c8gMO86jvlz9lebbFOSna5TviPiT/0o2AUJ0xSsUiI+81BUyHVru7PTbo3XadfZoIDgLYmuHZIt4A7CzTDpMn97ICmrPfRJpwB/P0GcJHOAVY6TxggJm/IAK6tN++AX4kfRlEQ4o/TNCAoZhJDFMdsTCiLoygcBZ2GEAH2QGWCr1rh2p0NjrC/HwCjlfaZw9G7bHE8C9DJXeGLye62pH7VBp3Mhy+U+fMbvR+9J6FX4nqLZRvZ4fl1HGEe9zkT3yr4YHQUDefRmMT8hKdkfjKKg/CEMiAnEPkhhDxioR+8gouIv29n5vETIk0FSH5cEx2AYsdEFw7Gc/CchZrhUydGU791YhzPSjEhb8lL7+mrie0VG2wcHF/zqsxeR/EHgGgV/5dFsS34bXD/Re/Bb73///U+CvdKbeNje72HsjzjwiBWG6q3Oy+oS/gKTKuzbPnnTV0rTbVgg3gYkTCNIA4iAPAJDwISBDxKgVIe+OlqdbvrmiOs+DLXHUDF+jJeSVC/osZ5rvt+c0Wbvuu++lzSeW90rOv5G7Pee7mfsL1aS8edtniFBFG9eT+vZ56FPfMmMy/LM5h5/ZlnZiVGXE0YZyC4daKJ1fVqZSNVSd0C/sawq+Z0qZqZit0DR2020Z8iSWMGFz/GP8MO4KT137SC3tSSsktTez1qcVpexM6Zd+UmNCv9cS02z77waGff6Lf9jnEZStpt1BxsuPsd0ZO3PwCgpwRkLBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 05:40:21</sys_created_on>
+        <sys_id>e76eff4f83eaa250d33033d6feaad3c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 05:40:21</sys_updated_on>
+        <ui_id>fe11add2-894e-4867-86d1-eb9f8d6d5c65</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227UMBCGXyXK9WblxNkk2zvUVQUSFKkt3ACKHHvcWjgHHKd0WfXdGSfZU3cpFCgSV63Hp3/+mS/eDytfCf/Ej0UmxFyGRIZhSEIyC6MwgwwKniYpRJk/8StWAq40wGsjcHzLdOcCq9WpAWZBeLXx3jXC/ZuHU94ZA5W9v8elQrWNZsv34w6M8BulBc77Jx8+TfyGGTzcgvFPVg+mflWdZgVoXHqxlvdQrl02bixq3pWoK1fr4Otx52Kc8V4tcAY3OTnhxIc7C5UA1CGZbmHil6zCJGuz3EQwf/G20tvAjarskGjJ7lr1DW+mkVsnATPjowmbYT4aNITlgll2aU3HbWc2ftWKQzt4IkCyTtvT3diw4G1jVV0NWywr9Hp3rbuyOh8c8TcH7NSja1EENC5Rpxwvxyzk5U399WIt8kxVvSVjirrmTG9GzFqjis46OSu/U1fH3B7Cx/0GDf3CkjWNqq7zxtS3qr8P1ZfTa42DqdT1V5TZqutqyrhLdYqVYNMzjC/68HtmlMv7DR6Dm92d7yr1pYNXro9ESFI6JzxIoxkNYsJZUGSiCFgRyVkcJ1lShP79xG+X7almbbt1DEuVf+lcwoN/o1N5b3bvdN43nNvMjWrsC5R3C6M/95MRsyx8rJFptO3bnTO3qN3luD6hcZZzzVSZk/GvAMuUbg9JO3XT3mIz/TTsfkHtGrurvtmOqx/JO4i93t3rnQ8TI3fRE7kbGvYIdhn5j7Ab0/pz7va83sduz+1/Qh0vikIWMA/CgvMgTiELsoilAcwIpzKihKTyN6j7GWvx492786RVtVVScdYXcUubJGFcSAkZTZIkmhFBKaFUJBIYE5Skh7gp6UlVMSya16JUr2D8sxcEHztCKHhQNrpeAky8lxdPfwJ/ns2axfP9dI4nOUK5RWOfyYud+IgkfRzJgcDfeQmx7nDrygolfqbyocV+wOmD3P4ysz9Ssgcyw5bg7jeOVKAF9mLe73mWZ1VeAjP85szd5Go4ULsP/V5hEX284wD63XI+H/NXhz3Vgs1HW3J3QC5rUzLXEX2GDz8V8TyElEZZME8i/FQAnQUFYheE+OkAYCAj8TwP9KfvhyJrDwkLAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -1268,16 +1636,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>9</order>
+        <order>13</order>
         <parent_ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:26</sys_created_on>
         <sys_id>f73bae7e83ee2250d33033d6feaad3dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:18</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>3cbeff52-46f2-4f0d-bdd0-061421637f58</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQiihvE6jSpK6V2o2Xrooc+wY8OR+zHQpD/PddJ06IoO2o1Bc0XoLvh33OzTnx044ITqZkBDwIr8Mxi8IoGgbBcDIKk3GUhEMeUYCQeCSnGWClAlYojus1lZUN7HYzBdQAHxRq8KPk9m8c+qxSCnKz32MpF7qUdLtwHRhhKyE55sn06dkjJVW4uQFFpruj1LnoJE1AYulDC+8YrtmWds0LVmWIKxZt8NZ1zl1m8HWOGWyycMLAI7AxkHNAICmVGjyS0RxZFmpLpkZVGED+/D6X265iJXLTEM3oRos/ePIosHUpIDPmhtAtYzegJpzOqaGPuDMzlermVQgGupkJh5RW0sz6sabgvjSiyJsWQxPZdheyyvK7ZiKk26D3PiqNIKC0PC3yhlb6uCpeHlqQNyKvR+IoyoJR2a2oMUoklbFwdgQk1DPOaFmKfBmXqliLuhmhZP5S4sJPZfGCZ2qxzH3KLG4fp0r9G4zP6/CCKmFJfMNtsHnvEb3VM0m1PlDBGca/K4ukIeYoxPUU6hHEtRJsM1OiNF/wqDU44HvP6T+5ek9h7PogqN6eBw9s4nAYjqPRJGaSiiwO3JODoULqUwvMbHow79If88MZaFs/fK9V8Dp6Z4mT2G2/d3DXJJwhrj7NEJNLMoSjcfGO+JcPguG7X9qekmrp654HtKGm0j+rIIhQrr+A4T1wKvw3qj6m/zNQtvq/ESC5fgV2K37IEJ6BuKFxZACXHCxcsrsVPs0F4Tiofxfkhf/mcnj+C7NixlseCQAA</values>
@@ -1291,16 +1659,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>13</order>
+        <order>19</order>
         <parent_ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:26</sys_created_on>
         <sys_id>f73bae7e83ee2250d33033d6feaad3dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:18</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>67e9ac43-ecee-43d5-ab48-14d095d83cf1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQiihvE6jSpK6V2o2Xrooc+wY8OR+zHQpD/PddJ06IoO2o1Bc0XoLvh33OzTnx044ITqZkBDwIr8Mxi8IoGgbBcDIKk3GUhEMeUYCQeCSnGWClAlYojus1lZUN7HYzBdQAHxRq8KPk9m8c+qxSCnKz32MpF7qUdLtwHRhhKyE55sn06dkjJVW4uQFFpruj1LnoJE1AYulDC+8YrtmWds0LVmWIKxZt8NZ1zl1m8HWOGWyycMLAI7AxkHNAICmVGjyS0RxZFmpLpkZVGED+/D6X265iJXLTEM3oRos/ePIosHUpIDPmhtAtYzegJpzOqaGPuDMzlermVQgGupkJh5RW0sz6sabgvjSiyJsWQxPZdheyyvK7ZiKk26D3PiqNIKC0PC3yhlb6uCpeHlqQNyKvR+IoyoJR2a2oMUoklbFwdgQk1DPOaFmKfBmXqliLuhmhZP5S4sJPZfGCZ2qxzH3KLG4fp0r9G4zP6/CCKmFJfMNtsHnvEb3VM0m1PlDBGca/K4ukIeYoxPUU6hHEtRJsM1OiNF/wqDU44HvP6T+5ek9h7PogqN6eBw9s4nAYjqPRJGaSiiwO3JODoULqUwvMbHow79If88MZaFs/fK9V8Dp6Z4mT2G2/d3DXJJwhrj7NEJNLMoSjcfGO+JcPguG7X9qekmrp654HtKGm0j+rIIhQrr+A4T1wKvw3qj6m/zNQtvq/ESC5fgV2K37IEJ6BuKFxZACXHCxcsrsVPs0F4Tiofxfkhf/mcnj+C7NixlseCQAA</values>
@@ -1314,16 +1682,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>7</order>
+        <order>10</order>
         <parent_ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:26</sys_created_on>
         <sys_id>ff3bae7e83ee2250d33033d6feaad3db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:18</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>6140fd1b-5cc4-4dfb-b964-3659780fd9a4</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K5GfUZQQiihvEwhpUtdK7cZLV0U3tgOWnI/ZDoUh/vuuEydE0HVU6gsaL8H3wz7n5J74eU8EI1My4iwIb8MxjcIoGgbBcDIKk3GUhEMWAechGZAcMo6VitNCMVxvQFY2sN/PFAfDmVco70fJ7N849GmlFM/N4YClTOhSwm7pOjBC10IyzJPp88uAlKBwc8MVme5PUpeik5BwiaWPLbxTuGZX2jUraJUhrli0wTvXOXcZ7+scM9hk4YTBgPCt4TnjCCQFqfmAZJAjy0LtyNSoCgPInz3kctdVrEVuGqIZbLX4jSePAluXcmRGnQjdMnYCNeF0DgaecGdqKtXpVQjKdaMJ4ylU0sz6sabgoTSiyJsWA4lsuwtZZfl9owjpNui9j0ojCF5anhZ5Qyt9Whevjy3IhchrSRxFWVCQ3QqMUSKpjIWzJ1zyWuMMylLkq7hUxUbUzQgl81cSF34qi1c8U4tV7gO1uH1UFfwFxud1eAlKWBLfcBtsPgyI3umZBK2PVFDD+FdlkTTEHIW4VqGWIK4nwTZTJUrzBY/acAf8MHDzn9y8N2H09jhQvT2PHtjG4TAcR6NJTCWILA7ck3EDQupzC8xs2pt36Y/54QK0rR++11PwNnpnibPYXb/Xu28SzhA3n2aIyTUZwtG4ekf8ywfB8N0vbW+S6tHXPQ9oA6bSP6sgiBhyKiUOMDuf/L+VfcwBF+BsHbAQXDL9BvB2/DmCwEsrboicWMAlvaVLdvfCp/kgHAf174rc8N9cDy9/APbgarQgCQAA</values>
@@ -1337,16 +1705,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>11</order>
+        <order>16</order>
         <parent_ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:26</sys_created_on>
         <sys_id>ff3bae7e83ee2250d33033d6feaad3dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:18</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>9fad3e40-c230-46a5-968a-64a6982a1090</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCWEIsrbBKo0qWulduOlq6Ib+wLWnI/ZDoUh/vuuEycgaDsq9QWNF7hf9jmHe5KnLZOCjdkARRBeh0MehVHUD4L+aBAmwygJ+yICxJB1WQYpUqdGnmtB8QpU6RLb7UQjWBSdXHd+FML9jMMeL7XGzO521CqkKRRsZn6CMnwplaA6Gz89d1kBmg63qNl4e1Q6F52CBBW1PjTwjuHaTeFikfMyJVyxbJK3fnLqK52vU6rQkIMTBl2Ga4uZQAIyB2Wwy1LIiGWuN2xsdUkJ4i/uM7VpO5YyszXRFNZG/qGbB4HrmyMx416ENoy9QHV6PgULj3Qyt6Vu9colR1NrInAOpbKTw1zdcF9YmWf1iIVENdO5KtPsrlaEtQcc/B+lIRBYOJ4OeU1r/rjMXx4akDcyqyTxFFXOQbURWKtlUloHZ8tQYaVxCkUhs0Vc6Hwlq2GCkvYWioLeXOUvdKeRi6wH3OHukarQu6H8tErPQEtH4hsdQ8O7LjMbM1FgzJ4KaRj/Lh2SmpinEFcqVBLE1Sa4Ya5lYb/QVSv0wHddv//J1Xsbxq/3C3Vw5t4D6zjsh8NoMIq5ApnGgf8WaEEqc2qBiSt3pm35Y344A23jh+/VFryO3lviJHd7ONu5qwveEFefZojRJRnC07h4R/zLB0H/3SftwSZVq28OPGAs2NL8LIMgEobujBPgv043/622jzngDJyNA24kKmFeAd6sP6aEz2JcEzmygC92Zr7Yvhc+zQfhMKg+F+SG/+b18PwXylHtFSAJAAA=</values>
@@ -1360,16 +1728,16 @@
         <display_text/>
         <flow display_value="Claim management Main FLow ">ef3b1bee83aeee10d33033d6feaad3b6</flow>
         <generation_source/>
-        <order>15</order>
+        <order>22</order>
         <parent_ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:26</sys_created_on>
         <sys_id>ff3bae7e83ee2250d33033d6feaad3dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:27:18</sys_updated_on>
+        <sys_updated_on>2025-07-10 05:40:22</sys_updated_on>
         <ui_id>5579f24a-8560-4110-b908-427875737a18</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCWEIsrbBKo0qWulduOlq6Ib+wLWnI/ZDoUh/vuuEycgaDsq9QWNF7hf9jmHe5KnLZOCjdkARRBeh0MehVHUD4L+aBAmwygJ+yICxJB1WQYpUqdGnmtB8QpU6RLb7UQjWBSdXHd+FML9jMMeL7XGzO521CqkKRRsZn6CMnwplaA6Gz89d1kBmg63qNl4e1Q6F52CBBW1PjTwjuHaTeFikfMyJVyxbJK3fnLqK52vU6rQkIMTBl2Ga4uZQAIyB2Wwy1LIiGWuN2xsdUkJ4i/uM7VpO5YyszXRFNZG/qGbB4HrmyMx416ENoy9QHV6PgULj3Qyt6Vu9colR1NrInAOpbKTw1zdcF9YmWf1iIVENdO5KtPsrlaEtQcc/B+lIRBYOJ4OeU1r/rjMXx4akDcyqyTxFFXOQbURWKtlUloHZ8tQYaVxCkUhs0Vc6Hwlq2GCkvYWioLeXOUvdKeRi6wH3OHukarQu6H8tErPQEtH4hsdQ8O7LjMbM1FgzJ4KaRj/Lh2SmpinEFcqVBLE1Sa4Ya5lYb/QVSv0wHddv//J1Xsbxq/3C3Vw5t4D6zjsh8NoMIq5ApnGgf8WaEEqc2qBiSt3pm35Y344A23jh+/VFryO3lviJHd7ONu5qwveEFefZojRJRnC07h4R/zLB0H/3SftwSZVq28OPGAs2NL8LIMgEobujBPgv043/622jzngDJyNA24kKmFeAd6sP6aEz2JcEzmygC92Zr7Yvhc+zQfhMKg+F+SG/+b18PwXylHtFSAJAAA=</values>
@@ -1387,17 +1755,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>12</order>
+        <order>18</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:27</sys_created_on>
         <sys_id>084bae7e83ee2250d33033d6feaad3f0</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>f36f9fad-ba28-43de-a2e2-f8a58044f12f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27aQBT9lWjWxvIDaGAXEUWKlDZSEmXTRtb1PGDascedGUOoxb/3jh+AUqK2KsvumHNf51zfIxqia1fVzj7pK2vlsiTzzy8BkaXH8HdDSig4mROqSyad1GXWAgFZg6p94FZcPPCvnDrOEGXSVgq2zyeDdCUVM7yfUYHBTo4bMm/ehCTDWhGBiGc0pmkyTZMoSi7HcT5N8zhhKXBIsKGCnCtMXQzkLu5aJHiXtdtWHrfOyHLZv+/6Lo8DqA3zrOIoIPzV8ZIh+7kAZXlACigZOG22e8RwYPelOgArWTpsR3zyq5U/cGAymfhEwVEi5V1w/8z6pXWwuAYHSKWmrjZ9Kl1pSbntlsO4gFq5xTHWJdxXXmpX4iBXQ7VWdVF+6jZC9g2Gb4RIbZEEr7xST73XIR5XevMwsLyRZbuVPqg0BbV/gcPd5bXzfBrCFS+wUVZAVeFGs8rotWyLkUsRLhU+QqH0Bof6mwuBeuIhLhbCG8SvW/gZjPQqPmIbLO5o5mAlzdr7xHa4Jk52AbFbu1Bg7UEkbjf7XnuKneReXNbtx5dQIyt3hZPXvNexC34996NLb5p4nIKIJuNR/GESjcb5LBmBuJzgc0phHAkmYBYiW9QLKrMOHN/tvtRRlOJtv+eRc7U9q7viU+464au/tFTyG0v57/mHjoqi6L+l/tlS0madEXpt7fAzOurF26ebud81lRapPXnsdvif8YEtHpekx9BGm29e1AHb/QTq5Xq2sQYAAA==</values>
@@ -1414,17 +1782,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>8</order>
+        <order>12</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:27</sys_created_on>
         <sys_id>7f3bae7e83ee2250d33033d6feaad3e1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>b3d76958-970c-46ee-a82b-e17bb1eed650</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VTW/aQBD9K9GejWXsYAi3iChSpLSRkiiXNrLGu2PYdu11vWsItfjvnfUHoJaorcqxN/bN13vjeaJhurZlbc2zvjZGLgs2//TqMVk4jH43rIAc2ZxxXQhppS6SFvDYGlTtAnfZxSN+QW5RECqkKRVsX04G+UoqUWE/o4SKOlms2Lz5KSQF1WYBZOMrPuZRGEdhEISzy3EaR+k4FBEghNRQQYqKUhcDuYv7FvHeZW23pcONrWSx7N/3fZenAdSVcKzGgcfwzWIhiP08A2XQYzkUAqyutnukQhAPhToAK1lYasdc8puR32lgOJm4xAxJIscuuH8m/dI6OLsBC0Sl5rau+lS+0pKj6ZYjMINa2cUx1iU8lE5qV2IhVUO1VnVefOw2wvYNhm9ESG2IBJZOqaPe68ieVnrzOLC8lUW7lT6oNAe1f4Gl3aW1dXwahgpzapTkUJa00aSs9Fq2xcQl95eKHn6m9IaGupvzgTviPi0W/FvCb1r4BSrpVHygNlTc0UzBSJ6090ntaE3Idh4zW7NQYMxBJG03+VY7ip3kXlzS7ceV8EqW9pomr7HXsfN+PfejS2+aCYbTq9l0NopmPB1dzoJ4lGYII4RsGsfRVSqi2Ce2pBdUYixY3O0+10EQ0W2/55FztT2ru8an3HXCV39pqfA3lnLf8w8dFQTBf0v9s6WkSToj9Nra4Wd01KuzTzdzv2suDVF7dtjd8D/jAls6LsmPoY2uvjpRB2z3A66tlFWxBgAA</values>
@@ -1441,17 +1809,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>10</order>
+        <order>15</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:27</sys_created_on>
         <sys_id>804bae7e83ee2250d33033d6feaad3e3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>3a7cbbe3-0aaa-494a-aaa5-68e0411f763c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWdAjlh+3wEGAAGkD1EEubSCsSMomQpGqSNlxBf97l3rYRuKiLepjb+Ysd3dmxIEbomtb1tY86RtjxEqR+dcXjwjlMPzdEAUFJ3NCtWLCCq3SFvDIBmTtCvf51ZIrdpUBfUWYCVNK2D2fr9K1kKzi/ZYSKpxleUXmzbuSYNicB5CHMxrSOEriKAii6XWYJXEWRiwGDhEOlJBxiVcXA72rhxbxfsnb7kqHG1sJterPD/2U5QDqijlWYeAR/mZRAEc+OUjDPVKAYmB1tTsgFQf2qOQRWAtlcRxxl9+M+IELo/HYXcw5SqS8Kx6Oae9aB+e3YAGp1NTWVX+VrrWg3HTmMJ5DLe3iFOsuPJZOatdiIZNDt5Z1oT53jpDDgOEjIVIbJMFLp9RR73Xky7XefhlY3gnVutIXpaYgDyew6F1WW8enIVzyAgelBZQlOpqWld6Ithm5FP5K4sHPpd7iUvfqfKCOuI/Ggn+H+G0LP0MlnIpPOAabO5oZGEHT9oXiOLSJk71HzM4sJBhzFInupt9rR7GT3ItLO39cC61EaW9w84b3Ovbexwd/8tabZsyjyWw6mY7iKc1G19MgGWU5hxGHfJIk8SxjceIjW9QLMjUWLN/vv9VBEDMK6KGU+JI+pORicy+ar/Bcvs4k6y9DFf0mVO6L/mGmgiD4H6p/DpUwaReFXlu7/IKZenEB6nYevKbCILUnh90P/zWusMPHJegptNXVqxN1xPY/Af29SLe1BgAA</values>
@@ -1468,17 +1836,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>5</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:40</sys_created_on>
         <sys_id>bf3b1bee83aeee10d33033d6feaad3d8</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:56</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>51471e72-a342-454a-af07-4075da06bf14</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWaBebuxb4CBAgLQBmiCXNhBWfNhEKVEVKTuu4X/vUg/baFy0QXPsTZzl7s4Od6AdMa2rW2cfzZW1almR+ZfngKjKY/i9IxWUgswJMxVXTpkq74CArEG3PnArL6CuG7MW9gJhrmytYft0PspWSvNGDF1qaLCWEw2Z734JKY7JkoKMZixiSTxNYkrjyzQqpkkRxTwBAQkW1FAIjVcXI72Luw4JfsvbbWuPW9eoajmc74YqDyNoGu5ZRTQg4sWJigvkI0FbEZASKg7ONNsD0gjg95U+AitVOSxH/OUXq35gwzjL/EUpcEQm+uDhmA+q9bC8BgdIpWWubYarbGUUE7YXhwsJrXaLU6y/cF/7UfsUB4Ues41uy+pTrwg5FBgfCZHWIglR+0k99WEO+bAym88jyxtVdaoMQW0Y6MMJHGpXtM7z2RGhRYmF8hIfHxXN/QaoLhm5lOFS4yGU2mywqd+6EJgnHqKwEN4gft3BT9AoP8VHLIPJPc0CrGJ5t6FYDmUSZB8Qu7ULDdYeh0R18++tp9iPPAyX9/r4FNao2l1h57UY5tgHrxf+ZNd3uyhNQNIsnUQfMjpJi1k8AXmZ4XHKIKWSS5iF/caDzq0DJ/b7ry2lCR98wF+b5L3Kvs1dM8hkFtHsvLvS6Tl3nfHVGy0V/8FS/j3/0lGU0v+W+mdLKZv3Rhhm65q/o6OevX36ngetmbJI7dFjt+Ofxge2uFyKnUIb03zzQx2x/U/f9p0FswYAAA==</values>
@@ -1495,17 +1863,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>9</order>
         <outputs_assigned/>
         <parent_ui_id>51471e72-a342-454a-af07-4075da06bf14</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:27</sys_created_on>
         <sys_id>bf3bae7e83ee2250d33033d6feaad3e0</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>bd151787-0ed5-41d5-a4f7-674777b5f099</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWdDDkh+3wEGAAGkDNEEubSCsSMomSpGqSDlxBf97l3rYRuqgDZpjb+Isd3d2uAO1RDe2aqx50JfGiLUiy69PHhHKYfjdEgUlJ0tCtWLCCq2yDvDIFmTjAjfFBVRVrbecIcqEqSTsHs8G6UZIVvOhRwU1VrK8Jsv2VUgwzC0CKMIFDWkcpXEUBNF8GuZpnIcRi4FDjAUl5Fzi1dVI7uK2Q7w3Wdtd5XBja6HWw/l2qHI/grpmjlUYeIS/WK4Ysl8WIA33SAmKgdX17oDUHNidkkdgI5TFcsRdfjHiJzaMksRdLDiOSHkfPByzQbQeLq7AAlJpqG3q4SrdaEG56cVhvIBG2tUp1l+4q9yofYqFXI7ZWjal+twrQg4FxjdCpDFIglduUkd9mKO43+jnLyPLa6E6VYag1BTk4QQWtcsb6/i0hEteYqGsxLdHRTO3AKJLRi6lv5Z48Aupn7Gp2zkfqCPuo7DgXyN+1cGPUAs3xScsg8k9zRyMoFm3n1gOZeJk7xGzMysJxhyHRHWzH42j2I88DJf1+rgUWovKXmLnLR/m2Hu/r/vJprdtwqPZYj6bT+I5zSfTeZBO8oLDhEMxS9N4kbM49fuFB5kZC5bv99+aIIjZ2x75qLLvc9cCkiIJg+S8u6bpOXed8dU7LRX9wVLuPf/SUUEQ/LfUP1tKmKw3wjBb1/wDHfXk7NP3PGhNhUFqDw67Gf8zLrDD5RL0FHrW9Xc31BHb/wI3heeXsQYAAA==</values>
@@ -1522,17 +1890,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>14</order>
+        <order>21</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-09 04:58:27</sys_created_on>
         <sys_id>c44bae7e83ee2250d33033d6feaad3f1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:05</sys_updated_on>
         <ui_id>f346602a-7a9f-4210-8d25-99e13fa075ff</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPIXISYIW3iqpSpW6V1qovWxXd+AOsOnEWO1AW8d93nQ9AK9M2jce94XN97z3nxEc0xNSurJ19MtfWqlVBFl9eAqIKj+HvhhSQC7IgzBRcOWWKtAUCsgFd+8KdHFlR8FEG7BVhrmypYfd8vsrWSvNK9FtKqHCWExVZND+VFMdmSUFGcxaxJJ4lMaXx1STKZkkWxTwBATEO1JAJjVeXA73RfYsEv+TtdqXHratUserP9/2UxwE0FfesIhoQ8eZQgEA+ErQVAcmh4OBMtTsglQD+UOgjsFaFw3HEX36z6jsujKdTf1EKlMhEVzwc0961DpY34ACp1MzVVX+VrY1iwnbmcCGh1m55inUXHkovtWtxkOmh2+g6Lz51jpDDgOEjIVJbJCFKr9RT73XIx7XZfh5Y3qqidaUvasNAH07g0Lusdp5PQ4QWOQ5KcyhLdDQtK7NRbTNyycOVxkMotdniUv/qQmCeeIjGQniL+E0LP0OlvIqPOAabO5oZWMXS9oXiOLRJkH1A7M4uNVh7FInupt9qT7GT3ItLO398C6tU6a5x80b0OvbB+wd/8tabJpokIOl0Mo4+TOl4ks3jMcirKR5nDCZUcgnzENmiXtCpdeDEfv+1pjThDNBDrfElvUvJxeZeNF/RuXydSdZfhir+Taj8F/3DTFFK/4fqn0OlbNpFodfWLr9gpl58gLqdB6+ZskjtyWN3w3+NL+zwcSl2Cm1N9epFHbH9DzxgoQ+1BgAA</values>
@@ -1618,20 +1986,20 @@
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7b91936283aeee10d33033d6feaad3e4^sys_idNOT INbf3b5bee83aeee10d33033d6feaad326"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bf3b5bee83aeee10d33033d6feaad326","name":"plan","plan_signature":null}}</plan>
         <plan_id>7b91936283aeee10d33033d6feaad3e4</plan_id>
-        <snapshot>8d7ae33683666250d33033d6feaad3e8</snapshot>
+        <snapshot>1583c86083766a50d33033d6feaad3ea</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 13:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf3b5bee83aeee10d33033d6feaad326</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 09:16:57</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:33:06</sys_updated_on>
         <trigger display_value="">ff3b5bee83aeee10d33033d6feaad324</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7b91936283aeee10d33033d6feaad3e4"/>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">c828a8ab83262650d33033d6feaad326</sp_column>
+        <sp_widget display_value="KB Most Viewed">7d903b52cb30020000f8d856634c9ce3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 17:28:50</sys_created_on>
+        <sys_id>3190a25b836ae250d33033d6feaad39a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Knowledge Articles of the CSM </sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_instance_3190a25b836ae250d33033d6feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 03:23:09</sys_updated_on>
+        <title>Knowledge Articles of the CSM </title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"max_number": {
+		"value": 123,
+		"displayValue": "123"
+	},
+	"kb_category": {
+		"value": "8fc02ed7836ae250d33033d6feaad36d",
+		"displayValue": "Knowledge"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3190a25b836ae250d33033d6feaad39a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_instance_3190a25b836ae250d33033d6feaad39a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;c828a8ab83262650d33033d6feaad326&lt;/sp_column&gt;&lt;sp_widget display_value="KB Most Viewed"&gt;7d903b52cb30020000f8d856634c9ce3&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 17:28:50&lt;/sys_created_on&gt;&lt;sys_id&gt;3190a25b836ae250d33033d6feaad39a&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Articles of the CSM &lt;/sys_name&gt;&lt;sys_package display_value="claim management system" source="x_1216348_claim_0"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="claim management system"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3190a25b836ae250d33033d6feaad39a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-11 03:23:09&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Articles of the CSM &lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"max_number": {
+		"value": 123,
+		"displayValue": "123"
+	},
+	"kb_category": {
+		"value": "8fc02ed7836ae250d33033d6feaad36d",
+		"displayValue": "Knowledge"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3190a25b836ae250d33033d6feaad39a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1008588893</payload_hash>
+        <record_name>Knowledge Articles of the CSM </record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 03:23:09</sys_created_on>
+        <sys_id>679824eb83262650d33033d6feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f7821e0b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 03:23:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>eb9824eb2b262650c00977f512ada1ef</update_guid>
+        <update_guid_history>eb9824eb2b262650c00977f512ada1ef:1008588893,b928a8abff2626508b914f3cfb7019d3:-419743082,ce02a6db046ae25081929049c24d5bcb:1106282229,4101229b8e6ae25068d63efe01a08298:306709435,3990a25bb56ae2500c6ac75d3a33bd9b:-1170111951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Articles of the CSM ">8aa8e4ab83262650d33033d6feaad3ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 03:23:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>08981bc3eec148bea093688806de15e9</sys_id>
+        <sys_metadata>3190a25b836ae250d33033d6feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Articles of the CSM </sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_instance_3190a25b836ae250d33033d6feaad39a</sys_update_name>
+        <sys_update_version display_value="sp_instance_3190a25b836ae250d33033d6feaad39a">679824eb83262650d33033d6feaad3f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 03:23:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

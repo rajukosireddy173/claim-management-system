@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="claim-management-system Search Profile">78a159df87a2e250a98fd6b71a4c0a92</profile>
+        <search_source display_value="Claim Details">1ea1d9df83a2e250d33033d6feaad386</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:43:59</sys_created_on>
+        <sys_id>daa1d9df83a2e250d33033d6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>claim-management-system Search Profile.Claim Details</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_daa1d9df83a2e250d33033d6feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:43:59</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>
