@@ -2,7 +2,7 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="My Approvals">f88885a783e62650d33033d6feaad3ce</category>
-        <columns>state,approver,comments,sysapproval,sys_created_on</columns>
+        <columns>state,approver,document_id,sys_created_on</columns>
         <condition table="sysapproval_approver">state=rejected^approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=x_1216348_claim_0_claim_details<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="rejected"/>
             <item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_1216348_claim_0_claim_details"/>
@@ -63,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1283adab836a2650d33033d6feaad3f1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Rejected Approvals</sys_name>
         <sys_overrides/>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sys_ux_list_1283adab836a2650d33033d6feaad3f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-11 07:43:23</sys_updated_on>
+        <sys_updated_on>2025-07-14 08:24:44</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>Rejected Approvals</title>
         <view/>

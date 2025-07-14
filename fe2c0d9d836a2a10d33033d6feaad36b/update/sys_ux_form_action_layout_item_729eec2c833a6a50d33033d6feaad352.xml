@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Send Back">f29eec2c833a6a50d33033d6feaad34e</action>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Send Back</label>
+        <layout_group/>
+        <name>Send Back</name>
+        <order>100</order>
+        <overflow>true</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 06:23:15</sys_created_on>
+        <sys_id>729eec2c833a6a50d33033d6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Back</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_729eec2c833a6a50d33033d6feaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 06:23:15</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_ux_form_action_layout_item>
+</record_update>
