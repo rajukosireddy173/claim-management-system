@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css>body {
+  color: blue;
+}</css>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <result_count_font_size>md</result_count_font_size>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description>digital solution designed to streamline the submission, processing, tracking, and resolution of insurance or service-related claims efficiently and transparently.</short_description>
+        <size>lg</size>
+        <sp_column display_value="1">6c6aad138366e250d33033d6feaad373</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 13:32:00</sys_created_on>
+        <sys_id>646aad138366e250d33033d6feaad376</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Claim Management System </sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_instance_ais_646aad138366e250d33033d6feaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:55:36</sys_updated_on>
+        <title>Claim Management System </title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=646aad138366e250d33033d6feaad376"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_instance_ais_646aad138366e250d33033d6feaad376</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;body {
+  color: blue;
+}&lt;/css&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;result_count_font_size&gt;md&lt;/result_count_font_size&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description&gt;digital solution designed to streamline the submission, processing, tracking, and resolution of insurance or service-related claims efficiently and transparently.&lt;/short_description&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="1"&gt;6c6aad138366e250d33033d6feaad373&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 13:32:00&lt;/sys_created_on&gt;&lt;sys_id&gt;646aad138366e250d33033d6feaad376&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Claim Management System &lt;/sys_name&gt;&lt;sys_package display_value="claim management system" source="x_1216348_claim_0"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="claim management system"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_646aad138366e250d33033d6feaad376&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-15 06:55:36&lt;/sys_updated_on&gt;&lt;title&gt;Claim Management System &lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=646aad138366e250d33033d6feaad376"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-186033589</payload_hash>
+        <record_name>Claim Management System </record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 06:55:36</sys_created_on>
+        <sys_id>ee9f35b48336ea50d33033d6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980cde113e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:55:36</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>669f35b4a336ea501daf974843424162</update_guid>
+        <update_guid_history>669f35b4a336ea501daf974843424162:-186033589,607f71341b36ea506cac59775051f202:-1753503851,2e2b7130ec36ea508f626dfa598af83b:1701736420,670b31304136ea50c371f06191401539:-2017120774,5316a6df526ae2509f9584a6d2079837:787095410,6d6996df7e2ae250fda99fd627ef88f2:2032255130,f6c7565f392ae2509e71e73fc91daf6a:-940086789,e06aad13e466e250d839f74a1ebe8c78:-628656532</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Claim Management System ">46ce434183326e50d33033d6feaad368</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 07:20:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>2021cdfab1d34af08a0ec502e93f9341</sys_id>
+        <sys_metadata>646aad138366e250d33033d6feaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Management System </sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_646aad138366e250d33033d6feaad376</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_646aad138366e250d33033d6feaad376">ee9f35b48336ea50d33033d6feaad362</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 07:20:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

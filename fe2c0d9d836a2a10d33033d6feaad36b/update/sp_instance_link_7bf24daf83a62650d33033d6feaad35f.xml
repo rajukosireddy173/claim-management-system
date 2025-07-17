@@ -3,7 +3,9 @@
         <active>true</active>
         <class_name/>
         <color>default</color>
-        <css/>
+        <css>*iconlink{
+  padding: 10px;
+}</css>
         <glyph>file-o</glyph>
         <id/>
         <kb_article display_value="KB0010004 v3.01">08a2c96783a62650d33033d6feaad301</kb_article>
@@ -13,30 +15,30 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description>What all about the CSM </short_description>
+        <short_description>The Quick introduction about the Claim Management System</short_description>
         <size>md</size>
-        <sp_column display_value="1">cb9559e7832a2650d33033d6feaad384</sp_column>
+        <sp_column display_value="1">a1b8793c83f2ea50d33033d6feaad35e</sp_column>
         <sp_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-11 05:18:24</sys_created_on>
         <sys_id>7bf24daf83a62650d33033d6feaad35f</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Knowledge Article of CSM</sys_name>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Know About CMS</sys_name>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sp_instance_link_7bf24daf83a62650d33033d6feaad35f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-11 06:39:44</sys_updated_on>
-        <title>Knowledge Article of CSM</title>
+        <sys_updated_on>2025-07-15 07:31:25</sys_updated_on>
+        <title>Know About CMS</title>
         <type>kb_article</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Top Icon",
-		"displayValue": "Top Icon"
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
 	}
 }]]></widget_parameters>
     </sp_instance_link>

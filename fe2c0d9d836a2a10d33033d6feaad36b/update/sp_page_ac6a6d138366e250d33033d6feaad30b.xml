@@ -11,7 +11,7 @@ section.page, main.body {&#13;
         <draft>false</draft>
         <dynamic_title_structure/>
         <human_readable_url_structure/>
-        <id>copy_of_index_1</id>
+        <id>cms_home_page</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
@@ -22,15 +22,15 @@ section.page, main.body {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-10 13:32:00</sys_created_on>
         <sys_id>ac6a6d138366e250d33033d6feaad30b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>copy_of_index_1</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>cms_home_page</sys_name>
         <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
         <sys_policy/>
         <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
         <sys_update_name>sp_page_ac6a6d138366e250d33033d6feaad30b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-14 10:10:03</sys_updated_on>
-        <title>Copy of Home Page (1)</title>
+        <sys_updated_on>2025-07-15 06:19:17</sys_updated_on>
+        <title>CMS Home Page</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=ac6a6d138366e250d33033d6feaad30b"/>

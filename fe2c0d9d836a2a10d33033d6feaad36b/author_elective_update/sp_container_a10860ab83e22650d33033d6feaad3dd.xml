@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>CMS Home Page - Container 5</name>
+        <order>5</order>
+        <semantic_tag/>
+        <sp_page display_value="cms_home_page">ac6a6d138366e250d33033d6feaad30b</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 03:20:34</sys_created_on>
+        <sys_id>a10860ab83e22650d33033d6feaad3dd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CMS Home Page - Container 5</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_container_a10860ab83e22650d33033d6feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:25:25</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_container_a10860ab83e22650d33033d6feaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>CMS Home Page - Container 5</name><order>5</order><semantic_tag/><sp_page display_value="cms_home_page">ac6a6d138366e250d33033d6feaad30b</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-11 03:20:34</sys_created_on><sys_id>a10860ab83e22650d33033d6feaad3dd</sys_id><sys_mod_count>5</sys_mod_count><sys_name>CMS Home Page - Container 5</sys_name><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sp_container_a10860ab83e22650d33033d6feaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-15 06:25:25</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1973006013</payload_hash>
+        <record_name>CMS Home Page - Container 5</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 06:25:25</sys_created_on>
+        <sys_id>68b8393c83f2ea50d33033d6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980cc26f900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:25:25</sys_updated_on>
+        <type>Container</type>
+        <update_guid>ecb8393ca2f2ea5057fccb790a0dfa95</update_guid>
+        <update_guid_history>ecb8393ca2f2ea5057fccb790a0dfa95:-1973006013,84b8f53cf2f2ea50bab1253563c557c1:-1127416286,aa4735b8ddf2ea507d3fcf693aa96cdc:1580598384,5182ade0787e6a50952512f64ca28154:-151555822,b4fbf467b6a62650e2c9d252d04c7bf0:705122896,2bcb34677aa62650844330a7c26f337c:264099631,250860abcce226508baaab64e49db2de:-176923634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CMS Home Page - Container 5">5fc97d3c83f2ea50d33033d6feaad3b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 06:30:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>22d58841e42d4974ab899c98692e3e10</sys_id>
+        <sys_metadata>a10860ab83e22650d33033d6feaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMS Home Page - Container 5</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_container_a10860ab83e22650d33033d6feaad3dd</sys_update_name>
+        <sys_update_version display_value="sp_container_a10860ab83e22650d33033d6feaad3dd">68b8393c83f2ea50d33033d6feaad396</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:30:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

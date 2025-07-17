@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Copy of Home Page (1) - Container 6">f9a134a783662650d33033d6feaad34a</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 04:02:43</sys_created_on>
+        <sys_id>d3a134a783662650d33033d6feaad355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_row_d3a134a783662650d33033d6feaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 04:47:37</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_row_d3a134a783662650d33033d6feaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><sp_column/><sp_container display_value="Copy of Home Page (1) - Container 6">f9a134a783662650d33033d6feaad34a</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-11 04:02:43</sys_created_on><sys_id>d3a134a783662650d33033d6feaad355</sys_id><sys_mod_count>1</sys_mod_count><sys_name>2</sys_name><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sp_row_d3a134a783662650d33033d6feaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-11 04:47:37</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-564443744</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 04:47:37</sys_created_on>
+        <sys_id>fcfbf46783a62650d33033d6feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f7cf73260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 04:47:37</sys_updated_on>
+        <type>Row</type>
+        <update_guid>74fbf467a3a6265071894a29f729f5f7</update_guid>
+        <update_guid_history>74fbf467a3a6265071894a29f729f5f7:-564443744,d7a134a77a662650a87539adce147956:-942464608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">45ae4f0183326e50d33033d6feaad3e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 07:19:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>020e60d75eda42fc814000e73601b944</sys_id>
+        <sys_metadata>d3a134a783662650d33033d6feaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_row_d3a134a783662650d33033d6feaad355</sys_update_name>
+        <sys_update_version display_value="sp_row_d3a134a783662650d33033d6feaad355">fcfbf46783a62650d33033d6feaad3f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 07:19:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

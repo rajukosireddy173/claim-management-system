@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.iconlink{
+  padding: 10px;
+  border: 1px solid #BFBFBF;
+ box-shadow: 10px 10px 5px #aaaaaa;
+}</css>
+        <glyph>pencil</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Raise a new claim request based on different category</short_description>
+        <size>md</size>
+        <sp_column display_value="2">dfccb9b08336ea50d33033d6feaad3df</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 06:25:45</sys_created_on>
+        <sys_id>99c8f53c83f2ea50d33033d6feaad3e5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Raise New Claim Request</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_instance_link_99c8f53c83f2ea50d33033d6feaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 07:29:47</sys_updated_on>
+        <title>Raise New Claim Request</title>
+        <type>url</type>
+        <url>/cms?id=sc_cat_item&amp;sys_id=0d95fc9683ea6e10d33033d6feaad3e3&amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=99c8f53c83f2ea50d33033d6feaad3e5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_instance_link_99c8f53c83f2ea50d33033d6feaad3e5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;.iconlink{
+  padding: 10px;
+  border: 1px solid #BFBFBF;
+ box-shadow: 10px 10px 5px #aaaaaa;
+}&lt;/css&gt;&lt;glyph&gt;pencil&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Raise a new claim request based on different category&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;dfccb9b08336ea50d33033d6feaad3df&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-15 06:25:45&lt;/sys_created_on&gt;&lt;sys_id&gt;99c8f53c83f2ea50d33033d6feaad3e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Raise New Claim Request&lt;/sys_name&gt;&lt;sys_package display_value="claim management system" source="x_1216348_claim_0"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="claim management system"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_99c8f53c83f2ea50d33033d6feaad3e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-15 07:29:47&lt;/sys_updated_on&gt;&lt;title&gt;Raise New Claim Request&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;/cms?id=sc_cat_item&amp;amp;sys_id=0d95fc9683ea6e10d33033d6feaad3e3&amp;amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=99c8f53c83f2ea50d33033d6feaad3e5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>534124554</payload_hash>
+        <record_name>Raise New Claim Request</record_name>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 07:29:47</sys_created_on>
+        <sys_id>576746b08376ea50d33033d6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980cfd5dbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 07:29:47</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>db6746b0af76ea50ee002c016c72f879</update_guid>
+        <update_guid_history>db6746b0af76ea50ee002c016c72f879:534124554,c88642705a76ea50454373d187888b67:1406173857,7e460a30fa76ea5031a8923d0a7a1f89:1019778716,d7dc3db0eb36ea508a58aab6b48d7462:255465122,5cdc31b00936ea50c617aae05ca6433a:-1412160252,aea9f93ca9f2ea509c9bae1546888b34:-1963723358,4859f57c0ff2ea508a54a0b41b2f4b2c:1949447616,19c8f53ccbf2ea5086ca3332d70592e7:2120439919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Raise New Claim Request">0a1f0b4183326e50d33033d6feaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 07:21:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>47f5ef52d9e14277946ff82c6960ef59</sys_id>
+        <sys_metadata>99c8f53c83f2ea50d33033d6feaad3e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise New Claim Request</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_99c8f53c83f2ea50d33033d6feaad3e5</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_99c8f53c83f2ea50d33033d6feaad3e5">576746b08376ea50d33033d6feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 07:21:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

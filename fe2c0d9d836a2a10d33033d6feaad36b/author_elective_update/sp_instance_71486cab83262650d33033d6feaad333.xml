@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">a11e6c6383662650d33033d6feaad339</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 03:21:40</sys_created_on>
+        <sys_id>71486cab83262650d33033d6feaad333</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_instance_71486cab83262650d33033d6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 03:47:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev293717.service-now.com/cms?id=sc_cat_item&sys_id=0d95fc9683ea6e10d33033d6feaad3e3&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f",
+		"displayValue": "https://dev293717.service-now.com/cms?id=sc_cat_item&sys_id=0d95fc9683ea6e10d33033d6feaad3e3&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f"
+	},
+	"button_text": {
+		"value": "Claim Form",
+		"displayValue": "Claim Form"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=71486cab83262650d33033d6feaad333"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_instance_71486cab83262650d33033d6feaad333</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;a11e6c6383662650d33033d6feaad339&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-11 03:21:40&lt;/sys_created_on&gt;&lt;sys_id&gt;71486cab83262650d33033d6feaad333&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="claim management system" source="x_1216348_claim_0"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="claim management system"&gt;fe2c0d9d836a2a10d33033d6feaad36b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_71486cab83262650d33033d6feaad333&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-11 03:47:09&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev293717.service-now.com/cms?id=sc_cat_item&amp;sys_id=0d95fc9683ea6e10d33033d6feaad3e3&amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f",
+		"displayValue": "https://dev293717.service-now.com/cms?id=sc_cat_item&amp;sys_id=0d95fc9683ea6e10d33033d6feaad3e3&amp;sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f"
+	},
+	"button_text": {
+		"value": "Claim Form",
+		"displayValue": "Claim Form"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=71486cab83262650d33033d6feaad333"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1090881711</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 03:47:09</sys_created_on>
+        <sys_id>8f1ea8a383662650d33033d6feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f798177d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 03:47:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>071ea8a3fc662650a06d6e858588df50</update_guid>
+        <update_guid_history>071ea8a3fc662650a06d6e858588df50:1090881711,e3a8a4eb53262650ebb375660351cc57:-1445527946,4898a0eb482626509b3e6415835c5b49:880755101,f488e8abc8262650cf57f632ac9b27b7:-1443561671,b9486cabd62626508d0f429b8b00a534:1990154648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bbc9f1bc83f2ea50d33033d6feaad34f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 06:30:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>68f2e978e87749488dcb21a848e5ee40</sys_id>
+        <sys_metadata>71486cab83262650d33033d6feaad333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_instance_71486cab83262650d33033d6feaad333</sys_update_name>
+        <sys_update_version display_value="sp_instance_71486cab83262650d33033d6feaad333">8f1ea8a383662650d33033d6feaad350</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 06:30:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

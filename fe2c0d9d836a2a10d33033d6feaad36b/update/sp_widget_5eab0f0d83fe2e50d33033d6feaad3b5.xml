@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>body, html {&#13;
+  margin: 0;&#13;
+  padding: 0;&#13;
+  height: 100%;&#13;
+  font-family: 'Segoe UI', sans-serif;&#13;
+  background-color: #edf1f7;&#13;
+}&#13;
+&#13;
+.page-wrapper {&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  justify-content: center;&#13;
+  align-items: center;&#13;
+  height: 100%;&#13;
+  padding: 20px;&#13;
+  box-sizing: border-box;&#13;
+  margin-bottom:70px;&#13;
+  &#13;
+}&#13;
+&#13;
+.image-wrapper {&#13;
+  text-align: center;&#13;
+  margin-bottom: 30px;&#13;
+}&#13;
+&#13;
+.header-image {&#13;
+  width: 300px;&#13;
+  height: auto;&#13;
+  border-radius: 12px;&#13;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);&#13;
+}&#13;
+&#13;
+.claim-card {&#13;
+  background-color: #ffffff;&#13;
+  border-radius: 14px;&#13;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);&#13;
+  text-align: center;&#13;
+  padding: 50px;&#13;
+  max-width: 800px;&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+.claim-icon {&#13;
+  width: 90px;&#13;
+  height: 90px;&#13;
+  margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+.claim-title {&#13;
+  font-size: 30px;&#13;
+  color: #2d3e50;&#13;
+  margin-bottom: 10px;&#13;
+}&#13;
+&#13;
+.claim-subheading {&#13;
+  font-size: 18px;&#13;
+  color: #007bff;&#13;
+  margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+/* 💼 BRD Process Tracker */&#13;
+.brd-process-tracker {&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  justify-content: center;&#13;
+  gap: 20px;&#13;
+  margin-bottom: 30px;&#13;
+  flex-wrap: wrap;&#13;
+}&#13;
+&#13;
+.step {&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  align-items: center;&#13;
+  font-size: 16px;&#13;
+  color: #444;&#13;
+}&#13;
+&#13;
+.step i {&#13;
+  font-size: 32px;&#13;
+  color: #007bff;&#13;
+  margin-bottom: 8px;&#13;
+}&#13;
+&#13;
+.custom-arrow {&#13;
+  font-size: 24px;&#13;
+  color: #888;&#13;
+}&#13;
+&#13;
+.claim-button {&#13;
+  background-color: #007bff;&#13;
+  color: white;&#13;
+  padding: 14px 32px;&#13;
+  text-decoration: none;&#13;
+  border-radius: 8px;&#13;
+  font-weight: bold;&#13;
+  font-size: 16px;&#13;
+  transition: background-color 0.3s ease;&#13;
+}&#13;
+&#13;
+.claim-button:hover {&#13;
+  background-color: #0056b3;&#13;
+}&#13;
+&#13;
+.claim-icon {&#13;
+  width: 90px;&#13;
+  height: 90px;&#13;
+  margin-bottom: 0; /* ✅ Removes the space below the icon */&#13;
+  font-size: 50px;&#13;
+  color: #007bff;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>home_widget_cms</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Home_Widget_CMS</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 07:10:53</sys_created_on>
+        <sys_id>5eab0f0d83fe2e50d33033d6feaad3b5</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Home_Widget_CMS</sys_name>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_widget_5eab0f0d83fe2e50d33033d6feaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 08:46:13</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claim Management Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="image-wrapper">
+      <img
+        src="https://thumbs.dreamstime.com/b/tiny-male-female-characters-huge-pen-seal-stamp-denied-insurance-claim-certificate-protection-health-life-real-224119226.jpg"
+        alt="Denied Insurance Claim"
+        class="header-image"
+      />
+    </div>
+
+    <div class="claim-card">
+      
+      <h1 class="claim-title">Welcome to the Claim Management Portal</h1>
+      <p class="claim-subheading">
+        Submit claims and track approvals from HR to Finance teams
+      </p>
+
+      <!-- ]]>🧭<![CDATA[ BRD Flow Tracker -->
+      <div class="brd-process-tracker">
+        <div class="step">
+          <i class="fa fa-user"></i>
+          <p><b>Employee</b></p>
+        </div>
+
+        <i class="fa fa-long-arrow-right custom-arrow" aria-hidden="true"></i>
+
+        <div class="step">
+          <i class="fa fa-users"></i>
+          <p><b>HR Review</b></p>
+        </div>
+
+        <i class="fa fa-long-arrow-right custom-arrow" aria-hidden="true"></i>
+
+        <div class="step">
+          <i class="fa fa-bank"></i>
+          <p><b>Finance Approval</b></p>
+        </div>
+      </div>
+
+      <a
+        href="/cms?id=sc_cat_item&sys_id=0d95fc9683ea6e10d33033d6feaad3e3&sysparm_category=e15706fc0a0a0aa7007fc21e1ab70c2f"
+        class="claim-button"
+      >
+        Initiate Claim Request
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+]]></template>
+    </sp_widget>
+</record_update>

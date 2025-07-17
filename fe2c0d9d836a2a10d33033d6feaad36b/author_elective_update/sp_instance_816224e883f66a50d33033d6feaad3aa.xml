@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">fea1302b83662650d33033d6feaad3d6</sp_column>
+        <sp_widget display_value="Virtual Agent Service Portal Widget">20c6031e733013004ab2369f2ef6a7c7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 05:29:52</sys_created_on>
+        <sys_id>816224e883f66a50d33033d6feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_update_name>sp_instance_816224e883f66a50d33033d6feaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 05:29:52</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=816224e883f66a50d33033d6feaad3aa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</application>
+        <file_path/>
+        <instance_id>e9b8c8ab3bd71618872712c5e4e45a59</instance_id>
+        <instance_name>dev293717</instance_name>
+        <name>sp_instance_816224e883f66a50d33033d6feaad3aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">fea1302b83662650d33033d6feaad3d6</sp_column><sp_widget display_value="Virtual Agent Service Portal Widget">20c6031e733013004ab2369f2ef6a7c7</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-14 05:29:52</sys_created_on><sys_id>816224e883f66a50d33033d6feaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package><sys_policy/><sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope><sys_update_name>sp_instance_816224e883f66a50d33033d6feaad3aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-14 05:29:52</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=816224e883f66a50d33033d6feaad3aa"/></record_update>]]></payload>
+        <payload_hash>1180439206</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c629908f832a6250d33033d6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 05:29:52</sys_created_on>
+        <sys_id>816224e883f66a50d33033d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198076936e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 05:29:52</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>856224e876f66a5097cbcdd18966e8ac</update_guid>
+        <update_guid_history>856224e876f66a5097cbcdd18966e8ac:1180439206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0dae4f0183326e50d33033d6feaad3d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-16 07:19:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>a0e35e7a456144a9a2ba95b03ee28e01</sys_id>
+        <sys_metadata>816224e883f66a50d33033d6feaad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="claim management system" source="x_1216348_claim_0">fe2c0d9d836a2a10d33033d6feaad36b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="claim management system">fe2c0d9d836a2a10d33033d6feaad36b</sys_scope>
+        <sys_scope_delete display_value="">1912d46117b94b888288ad22c37aeec4</sys_scope_delete>
+        <sys_update_name>sp_instance_816224e883f66a50d33033d6feaad3aa</sys_update_name>
+        <sys_update_version display_value="sp_instance_816224e883f66a50d33033d6feaad3aa">816224e883f66a50d33033d6feaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-16 07:19:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

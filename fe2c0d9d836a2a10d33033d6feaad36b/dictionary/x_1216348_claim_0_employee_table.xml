@@ -8,14 +8,10 @@
         <element display="true" label="Full Name" max_length="255" name="full_name" type="string"/>
         <element label="contact no" max_length="40" name="contact_no" type="phone_number_e164"/>
         <element active="false" label="Document Date" max_length="40" name="document_date" type="glide_date"/>
-        <element label="Project Code" max_length="32" name="project_code" reference="x_1216348_claim_0_project_codes" type="reference"/>
         <element label="IFSC Code" max_length="40" name="ifsc_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
-            <element name="project_code"/>
-        </index>
-        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
